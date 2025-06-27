@@ -1,0 +1,140 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Reset and Font */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body {
+  background: linear-gradient(135deg, #2c0063 0%, #e36c8c 50%, #fcb65e 100%);
+  color: #fff;
+  line-height: 1.6;
+   font-family: "Poppins", sans-serif;
+}
+
+/* Layout */
+.container {
+  width: 90%;
+  max-width: 1300px;
+  margin: auto;
+}
+
+/* Header */
+.header {
+  padding: 25px 0;
+  position: relative;
+  z-index: 1000;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-img {
+  height: 55px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 28px;
+  font-weight: 500;
+  font-size: 14px;
+  list-style: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+}
+
+.ticket-btn {
+  background-color: #f94797;
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: background 0.3s;
+}
+
+.ticket-btn:hover {
+  background-color: #d62d76;
+}
+
+/* Hero */
+.hero-section {
+  padding: 90px 0;
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.hero-text {
+  max-width: 650px;
+}
+
+.hero-text h4 {
+  color: #ffc107;
+  font-weight: 600;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.hero-text h1 {
+  font-size: 58px;
+  font-weight: 800;
+  margin-bottom: 25px;
+  line-height: 1.2;
+}
+
+.hero-text p {
+  font-size: 16px;
+  color: #eee;
+}
+
+.hero-image-wrapper {
+  flex: 1;
+  text-align: right;
+}
+
+.hero-image {
+  max-width: 480px;
+  height: auto;
+}
+
+/* Countdown */
+.countdown-bar {
+  background-color: #f94797;
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+  gap: 100px;
+  flex-wrap: wrap;
+}
+
+.countdown-item {
+  text-align: center;
+}
+
+.countdown-item h2 {
+  font-size: 42px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.countdown-item p {
+  font-size: 16px;
+  color: #fff;
+}
