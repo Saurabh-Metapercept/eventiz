@@ -71,7 +71,8 @@ body {
 
 /* Hero */
 .hero-section {
-  padding: 90px 0;
+  padding: 90px 20px;
+  overflow: hidden; /* Prevent white space from image overflow */
 }
 
 .hero-container {
@@ -79,10 +80,12 @@ body {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+  gap: 40px;
 }
 
 .hero-text {
   max-width: 650px;
+  flex: 1;
 }
 
 .hero-text h4 {
@@ -110,9 +113,37 @@ body {
 }
 
 .hero-image {
-  max-width: 480px;
+  max-width: 100%;
   height: auto;
+  display: block;
+  margin-left: auto;
 }
+
+/* ✅ Responsive Fixes */
+@media (max-width: 992px) {
+  .hero-container {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .hero-text h1 {
+    font-size: 42px;
+  }
+
+  .hero-text p {
+    font-size: 15px;
+  }
+
+  .hero-image-wrapper {
+    text-align: center;
+  }
+
+  .hero-image {
+    margin: 0 auto;
+    max-width: 90%;
+  }
+}
+
 
 /* Countdown */
 .countdown-bar {
