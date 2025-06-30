@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
+import Countdown from "./components/Countdown";
 import JoinEvent from "./components/JoinEvent";
 import AboutEvent from "./components/AboutEvent";
 import ScheduleSection from "./components/ScheduleSection";
@@ -24,6 +25,7 @@ const App = () => {
     <div>
       <Header />
       <HeroSection />
+      <Countdown />
       <JoinEvent />
       <AboutEvent />
       <ScheduleSection />
