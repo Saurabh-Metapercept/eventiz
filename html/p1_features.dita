@@ -74,7 +74,7 @@
             <b>Scope and</b>
             <b>current status</b>
           </p>
-          <ul id="ul_131257">
+          <ul id="ul_143650">
             <li>From the highpriority items, our most immediate focus is item <b>5</b>, followed by items<b>2, 3, and 4</b>.</li>
             <li>For <b>item 2 (highlighting matched search text)</b>, we have done some internal work already; however, we are not fully confident that the current approach is ideal or scalable.</li>
             <li>For <b>item 4 (prioritizing &lt;title&gt; content in search results)</b>, our understanding is that this may already be supported. We would appreciate it if you could confirm this.</li>
@@ -88,7 +88,7 @@
           </p>
           <p>We would especially appreciate your input on the advanced search options.</p>
           <p>Our understanding is that the current search implementation relies on <b>stemmed words</b> for indexing, with only the title and short description retained in their original (nonstemmed) form. Based on this, we are uncertain whether:</p>
-          <ul id="ul_13125701">
+          <ul id="ul_14365001">
             <li>The existing search architecture can realistically be extended to support <b>whole</b>
               <b>word searches</b> and <b>case sensitivity</b>, or</li>
             <li>A new or significantly reworked search implementation would be required to properly support these capabilities.</li>
@@ -119,7 +119,7 @@
       <p>Separately, we would also like to understand whether the <b>DITA</b>
         <b>OT 4.x migration</b>, or potentially <b>other related features</b>, could be incorporated as part of a <b>training program</b>.</p>
       <p>Specifically, we would appreciate your input on:</p>
-      <ul id="ul_13125702">
+      <ul id="ul_14365002">
         <li>Whether you consider this a <b>practical and effective approach</b>
         </li>
         <li>A <b>rough estimate of the overall number of hours</b> such training might require</li>
@@ -128,7 +128,7 @@
         <b>Next steps</b>
       </p>
       <p>It would be great to review these topics together and agree on:</p>
-      <ul id="ul_13125703">
+      <ul id="ul_14365003">
         <li>The recommended technical approach</li>
         <li>Feature and migration sequencing</li>
         <li>Effort estimates and key risks</li>

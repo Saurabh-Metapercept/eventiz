@@ -1,144 +1,144 @@
-2026-05-18 13:12:59,045 [INFO] pipeline.enrich_runner: =================================================================
-2026-05-18 13:12:59,046 [INFO] pipeline.enrich_runner: [EnrichPipeline] JOB STARTED  job_id=62e3c928-34ae-48ee-8b8a-d5b0d9ccd43b
-2026-05-18 13:12:59,046 [INFO] pipeline.enrich_runner: [EnrichPipeline] output_dir  = D:\MetR Phase 2\metR-Converter-DOCX\output\62e3c928-34ae-48ee-8b8a-d5b0d9ccd43b
-2026-05-18 13:12:59,046 [INFO] pipeline.enrich_runner: [EnrichPipeline] user_id     = 62e3c928-34ae-48ee-8b8a-d5b0d9ccd43b
-2026-05-18 13:12:59,047 [INFO] pipeline.enrich_runner: [EnrichPipeline] working_dir = D:\MetR Phase 2\metR-Converter-DOCX\output\62e3c928-34ae-48ee-8b8a-d5b0d9ccd43b
-2026-05-18 13:12:59,047 [INFO] pipeline.enrich_runner: [EnrichPipeline] prodname    = (not provided)
-2026-05-18 13:12:59,049 [INFO] pipeline.enrich_runner: =================================================================
-2026-05-18 13:12:59,059 [INFO] pipeline.enrich_runner: [EnrichPipeline] Raw backup created at: D:\MetR Phase 2\metR-Converter-DOCX\output\.tmp_backup_62e3c928-34ae-48ee-8b8a-d5b0d9ccd43b
-2026-05-18 13:12:59,087 [INFO] pipeline.enrich_runner: [EnrichPipeline] Discovered 2 .dita files, 2 .ditamap files
-2026-05-18 13:12:59,088 [INFO] pipeline.enrich_runner: [EnrichPipeline] Parsed 2 DITA files
-2026-05-18 13:12:59,088 [INFO] pipeline.enrich_runner: [EnrichPipeline] ══ BEFORE ENRICHMENT ══════════════════════════════
-2026-05-18 13:12:59,088 [INFO] pipeline.enrich_runner: [EnrichPipeline] Total DITA files: 2
-2026-05-18 13:12:59,088 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] html/html.dita                                     type=concept    shortdesc=NO  prolog=NO 
-2026-05-18 13:12:59,088 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] html/p1_features.dita                              type=task       shortdesc=NO  prolog=NO 
-2026-05-18 13:12:59,088 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Structure & Schema Validation (DITA-only) ──
-2026-05-18 13:12:59,089 [INFO] utils.structure_validator: [StructureValidator] Checking .ditamap topicref and mapref references
-2026-05-18 13:12:59,091 [INFO] utils.structure_validator: [StructureValidator] Checking for duplicate id attributes
-2026-05-18 13:12:59,092 [INFO] utils.structure_validator: [StructureValidator] Checking <xref> href targets
-2026-05-18 13:12:59,092 [INFO] utils.structure_validator: [StructureValidator] Checking for spaces in filenames and folder names
-2026-05-18 13:12:59,094 [INFO] utils.structure_validator: [StructureValidator] Running per-file DITA schema validation
-2026-05-18 13:12:59,096 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'html/html.dita' — <shortdesc> element is missing — required for search previews and navigation
-2026-05-18 13:12:59,103 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'html/p1_features.dita' — <image> #1 (href='../media/image1.png') has no alt text — required for accessibility
-2026-05-18 13:12:59,103 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'html/p1_features.dita' — <image> #2 (href='../media/image2.png') has no alt text — required for accessibility
-2026-05-18 13:12:59,103 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'html/p1_features.dita' — <image> #3 (href='../media/image3.png') has no alt text — required for accessibility
-2026-05-18 13:12:59,103 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'html/p1_features.dita' — <image> #4 (href='../media/image4.png') has no alt text — required for accessibility
-2026-05-18 13:12:59,104 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'html/p1_features.dita' — <image> #5 (href='../media/image5.png') has no alt text — required for accessibility
-2026-05-18 13:12:59,104 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'html/p1_features.dita' — <shortdesc> element is missing — required for search previews and navigation
-2026-05-18 13:12:59,105 [INFO] utils.structure_validator: [StructureValidator] Complete — CRITICAL=0, WARNING=7 | dita_files=2, broken_xml=0, empty=0, broken_dita_refs=0, broken_maprefs=0, orphans=0, duplicate_ids=0, broken_xrefs=0, filename_spaces=0
-2026-05-18 13:12:59,105 [INFO] pipeline.enrich_runner: [EnrichPipeline] Validation done — CRITICAL=0, WARNING=7 | broken_xml=0, empty=0, broken_refs=0, orphans=0
-2026-05-18 13:12:59,106 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Safe Fixer: Zone 1 auto-fixes ──
-2026-05-18 13:12:59,108 [INFO] utils.dita_safe_fixer: [SafeFixer] Complete — 0 fix(es) applied, 0 write failure(s)
-2026-05-18 13:12:59,108 [INFO] pipeline.enrich_runner: [EnrichPipeline] Safe fixes applied=0, write_failures=0
-2026-05-18 13:12:59,315 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Extracting document context from DITA files ──
-2026-05-18 13:12:59,317 [INFO] utils.document_context_extractor: [DocContext] extract_context_from_dita — 2 files found, stem='dita_ot_mitel_1'
-2026-05-18 13:12:59,317 [INFO] utils.document_context_extractor: [DocContext] Extracting document-level context from: D:\MetR Phase 2\metR-Converter-DOCX\output\62e3c928-34ae-48ee-8b8a-d5b0d9ccd43b\dita_ot_mitel_1.ditamap
-2026-05-18 13:12:59,317 [INFO] utils.document_context_extractor: [DocContext] Aggregated content from 2 files
-2026-05-18 13:12:59,675 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
-2026-05-18 13:12:59,678 [WARNING] utils.document_context_extractor: [DocContext] AI extraction failed: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cb9fBMQ4V4KbjCSpeYcd3'}
-2026-05-18 13:12:59,678 [INFO] utils.document_context_extractor: [DocContext] AI confidence low (0.00), using heuristic for task_type only
-2026-05-18 13:12:59,679 [INFO] utils.document_context_extractor: [DocContext] Heuristic task_type: 'user guide'
-2026-05-18 13:12:59,679 [INFO] utils.document_context_extractor: [DocContext] Final context: {'prodname': 'dita_ot_mitel_1', 'prodname_confirmed': False, 'equipment_name': '', 'task_type': 'user guide', 'document_keywords': ['user guide'], 'extraction_method': 'heuristic', 'confidence': 0.0}
-2026-05-18 13:12:59,679 [INFO] pipeline.enrich_runner: [EnrichPipeline] prodname 'dita_ot_mitel_1' is AI-inferred — clearing so DITA gets empty <prodname>
-2026-05-18 13:12:59,680 [INFO] pipeline.enrich_runner: [EnrichPipeline] Context — prodname='', equipment='', task_type='user guide', method=heuristic, confidence=0.00
-2026-05-18 13:12:59,680 [INFO] utils.core_log_parser: [CoreLogParser] Using most recent report: DITA_OT_Mitel (1)_report.txt
-2026-05-18 13:12:59,690 [INFO] utils.core_log_parser: [CoreLogParser] Parsed core report 'DITA_OT_Mitel (1)_report.txt' — 4 topics, 0 errors
-2026-05-18 13:12:59,691 [INFO] utils.core_log_parser: [CoreLogParser] Using most recent report: DITA_OT_Mitel (1)_report.txt
-2026-05-18 13:12:59,691 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Backend Report (core _report.txt) ──────────────
-2026-05-18 13:12:59,691 [INFO] pipeline.enrich_runner: [BackendReport] [Core Engine] total=4, passed=4, failed=0, root_map=dita_ot_mitel_1.ditamap, images=5
-2026-05-18 13:12:59,692 [INFO] pipeline.enrich_runner: [BackendReport] [Core Files]
-2026-05-18 13:12:59,692 [INFO] pipeline.enrich_runner: [BackendReport]   html/html.dita: type=concept, status=PASS
-2026-05-18 13:12:59,692 [INFO] pipeline.enrich_runner: [BackendReport]   html/p1_features.dita: type=task, status=PASS
-2026-05-18 13:12:59,692 [INFO] pipeline.enrich_runner: [BackendReport] [Core DTD] all files passed
-2026-05-18 13:12:59,692 [INFO] pipeline.enrich_runner: [BackendReport] [Core Errors] none
-2026-05-18 13:12:59,692 [INFO] pipeline.enrich_runner: [BackendReport] [Core Headings] Html(2)
-2026-05-18 13:12:59,693 [INFO] pipeline.enrich_runner: [BackendReport] DTD validation: all files passed
-2026-05-18 13:12:59,693 [INFO] pipeline.enrich_runner: [EnrichPipeline] ────────────────────────────────────────────────────
-2026-05-18 13:12:59,693 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Layers 1+2+3: Classify + Shortdesc + Keywords ──
-2026-05-18 13:12:59,698 [INFO] layers.layer123_enrichment: L123 › 'HTML' html/html.dita
-2026-05-18 13:12:59,702 [INFO] layers.layer123_enrichment: L123 › 'P1 Features' html/p1_features.dita
-2026-05-18 13:13:00,035 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
-2026-05-18 13:13:00,036 [ERROR] layers.layer123_enrichment: L123 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cb9fBNxaPuNhPaPQJncFu'}
-2026-05-18 13:13:00,036 [WARNING] layers.layer123_enrichment: L123 ⊘ fallback 'HTML'
-2026-05-18 13:13:00,038 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
-2026-05-18 13:13:00,038 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc html.dita
-2026-05-18 13:13:00,050 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
-2026-05-18 13:13:00,051 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog html.dita
-2026-05-18 13:13:00,052 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'HTML' → type=concept, confidence=low
-2026-05-18 13:13:00,053 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
-2026-05-18 13:13:00,054 [ERROR] layers.layer123_enrichment: L123 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cb9fBP23WZkAxSeFNTTXP'}
-2026-05-18 13:13:00,054 [WARNING] layers.layer123_enrichment: L123 ⊘ fallback 'P1 Features'
-2026-05-18 13:13:00,057 [INFO] layers.layer1_topic_classifier: L1 ✓ task→concept p1_features.dita
-2026-05-18 13:13:00,068 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
-2026-05-18 13:13:00,069 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc p1_features.dita
-2026-05-18 13:13:00,079 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
-2026-05-18 13:13:00,080 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog p1_features.dita
-2026-05-18 13:13:00,082 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'P1 Features' → type=concept, confidence=low
-2026-05-18 13:13:00,082 [INFO] pipeline.enrich_runner: [EnrichPipeline] Layers 1+2+3 complete — 2 topics processed
-2026-05-18 13:13:00,083 [INFO] pipeline.enrich_runner: [EnrichPipeline] Reclassification summary — 1 of 2 topics had type changed by AI
-2026-05-18 13:13:00,083 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] html/p1_features.dita                                        task → concept (confidence=low)
-2026-05-18 13:13:00,083 [INFO] pipeline.enrich_runner: [EnrichPipeline] ══ AFTER ENRICHMENT ═══════════════════════════════
-2026-05-18 13:13:00,083 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  html/html.dita                                     type=concept    shortdesc='We need to enhance our existing OT with following features:'
-2026-05-18 13:13:00,083 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['HTML', 'enhance', 'existing', 'following', 'features', 'sample'] | indexterms=['HTML', 'enhance', 'existing']
-2026-05-18 13:13:00,083 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  html/p1_features.dita                              type=concept    shortdesc='I hope you’re doing well.'
-2026-05-18 13:13:00,083 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['search', 'would', 'results', 'approach', 'DITA', 'current'] | indexterms=['search', 'would', 'results']
-2026-05-18 13:13:00,084 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Layer 4: Quality Review ──
-2026-05-18 13:13:00,084 [INFO] layers.layer4_quality_autofix: L4 › html/html.dita at D:\MetR Phase 2\metR-Converter-DOCX\output\62e3c928-34ae-48ee-8b8a-d5b0d9ccd43b\html\html.dita
-2026-05-18 13:13:00,094 [INFO] layers.layer4_quality_autofix: L4 › html/p1_features.dita at D:\MetR Phase 2\metR-Converter-DOCX\output\62e3c928-34ae-48ee-8b8a-d5b0d9ccd43b\html\p1_features.dita
-2026-05-18 13:13:00,102 [INFO] layers.layer4_quality_autofix: L4 › review 2/2 topics (0 skipped)
-2026-05-18 13:13:00,661 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
-2026-05-18 13:13:00,662 [WARNING] layers.layer4_quality_autofix: L4 ✗ review: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cb9fBRGyiMvWkLVGxMBtW'}
-2026-05-18 13:13:00,662 [INFO] pipeline.enrich_runner: [EnrichPipeline] Layer 4 review — quality=fair, accuracy=0%
-2026-05-18 13:13:00,662 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Layer 4: Autofix ──
-2026-05-18 13:13:00,662 [INFO] layers.layer4_quality_autofix: L4 › autofix: 0 broken
-2026-05-18 13:13:00,664 [INFO] pipeline.enrich_runner: [EnrichPipeline] Layer 4 autofix — fixed=0, flagged=0, failed=0
-2026-05-18 13:13:00,664 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Layer 5: Final Validation ──
-2026-05-18 13:13:00,664 [INFO] layers.layer5_final_validation: L5 ── structural validation start
-2026-05-18 13:13:00,665 [INFO] layers.layer5_final_validation: L5 ⚠ html/html.dita — 1 issue(s)
-2026-05-18 13:13:00,667 [INFO] layers.layer5_final_validation: L5 ⚠ html/p1_features.dita — 1 issue(s)
-2026-05-18 13:13:00,667 [INFO] layers.layer5_final_validation: L5 ✓ done pass=True acc=100% crit=0 err=0 warn=2
-2026-05-18 13:13:00,668 [INFO] layers.layer5_final_validation: L5 DTD schema start
-2026-05-18 13:13:00,668 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    html.dita
-2026-05-18 13:13:00,669 [INFO] utils.dita_schema_validator: [SchemaValidator] WARNINGS p1_features.dita — 5 issue(s)
-2026-05-18 13:13:00,669 [INFO] utils.dita_schema_validator: [SchemaValidator] ── DONE ── schema_passed=True, valid=2/2
-2026-05-18 13:13:00,669 [INFO] layers.layer5_final_validation: L5 DTD schema pass=True valid=2/2
-2026-05-18 13:13:00,669 [INFO] pipeline.enrich_runner: [EnrichPipeline] Layer 5 — passed=True, accuracy=100%
-2026-05-18 13:13:00,669 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Post-Enrichment Structural Validation ──
-2026-05-18 13:13:00,670 [INFO] utils.structure_validator: [StructureValidator] Checking .ditamap topicref and mapref references
-2026-05-18 13:13:00,672 [INFO] utils.structure_validator: [StructureValidator] Checking for duplicate id attributes
-2026-05-18 13:13:00,675 [INFO] utils.structure_validator: [StructureValidator] Checking <xref> href targets
-2026-05-18 13:13:00,676 [INFO] utils.structure_validator: [StructureValidator] Checking for spaces in filenames and folder names
-2026-05-18 13:13:00,677 [INFO] utils.structure_validator: [StructureValidator] Running per-file DITA schema validation
-2026-05-18 13:13:00,680 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'html/p1_features.dita' — <image> #1 (href='../media/image1.png') has no alt text — required for accessibility
-2026-05-18 13:13:00,680 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'html/p1_features.dita' — <image> #2 (href='../media/image2.png') has no alt text — required for accessibility
-2026-05-18 13:13:00,680 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'html/p1_features.dita' — <image> #3 (href='../media/image3.png') has no alt text — required for accessibility
-2026-05-18 13:13:00,680 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'html/p1_features.dita' — <image> #4 (href='../media/image4.png') has no alt text — required for accessibility
-2026-05-18 13:13:00,681 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'html/p1_features.dita' — <image> #5 (href='../media/image5.png') has no alt text — required for accessibility
-2026-05-18 13:13:00,681 [INFO] utils.structure_validator: [StructureValidator] Complete — CRITICAL=0, WARNING=5 | dita_files=2, broken_xml=0, empty=0, broken_dita_refs=0, broken_maprefs=0, orphans=0, duplicate_ids=0, broken_xrefs=0, filename_spaces=0
-2026-05-18 13:13:00,682 [INFO] pipeline.enrich_runner: [EnrichPipeline] Post-structural — CRITICAL=0, WARNING=5
-2026-05-18 13:13:00,682 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Post-Enrichment AI Content Quality Check ──
-2026-05-18 13:13:00,683 [INFO] utils.structure_validator: [EnrichmentQuality] Post-AI check — 0 issues in 2 files (CRITICAL=0, WARNING=0)
-2026-05-18 13:13:00,683 [INFO] pipeline.enrich_runner: [EnrichPipeline] AI content quality — CRITICAL=0, WARNING=0 (checks: shortdesc, keywords, indexterms)
-2026-05-18 13:13:00,683 [INFO] pipeline.enrich_runner: [EnrichPipeline] Fix report — backend_errors=0 | fixed_by_zone1=0, fixed_by_ai=2, remaining=5, ai_obligations_missed=0, new_by_ai=0
-2026-05-18 13:13:00,684 [INFO] pipeline.enrich_runner: [EnrichPipeline] Saved: D:\MetR Phase 2\metR-Converter-DOCX\output\62e3c928-34ae-48ee-8b8a-d5b0d9ccd43b\ai_reports\_agent_report.json
-2026-05-18 13:13:00,685 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Layer 6: Suggestion Agent ──
-2026-05-18 13:13:00,882 [INFO] layers.layer6_fix_agent: L6/Suggest ── Started ──
-2026-05-18 13:13:00,893 [INFO] layers.layer6_fix_agent: L6/Suggest 3 issues (pre-dedup)
-2026-05-18 13:13:00,893 [INFO] layers.layer6_fix_agent: L6/Suggest 3 unique issues
-2026-05-18 13:13:00,894 [INFO] layers.layer6_fix_agent: L6/Suggest tmpl image_missing_alt html/p1_features.dita
-2026-05-18 13:13:00,894 [INFO] layers.layer6_fix_agent: L6/Suggest tmpl missing_prodname html/html.dita
-2026-05-18 13:13:00,895 [INFO] layers.layer6_fix_agent: L6/Suggest tmpl missing_prodname html/p1_features.dita
-2026-05-18 13:13:00,896 [INFO] layers.layer6_fix_agent: L6/Suggest ✓ 3 suggestions
-2026-05-18 13:13:00,897 [INFO] layers.layer6_fix_agent: L6/Suggest ✓ saved 3 suggestions
-2026-05-18 13:13:00,897 [INFO] layers.layer6_fix_agent: L6/Suggest ── Done ──
-2026-05-18 13:13:00,897 [INFO] pipeline.enrich_runner: [EnrichPipeline] Layer 6 — suggestions_generated=3
-2026-05-18 13:13:00,899 [INFO] pipeline.enrich_runner: [EnrichPipeline] Final element counts (post-enrichment): {'ol': 1, 'ul': 7, 'table': 0, 'image': 5, 'crosslink': 0, 'hyperlink': 1, 'concept': 2, 'task': 0, 'reference': 0, 'topic': 0}
-2026-05-18 13:13:00,901 [INFO] pipeline.enrich_runner: [EnrichPipeline] Saved: D:\MetR Phase 2\metR-Converter-DOCX\output\62e3c928-34ae-48ee-8b8a-d5b0d9ccd43b\ai_reports\_agent_report.json
-2026-05-18 13:13:00,903 [INFO] pipeline.enrich_runner: [EnrichPipeline] Saved: D:\MetR Phase 2\metR-Converter-DOCX\output\62e3c928-34ae-48ee-8b8a-d5b0d9ccd43b\ai_reports\pre_enrichment.json
-2026-05-18 13:13:00,905 [INFO] pipeline.enrich_runner: [EnrichPipeline] Saved: D:\MetR Phase 2\metR-Converter-DOCX\output\62e3c928-34ae-48ee-8b8a-d5b0d9ccd43b\ai_reports\post_enrichment.json
-2026-05-18 13:13:00,905 [INFO] pipeline.enrich_runner: =================================================================
-2026-05-18 13:13:00,906 [INFO] pipeline.enrich_runner: [EnrichPipeline] JOB COMPLETED  job_id=62e3c928-34ae-48ee-8b8a-d5b0d9ccd43b
-2026-05-18 13:13:00,907 [INFO] pipeline.enrich_runner: [EnrichPipeline] Log file : D:\MetR Phase 2\metR-Converter-DOCX\output\62e3c928-34ae-48ee-8b8a-d5b0d9ccd43b\ai_logs\ai_enrichment.log
-2026-05-18 13:13:00,907 [INFO] pipeline.enrich_runner: [EnrichPipeline] Reports  : D:\MetR Phase 2\metR-Converter-DOCX\output\62e3c928-34ae-48ee-8b8a-d5b0d9ccd43b\ai_reports
-2026-05-18 13:13:00,908 [INFO] pipeline.enrich_runner: =================================================================
-2026-05-18 13:13:00,939 [INFO] pipeline.enrich_runner: [EnrichPipeline] Raw backup deleted after successful enrichment
+2026-05-18 14:36:52,082 [INFO] pipeline.enrich_runner: =================================================================
+2026-05-18 14:36:52,083 [INFO] pipeline.enrich_runner: [EnrichPipeline] JOB STARTED  job_id=deadb2f0-3967-4ee3-a6ae-313b3d346ff0
+2026-05-18 14:36:52,083 [INFO] pipeline.enrich_runner: [EnrichPipeline] output_dir  = D:\MetR Phase 2\metR-Converter-DOCX\output\deadb2f0-3967-4ee3-a6ae-313b3d346ff0
+2026-05-18 14:36:52,084 [INFO] pipeline.enrich_runner: [EnrichPipeline] user_id     = deadb2f0-3967-4ee3-a6ae-313b3d346ff0
+2026-05-18 14:36:52,084 [INFO] pipeline.enrich_runner: [EnrichPipeline] working_dir = D:\MetR Phase 2\metR-Converter-DOCX\output\deadb2f0-3967-4ee3-a6ae-313b3d346ff0
+2026-05-18 14:36:52,084 [INFO] pipeline.enrich_runner: [EnrichPipeline] prodname    = (not provided)
+2026-05-18 14:36:52,086 [INFO] pipeline.enrich_runner: =================================================================
+2026-05-18 14:36:52,097 [INFO] pipeline.enrich_runner: [EnrichPipeline] Raw backup created at: D:\MetR Phase 2\metR-Converter-DOCX\output\.tmp_backup_deadb2f0-3967-4ee3-a6ae-313b3d346ff0
+2026-05-18 14:36:52,139 [INFO] pipeline.enrich_runner: [EnrichPipeline] Discovered 2 .dita files, 2 .ditamap files
+2026-05-18 14:36:52,140 [INFO] pipeline.enrich_runner: [EnrichPipeline] Parsed 2 DITA files
+2026-05-18 14:36:52,140 [INFO] pipeline.enrich_runner: [EnrichPipeline] ══ BEFORE ENRICHMENT ══════════════════════════════
+2026-05-18 14:36:52,140 [INFO] pipeline.enrich_runner: [EnrichPipeline] Total DITA files: 2
+2026-05-18 14:36:52,140 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] html/html.dita                                     type=concept    shortdesc=NO  prolog=NO 
+2026-05-18 14:36:52,140 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] html/p1_features.dita                              type=task       shortdesc=NO  prolog=NO 
+2026-05-18 14:36:52,140 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Structure & Schema Validation (DITA-only) ──
+2026-05-18 14:36:52,141 [INFO] utils.structure_validator: [StructureValidator] Checking .ditamap topicref and mapref references
+2026-05-18 14:36:52,143 [INFO] utils.structure_validator: [StructureValidator] Checking for duplicate id attributes
+2026-05-18 14:36:52,145 [INFO] utils.structure_validator: [StructureValidator] Checking <xref> href targets
+2026-05-18 14:36:52,146 [INFO] utils.structure_validator: [StructureValidator] Checking for spaces in filenames and folder names
+2026-05-18 14:36:52,147 [INFO] utils.structure_validator: [StructureValidator] Running per-file DITA schema validation
+2026-05-18 14:36:52,153 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'html/html.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-05-18 14:36:52,156 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'html/p1_features.dita' — <image> #1 (href='../media/image1.png') has no alt text — required for accessibility
+2026-05-18 14:36:52,157 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'html/p1_features.dita' — <image> #2 (href='../media/image2.png') has no alt text — required for accessibility
+2026-05-18 14:36:52,157 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'html/p1_features.dita' — <image> #3 (href='../media/image3.png') has no alt text — required for accessibility
+2026-05-18 14:36:52,157 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'html/p1_features.dita' — <image> #4 (href='../media/image4.png') has no alt text — required for accessibility
+2026-05-18 14:36:52,157 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'html/p1_features.dita' — <image> #5 (href='../media/image5.png') has no alt text — required for accessibility
+2026-05-18 14:36:52,157 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'html/p1_features.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-05-18 14:36:52,159 [INFO] utils.structure_validator: [StructureValidator] Complete — CRITICAL=0, WARNING=7 | dita_files=2, broken_xml=0, empty=0, broken_dita_refs=0, broken_maprefs=0, orphans=0, duplicate_ids=0, broken_xrefs=0, filename_spaces=0
+2026-05-18 14:36:52,159 [INFO] pipeline.enrich_runner: [EnrichPipeline] Validation done — CRITICAL=0, WARNING=7 | broken_xml=0, empty=0, broken_refs=0, orphans=0
+2026-05-18 14:36:52,159 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Safe Fixer: Zone 1 auto-fixes ──
+2026-05-18 14:36:52,161 [INFO] utils.dita_safe_fixer: [SafeFixer] Complete — 0 fix(es) applied, 0 write failure(s)
+2026-05-18 14:36:52,162 [INFO] pipeline.enrich_runner: [EnrichPipeline] Safe fixes applied=0, write_failures=0
+2026-05-18 14:36:52,398 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Extracting document context from DITA files ──
+2026-05-18 14:36:52,400 [INFO] utils.document_context_extractor: [DocContext] extract_context_from_dita — 2 files found, stem='dita_ot_mitel_1'
+2026-05-18 14:36:52,400 [INFO] utils.document_context_extractor: [DocContext] Extracting document-level context from: D:\MetR Phase 2\metR-Converter-DOCX\output\deadb2f0-3967-4ee3-a6ae-313b3d346ff0\dita_ot_mitel_1.ditamap
+2026-05-18 14:36:52,401 [INFO] utils.document_context_extractor: [DocContext] Aggregated content from 2 files
+2026-05-18 14:36:52,866 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2026-05-18 14:36:52,867 [WARNING] utils.document_context_extractor: [DocContext] AI extraction failed: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cb9maNhHYKqkWCekGUdNV'}
+2026-05-18 14:36:52,867 [INFO] utils.document_context_extractor: [DocContext] AI confidence low (0.00), using heuristic for task_type only
+2026-05-18 14:36:52,868 [INFO] utils.document_context_extractor: [DocContext] Heuristic task_type: 'user guide'
+2026-05-18 14:36:52,868 [INFO] utils.document_context_extractor: [DocContext] Final context: {'prodname': 'dita_ot_mitel_1', 'prodname_confirmed': False, 'equipment_name': '', 'task_type': 'user guide', 'document_keywords': ['user guide'], 'extraction_method': 'heuristic', 'confidence': 0.0}
+2026-05-18 14:36:52,868 [INFO] pipeline.enrich_runner: [EnrichPipeline] prodname 'dita_ot_mitel_1' is AI-inferred — clearing so DITA gets empty <prodname>
+2026-05-18 14:36:52,868 [INFO] pipeline.enrich_runner: [EnrichPipeline] Context — prodname='', equipment='', task_type='user guide', method=heuristic, confidence=0.00
+2026-05-18 14:36:52,869 [INFO] utils.core_log_parser: [CoreLogParser] Using most recent report: DITA_OT_Mitel (1)_report.txt
+2026-05-18 14:36:52,879 [INFO] utils.core_log_parser: [CoreLogParser] Parsed core report 'DITA_OT_Mitel (1)_report.txt' — 4 topics, 0 errors
+2026-05-18 14:36:52,879 [INFO] utils.core_log_parser: [CoreLogParser] Using most recent report: DITA_OT_Mitel (1)_report.txt
+2026-05-18 14:36:52,881 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Backend Report (core _report.txt) ──────────────
+2026-05-18 14:36:52,881 [INFO] pipeline.enrich_runner: [BackendReport] [Core Engine] total=4, passed=4, failed=0, root_map=dita_ot_mitel_1.ditamap, images=5
+2026-05-18 14:36:52,881 [INFO] pipeline.enrich_runner: [BackendReport] [Core Files]
+2026-05-18 14:36:52,881 [INFO] pipeline.enrich_runner: [BackendReport]   html/html.dita: type=concept, status=PASS
+2026-05-18 14:36:52,882 [INFO] pipeline.enrich_runner: [BackendReport]   html/p1_features.dita: type=task, status=PASS
+2026-05-18 14:36:52,882 [INFO] pipeline.enrich_runner: [BackendReport] [Core DTD] all files passed
+2026-05-18 14:36:52,882 [INFO] pipeline.enrich_runner: [BackendReport] [Core Errors] none
+2026-05-18 14:36:52,882 [INFO] pipeline.enrich_runner: [BackendReport] [Core Headings] Html(2)
+2026-05-18 14:36:52,882 [INFO] pipeline.enrich_runner: [BackendReport] DTD validation: all files passed
+2026-05-18 14:36:52,882 [INFO] pipeline.enrich_runner: [EnrichPipeline] ────────────────────────────────────────────────────
+2026-05-18 14:36:52,882 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Layers 1+2+3: Classify + Shortdesc + Keywords ──
+2026-05-18 14:36:52,887 [INFO] layers.layer123_enrichment: L123 › 'HTML' html/html.dita
+2026-05-18 14:36:52,891 [INFO] layers.layer123_enrichment: L123 › 'P1 Features' html/p1_features.dita
+2026-05-18 14:36:53,221 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2026-05-18 14:36:53,222 [ERROR] layers.layer123_enrichment: L123 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cb9maQEKB3CbPrHHnZcaq'}
+2026-05-18 14:36:53,222 [WARNING] layers.layer123_enrichment: L123 ⊘ fallback 'HTML'
+2026-05-18 14:36:53,226 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-18 14:36:53,228 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc html.dita
+2026-05-18 14:36:53,240 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-18 14:36:53,241 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog html.dita
+2026-05-18 14:36:53,242 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'HTML' → type=concept, confidence=low
+2026-05-18 14:36:53,244 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2026-05-18 14:36:53,245 [ERROR] layers.layer123_enrichment: L123 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cb9maQK2EiKRFyMLot9BP'}
+2026-05-18 14:36:53,245 [WARNING] layers.layer123_enrichment: L123 ⊘ fallback 'P1 Features'
+2026-05-18 14:36:53,249 [INFO] layers.layer1_topic_classifier: L1 ✓ task→concept p1_features.dita
+2026-05-18 14:36:53,263 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-18 14:36:53,264 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc p1_features.dita
+2026-05-18 14:36:53,276 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-18 14:36:53,278 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog p1_features.dita
+2026-05-18 14:36:53,281 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'P1 Features' → type=concept, confidence=low
+2026-05-18 14:36:53,281 [INFO] pipeline.enrich_runner: [EnrichPipeline] Layers 1+2+3 complete — 2 topics processed
+2026-05-18 14:36:53,281 [INFO] pipeline.enrich_runner: [EnrichPipeline] Reclassification summary — 1 of 2 topics had type changed by AI
+2026-05-18 14:36:53,281 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] html/p1_features.dita                                        task → concept (confidence=low)
+2026-05-18 14:36:53,282 [INFO] pipeline.enrich_runner: [EnrichPipeline] ══ AFTER ENRICHMENT ═══════════════════════════════
+2026-05-18 14:36:53,282 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  html/html.dita                                     type=concept    shortdesc='We need to enhance our existing OT with following features:'
+2026-05-18 14:36:53,282 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['HTML', 'enhance', 'existing', 'following', 'features', 'sample'] | indexterms=['HTML', 'enhance', 'existing']
+2026-05-18 14:36:53,282 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  html/p1_features.dita                              type=concept    shortdesc='I hope you’re doing well.'
+2026-05-18 14:36:53,282 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['search', 'would', 'results', 'approach', 'DITA', 'current'] | indexterms=['search', 'would', 'results']
+2026-05-18 14:36:53,282 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Layer 4: Quality Review ──
+2026-05-18 14:36:53,284 [INFO] layers.layer4_quality_autofix: L4 › html/html.dita at D:\MetR Phase 2\metR-Converter-DOCX\output\deadb2f0-3967-4ee3-a6ae-313b3d346ff0\html\html.dita
+2026-05-18 14:36:53,287 [INFO] layers.layer4_quality_autofix: L4 › html/p1_features.dita at D:\MetR Phase 2\metR-Converter-DOCX\output\deadb2f0-3967-4ee3-a6ae-313b3d346ff0\html\p1_features.dita
+2026-05-18 14:36:53,297 [INFO] layers.layer4_quality_autofix: L4 › review 2/2 topics (0 skipped)
+2026-05-18 14:36:53,628 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2026-05-18 14:36:53,629 [WARNING] layers.layer4_quality_autofix: L4 ✗ review: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cb9maRxz9ERJid7dVqRC1'}
+2026-05-18 14:36:53,629 [INFO] pipeline.enrich_runner: [EnrichPipeline] Layer 4 review — quality=fair, accuracy=0%
+2026-05-18 14:36:53,630 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Layer 4: Autofix ──
+2026-05-18 14:36:53,630 [INFO] layers.layer4_quality_autofix: L4 › autofix: 0 broken
+2026-05-18 14:36:53,631 [INFO] pipeline.enrich_runner: [EnrichPipeline] Layer 4 autofix — fixed=0, flagged=0, failed=0
+2026-05-18 14:36:53,631 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Layer 5: Final Validation ──
+2026-05-18 14:36:53,631 [INFO] layers.layer5_final_validation: L5 ── structural validation start
+2026-05-18 14:36:53,634 [INFO] layers.layer5_final_validation: L5 ⚠ html/html.dita — 1 issue(s)
+2026-05-18 14:36:53,636 [INFO] layers.layer5_final_validation: L5 ⚠ html/p1_features.dita — 1 issue(s)
+2026-05-18 14:36:53,637 [INFO] layers.layer5_final_validation: L5 ✓ done pass=True acc=100% crit=0 err=0 warn=2
+2026-05-18 14:36:53,637 [INFO] layers.layer5_final_validation: L5 DTD schema start
+2026-05-18 14:36:53,638 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    html.dita
+2026-05-18 14:36:53,639 [INFO] utils.dita_schema_validator: [SchemaValidator] WARNINGS p1_features.dita — 5 issue(s)
+2026-05-18 14:36:53,639 [INFO] utils.dita_schema_validator: [SchemaValidator] ── DONE ── schema_passed=True, valid=2/2
+2026-05-18 14:36:53,639 [INFO] layers.layer5_final_validation: L5 DTD schema pass=True valid=2/2
+2026-05-18 14:36:53,639 [INFO] pipeline.enrich_runner: [EnrichPipeline] Layer 5 — passed=True, accuracy=100%
+2026-05-18 14:36:53,639 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Post-Enrichment Structural Validation ──
+2026-05-18 14:36:53,639 [INFO] utils.structure_validator: [StructureValidator] Checking .ditamap topicref and mapref references
+2026-05-18 14:36:53,642 [INFO] utils.structure_validator: [StructureValidator] Checking for duplicate id attributes
+2026-05-18 14:36:53,645 [INFO] utils.structure_validator: [StructureValidator] Checking <xref> href targets
+2026-05-18 14:36:53,646 [INFO] utils.structure_validator: [StructureValidator] Checking for spaces in filenames and folder names
+2026-05-18 14:36:53,647 [INFO] utils.structure_validator: [StructureValidator] Running per-file DITA schema validation
+2026-05-18 14:36:53,649 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'html/p1_features.dita' — <image> #1 (href='../media/image1.png') has no alt text — required for accessibility
+2026-05-18 14:36:53,649 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'html/p1_features.dita' — <image> #2 (href='../media/image2.png') has no alt text — required for accessibility
+2026-05-18 14:36:53,649 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'html/p1_features.dita' — <image> #3 (href='../media/image3.png') has no alt text — required for accessibility
+2026-05-18 14:36:53,649 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'html/p1_features.dita' — <image> #4 (href='../media/image4.png') has no alt text — required for accessibility
+2026-05-18 14:36:53,649 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'html/p1_features.dita' — <image> #5 (href='../media/image5.png') has no alt text — required for accessibility
+2026-05-18 14:36:53,650 [INFO] utils.structure_validator: [StructureValidator] Complete — CRITICAL=0, WARNING=5 | dita_files=2, broken_xml=0, empty=0, broken_dita_refs=0, broken_maprefs=0, orphans=0, duplicate_ids=0, broken_xrefs=0, filename_spaces=0
+2026-05-18 14:36:53,651 [INFO] pipeline.enrich_runner: [EnrichPipeline] Post-structural — CRITICAL=0, WARNING=5
+2026-05-18 14:36:53,651 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Post-Enrichment AI Content Quality Check ──
+2026-05-18 14:36:53,652 [INFO] utils.structure_validator: [EnrichmentQuality] Post-AI check — 0 issues in 2 files (CRITICAL=0, WARNING=0)
+2026-05-18 14:36:53,653 [INFO] pipeline.enrich_runner: [EnrichPipeline] AI content quality — CRITICAL=0, WARNING=0 (checks: shortdesc, keywords, indexterms)
+2026-05-18 14:36:53,653 [INFO] pipeline.enrich_runner: [EnrichPipeline] Fix report — backend_errors=0 | fixed_by_zone1=0, fixed_by_ai=2, remaining=5, ai_obligations_missed=0, new_by_ai=0
+2026-05-18 14:36:53,655 [INFO] pipeline.enrich_runner: [EnrichPipeline] Saved: D:\MetR Phase 2\metR-Converter-DOCX\output\deadb2f0-3967-4ee3-a6ae-313b3d346ff0\ai_reports\_agent_report.json
+2026-05-18 14:36:53,655 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Layer 6: Suggestion Agent ──
+2026-05-18 14:36:53,870 [INFO] layers.layer6_fix_agent: L6/Suggest ── Started ──
+2026-05-18 14:36:53,885 [INFO] layers.layer6_fix_agent: L6/Suggest 3 issues (pre-dedup)
+2026-05-18 14:36:53,885 [INFO] layers.layer6_fix_agent: L6/Suggest 3 unique issues
+2026-05-18 14:36:53,887 [INFO] layers.layer6_fix_agent: L6/Suggest tmpl image_missing_alt html/p1_features.dita
+2026-05-18 14:36:53,887 [INFO] layers.layer6_fix_agent: L6/Suggest tmpl missing_prodname html/html.dita
+2026-05-18 14:36:53,888 [INFO] layers.layer6_fix_agent: L6/Suggest tmpl missing_prodname html/p1_features.dita
+2026-05-18 14:36:53,889 [INFO] layers.layer6_fix_agent: L6/Suggest ✓ 3 suggestions
+2026-05-18 14:36:53,890 [INFO] layers.layer6_fix_agent: L6/Suggest ✓ saved 3 suggestions
+2026-05-18 14:36:53,890 [INFO] layers.layer6_fix_agent: L6/Suggest ── Done ──
+2026-05-18 14:36:53,890 [INFO] pipeline.enrich_runner: [EnrichPipeline] Layer 6 — suggestions_generated=3
+2026-05-18 14:36:53,892 [INFO] pipeline.enrich_runner: [EnrichPipeline] Final element counts (post-enrichment): {'ol': 1, 'ul': 7, 'table': 0, 'image': 5, 'crosslink': 0, 'hyperlink': 1, 'concept': 2, 'task': 0, 'reference': 0, 'topic': 0}
+2026-05-18 14:36:53,893 [INFO] pipeline.enrich_runner: [EnrichPipeline] Saved: D:\MetR Phase 2\metR-Converter-DOCX\output\deadb2f0-3967-4ee3-a6ae-313b3d346ff0\ai_reports\_agent_report.json
+2026-05-18 14:36:53,894 [INFO] pipeline.enrich_runner: [EnrichPipeline] Saved: D:\MetR Phase 2\metR-Converter-DOCX\output\deadb2f0-3967-4ee3-a6ae-313b3d346ff0\ai_reports\pre_enrichment.json
+2026-05-18 14:36:53,896 [INFO] pipeline.enrich_runner: [EnrichPipeline] Saved: D:\MetR Phase 2\metR-Converter-DOCX\output\deadb2f0-3967-4ee3-a6ae-313b3d346ff0\ai_reports\post_enrichment.json
+2026-05-18 14:36:53,897 [INFO] pipeline.enrich_runner: =================================================================
+2026-05-18 14:36:53,897 [INFO] pipeline.enrich_runner: [EnrichPipeline] JOB COMPLETED  job_id=deadb2f0-3967-4ee3-a6ae-313b3d346ff0
+2026-05-18 14:36:53,897 [INFO] pipeline.enrich_runner: [EnrichPipeline] Log file : D:\MetR Phase 2\metR-Converter-DOCX\output\deadb2f0-3967-4ee3-a6ae-313b3d346ff0\ai_logs\ai_enrichment.log
+2026-05-18 14:36:53,898 [INFO] pipeline.enrich_runner: [EnrichPipeline] Reports  : D:\MetR Phase 2\metR-Converter-DOCX\output\deadb2f0-3967-4ee3-a6ae-313b3d346ff0\ai_reports
+2026-05-18 14:36:53,898 [INFO] pipeline.enrich_runner: =================================================================
+2026-05-18 14:36:53,947 [INFO] pipeline.enrich_runner: [EnrichPipeline] Raw backup deleted after successful enrichment
