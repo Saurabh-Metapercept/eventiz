@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="p1_features" xml:lang="en-us">
+  <title>P1 Features</title>
+  <shortdesc>I hope you’re doing well.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>search</keyword>
+        <keyword>would</keyword>
+        <keyword>results</keyword>
+        <keyword>approach</keyword>
+        <keyword>DITA</keyword>
+        <keyword>current</keyword>
+        <indexterm>search</indexterm>
+        <indexterm>would</indexterm>
+        <indexterm>results</indexterm>
+        <indexterm>result</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+  <conbody>    <ol>
+    <li><p>Search results matching navigation trees.</p>
+      <ul>
+    <li><p>When a user selects a particular search result, it should highlight the file location in the navigation tree.</p>
+      <fig>
+                <image href="../media/image1.png"/>
+              </fig></li>
+    </ul></li>
+    <li><p>Enhanced search function.</p>
+      <ul>
+    <li><p>Matched search results should be <b>highlighted in Yellow</b>on the content page.</p>
+      <fig>
+                <image href="../media/image2.png"/>
+              </fig></li>
+    </ul></li>
+    <li>Need a checkbox for <b>Whole Word Only</b>.</li>
+    <li><p>Need a checkbox for <b>Match Case</b>.</p>
+      <fig>
+            <image href="../media/image3.png"/>
+          </fig>
+          <note type="note">Above checkboxes are just a suggestion, you can think of adding in better place.</note></li>
+    <li>Title tag content should be shown in the top search results (Check box for <b>Only Title</b>?).</li>
+    <li>Any other new search enhancements that improve the search accuracy.</li>
+    <li><p>Option to download as PDF.</p>
+      <ul>
+    <li><p>Parent and its child topic should be downloadable as a PDF.</p>
+      <fig>
+                <image href="../media/image4.png"/>
+              </fig></li>
+    </ul></li>
+    <li><p>Breadcrumb navigation pane with cross reference.</p>
+      <fig>
+            <image href="../media/image5.png"/>
+          </fig>
+          <p>Hi Amit,</p>
+          <p>I hope you’re doing well.</p>
+          <p>We would like to sync with you on the next steps to enhance our custom DITAOT HTML5 output plugin and align on the best technical and delivery approach moving forward.</p>
+          <p>As background, as discussed previously, the following enhancements for the HTML5 plugin were identified:</p></li>
+    <li>Search results mapped to the navigation tree</li>
+    <li>Highlighting matched search text in the content view</li>
+    <li>Advanced search options (Whole Word Only, Match Case)</li>
+    <li>Search results prioritizing &lt;title&gt; content</li>
+    <li>PDF download option for parent + child topics</li>
+    <li><p>Breadcrumb navigation with cross-references</p>
+      <p>In addition, we also want to support the following:</p></li>
+    <li>Migration to <b>DITA</b>
+          <b>OT 4.x</b></li>
+    <li><p>Replacement of <b>YUI 2</b> with a native TOC engine (CVEyui2-removal)</p>
+      <p>
+            <b>Scope and</b>
+            <b>current status</b>
+          </p>
+          <ul id="ul_131257">
+            <li>From the highpriority items, our most immediate focus is item <b>5</b>, followed by items<b>2, 3, and 4</b>.</li>
+            <li>For <b>item 2 (highlighting matched search text)</b>, we have done some internal work already; however, we are not fully confident that the current approach is ideal or scalable.</li>
+            <li>For <b>item 4 (prioritizing &lt;title&gt; content in search results)</b>, our understanding is that this may already be supported. We would appreciate it if you could confirm this.</li>
+            <li>For <b>items 1 and 6</b>, we plan to complete the implementation internally to manage budget. Some parts are already implemented, but they have not yet been extensively tested.</li>
+            <li>
+              <b>Item 8 (YUI 2 removal)</b> has been implemented on our side and tested with a sample output, and the results look good so far. That said, we still need to extend testing across broader scenarios.</li>
+          </ul>
+          <p>Our target is to have the <b>priority items ready by the beginning of May</b>, which makes it important for us to align early on scope, dependencies, and sequencing.</p>
+          <p>
+            <b>Advanced search (Whole Word Only, Match Case)</b>
+          </p>
+          <p>We would especially appreciate your input on the advanced search options.</p>
+          <p>Our understanding is that the current search implementation relies on <b>stemmed words</b> for indexing, with only the title and short description retained in their original (nonstemmed) form. Based on this, we are uncertain whether:</p>
+          <ul id="ul_13125701">
+            <li>The existing search architecture can realistically be extended to support <b>whole</b>
+              <b>word searches</b> and <b>case sensitivity</b>, or</li>
+            <li>A new or significantly reworked search implementation would be required to properly support these capabilities.</li>
+          </ul>
+          <p>We would value your assessment of whether the current approach is extendable or whether a redesign would be more appropriate, along with any recommendations you may have.</p>
+          <p>
+            <b>Coordination and division of work</b>
+          </p>
+          <p>We are making some adaptations to the HTML5 plugin internally, while other parts will need to be implemented by your team. It’s important for us to sync up and agree on the best overall approach to proceed and ensure that our efforts align.</p>
+          <p>
+            <b>DITA</b>
+            <b>OT 4.x migration</b>
+          </p>
+          <p>We would also like your guidance on the migration to <b>DITA</b>
+            <b>OT 4.x</b>, particularly in relation to the requested feature enhancements. Our initial assumption is that the migration cannot be done fully in parallel with major feature adaptations, but we would like your input on this.</p>
+          <p>Specifically, we’d like to discuss:</p></li>
+    <li>Whether it makes sense to <b>migrate to DITA</b>
+          <b>OT 4.x first</b> before addressing the highpriority items, and whether this is feasible within our current timeline.</li>
+    <li>A <b>rough estimate</b> of the effort required to migrate the custom plugin to DITAOT 4.x.</li>
+    <li>If we continue working on the current DITAOT version in the short term, how much additional effort or technical risk this might introduce when migrating to 4.x later.</li>
+    </ol>
+    <section>
+      <title>Result</title>
+      <p>
+        <b>Training (related to DITA</b>
+        <b>OT 4.x)</b>
+      </p>
+      <p>Separately, we would also like to understand whether the <b>DITA</b>
+        <b>OT 4.x migration</b>, or potentially <b>other related features</b>, could be incorporated as part of a <b>training program</b>.</p>
+      <p>Specifically, we would appreciate your input on:</p>
+      <ul id="ul_13125702">
+        <li>Whether you consider this a <b>practical and effective approach</b>
+        </li>
+        <li>A <b>rough estimate of the overall number of hours</b> such training might require</li>
+      </ul>
+      <p>
+        <b>Next steps</b>
+      </p>
+      <p>It would be great to review these topics together and agree on:</p>
+      <ul id="ul_13125703">
+        <li>The recommended technical approach</li>
+        <li>Feature and migration sequencing</li>
+        <li>Effort estimates and key risks</li>
+      </ul>
+      <p>Please let us know your availability for a discussion, and feel free to share any initial thoughts in advance if that’s easier.</p>
+      <p>Looking forward to your guidance.</p>
+      <p>Best regards,</p>
+      <p>Maria</p>
+    </section></conbody>
+</concept>

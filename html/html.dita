@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="html" xml:lang="en-us">
+  <title>HTML</title>
+  <shortdesc>We need to enhance our existing OT with following features:</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>HTML</keyword>
+        <keyword>enhance</keyword>
+        <keyword>existing</keyword>
+        <keyword>following</keyword>
+        <keyword>features</keyword>
+        <keyword>sample</keyword>
+        <indexterm>HTML</indexterm>
+        <indexterm>enhance</indexterm>
+        <indexterm>existing</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+  <conbody>
+    <p>We need to enhance our existing OT with following features:</p>
+    <p>For sample HTML document reference, see <xref href="https://docs.saviyntcloud.com/bundle/EIC-Admin-25/page/Content/About-this-Guide.htm" scope="external" format="html">https://docs.saviyntcloud.com/bundle/EIC-Admin-25/page/Content/About-this-Guide.htm</xref>
+    </p>
+  </conbody>
+</concept>

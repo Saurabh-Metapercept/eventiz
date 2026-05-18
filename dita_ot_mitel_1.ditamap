@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="dita_ot_mitel_1" xml:lang="en-us">
+  <title>DITA OT Mitel (1)</title>
+  <topicmeta>
+    <critdates>
+      <created date="2025-11-19" />
+      <revised modified="2026-05-06" />
+    </critdates>
+  </topicmeta>
+  <mapref href="html_map.ditamap" navtitle="HTML" format="ditamap" />
+</map>

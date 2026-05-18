@@ -1,0 +1,109 @@
+{
+  "job_id": "62e3c928-34ae-48ee-8b8a-d5b0d9ccd43b",
+  "output_dir": "D:\\MetR Phase 2\\metR-Converter-DOCX\\output\\62e3c928-34ae-48ee-8b8a-d5b0d9ccd43b",
+  "run_at": "2026-05-18T07:43:00.683989+00:00",
+  "files_discovered": {
+    "dita_file_count": 2,
+    "dita_files": [
+      "html/html.dita",
+      "html/p1_features.dita"
+    ],
+    "ditamap_file_count": 2,
+    "ditamap_files": [
+      "dita_ot_mitel_1.ditamap",
+      "html_map.ditamap"
+    ]
+  },
+  "document_context": {
+    "prodname": "",
+    "equipment_name": "",
+    "task_type": "user guide",
+    "document_keywords": [
+      "user guide"
+    ],
+    "extraction_method": "heuristic"
+  },
+  "structural_issues": [
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "html/html.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "image_missing_alt",
+      "file": "html/p1_features.dita",
+      "message": "<image> #1 (href='../media/image1.png') has no alt text \u2014 required for accessibility",
+      "line": 14
+    },
+    {
+      "severity": "WARNING",
+      "category": "image_missing_alt",
+      "file": "html/p1_features.dita",
+      "message": "<image> #2 (href='../media/image2.png') has no alt text \u2014 required for accessibility",
+      "line": 27
+    },
+    {
+      "severity": "WARNING",
+      "category": "image_missing_alt",
+      "file": "html/p1_features.dita",
+      "message": "<image> #3 (href='../media/image3.png') has no alt text \u2014 required for accessibility",
+      "line": 40
+    },
+    {
+      "severity": "WARNING",
+      "category": "image_missing_alt",
+      "file": "html/p1_features.dita",
+      "message": "<image> #4 (href='../media/image4.png') has no alt text \u2014 required for accessibility",
+      "line": 58
+    },
+    {
+      "severity": "WARNING",
+      "category": "image_missing_alt",
+      "file": "html/p1_features.dita",
+      "message": "<image> #5 (href='../media/image5.png') has no alt text \u2014 required for accessibility",
+      "line": 68
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "html/p1_features.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    }
+  ],
+  "summary": {
+    "dita_file_count": 2,
+    "missing_count": 0,
+    "broken_xml_count": 0,
+    "empty_count": 0,
+    "ditamap_broken_ref_count": 0,
+    "broken_mapref_count": 0,
+    "orphan_file_count": 0,
+    "duplicate_id_count": 0,
+    "broken_xref_count": 0,
+    "filename_space_count": 0,
+    "severity_counts": {
+      "CRITICAL": 0,
+      "WARNING": 7,
+      "INFO": 0
+    },
+    "category_counts": {
+      "missing_shortdesc": 2,
+      "image_missing_alt": 5
+    }
+  },
+  "zone1_auto_fixes": {
+    "fixed": [],
+    "errors": [],
+    "summary": {
+      "fixed_count": 0,
+      "error_count": 0
+    }
+  },
+  "backend_dtd_errors": {
+    "source": "backend core _report.txt",
+    "errors_by_file": {},
+    "file_count_with_errors": 0
+  }
+}

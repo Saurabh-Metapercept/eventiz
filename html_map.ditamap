@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="html_map" xml:lang="en-us">
+  <title>HTML</title>
+  <topicref href="html/html.dita" navtitle="HTML" />
+  <topicref href="html/p1_features.dita" navtitle="P1 Features" />
+</map>

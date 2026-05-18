@@ -1,0 +1,84 @@
+{
+  "HTML": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.0,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 18
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "HTML",
+        "We",
+        "need",
+        "enhance",
+        "existing",
+        "OT",
+        "following",
+        "features",
+        "sample",
+        "document",
+        "reference",
+        "https"
+      ],
+      "compact_excerpt": "HTML We need to enhance our existing OT with following features: For sample HTML document reference, see https://docs.saviyntcloud.com/bundle/EIC-Admin-25/page/Content/About-this-Guide.htm"
+    },
+    "classified_at": 1779090180.0514476
+  },
+  "P1 Features": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.5,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 4,
+        "concept_pattern_hits": 16,
+        "reference_pattern_hits": 1,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 813
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "search",
+        "would",
+        "your",
+        "results",
+        "We",
+        "approach",
+        "DITA",
+        "OT",
+        "current",
+        "navigation",
+        "content",
+        "like"
+      ],
+      "compact_excerpt": "P1 Features Search results matching navigation trees. When a user selects a particular search result, it should highlight the file location in the navigation tree. Enhanced search function. Matched search results should be highlighted in Yellow on the content page. Need a checkbox for Whole Word Only . Need a checkbox for Match Case . Above checkboxes are just a suggestion, you can think of adding"
+    },
+    "classified_at": 1779090180.082033
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "user_id": "62e3c928-34ae-48ee-8b8a-d5b0d9ccd43b",
+  "output_dir": "D:\\MetR Phase 2\\metR-Converter-DOCX\\output\\62e3c928-34ae-48ee-8b8a-d5b0d9ccd43b",
+  "generated_at": "2026-05-18T07:43:00.896537+00:00",
+  "suggestions": [
+    {
+      "id": "3cbd0173-08c6-409f-86dd-2423d34f551b",
+      "file": "html/p1_features.dita",
+      "line": 30,
+      "severity": "WARNING",
+      "issue": "<image> #1 (href='../media/image1.png') has no alt text \u2014 required for accessibility",
+      "category": "image_missing_alt",
+      "source": "enrichment_fix_report.remaining_issues",
+      "context_lines": [
+        "  </prolog>",
+        "  <conbody>    <ol>",
+        "    <li><p>Search results matching navigation trees.</p>",
+        "      <ul>",
+        "    <li><p>When a user selects a particular search result, it should highlight the file location in the navigation tree.</p>",
+        "      <fig>",
+        "                <image href=\"../media/image1.png\"/>",
+        "              </fig></li>",
+        "    </ul></li>",
+        "    <li><p>Enhanced search function.</p>",
+        "      <ul>",
+        "    <li><p>Matched search results should be\u00a0<b>highlighted in Yellow</b>on the content page.</p>",
+        "      <fig>"
+      ],
+      "affected_lines": [
+        30,
+        37,
+        43,
+        52,
+        57
+      ],
+      "suggestion": "<image> #1 (href='../media/image1.png') has no alt text \u2014 required for accessibility.\nAdd an `alt` attribute to the `<image>` element with a brief description of what the image shows.\nExample: `<image href='../media/image.png' alt='Description of image content'/>`",
+      "status": "pending",
+      "created_at": "2026-05-18T07:43:00.894830+00:00"
+    },
+    {
+      "id": "07795748-ed76-4abf-90e9-cf13dcee9dc4",
+      "file": "html/html.dita",
+      "line": 20,
+      "severity": "WARNING",
+      "issue": "<prodname> is present but empty",
+      "category": "missing_prodname",
+      "source": "layer5_validation",
+      "context_lines": [
+        "        <keyword>sample</keyword>",
+        "        <indexterm>HTML</indexterm>",
+        "        <indexterm>enhance</indexterm>",
+        "        <indexterm>existing</indexterm>",
+        "      </keywords>",
+        "      <prodinfo>",
+        "        <prodname></prodname>",
+        "      </prodinfo>",
+        "    </metadata>",
+        "  </prolog>",
+        "  <conbody>",
+        "    <p>We need to enhance our existing OT with following features:</p>",
+        "    <p>For sample HTML document reference, see <xref href=\"https://docs.saviyntcloud.com/bundle/EIC-Admin-25/page/Content/About-this-Guide.htm\" scope=\"external\" format=\"html\">https://docs.saviyntcloud.com/bundle/EIC-Admin-25/page/Content/About-this-Guide.htm</xref>"
+      ],
+      "affected_lines": [],
+      "suggestion": "<prodname> is present but empty.\nAdd a `<prodname>` element inside `<prodinfo>` within the `<prolog>`.\nExample: `<prodinfo><prodname>Your Product Name</prodname></prodinfo>`",
+      "status": "pending",
+      "created_at": "2026-05-18T07:43:00.895391+00:00"
+    },
+    {
+      "id": "8eae583e-947c-4343-a756-b993280b8d74",
+      "file": "html/p1_features.dita",
+      "line": 21,
+      "severity": "WARNING",
+      "issue": "<prodname> is present but empty",
+      "category": "missing_prodname",
+      "source": "layer5_validation",
+      "context_lines": [
+        "        <indexterm>search</indexterm>",
+        "        <indexterm>would</indexterm>",
+        "        <indexterm>results</indexterm>",
+        "        <indexterm>result</indexterm>",
+        "      </keywords>",
+        "      <prodinfo>",
+        "        <prodname></prodname>",
+        "      </prodinfo>",
+        "    </metadata>",
+        "  </prolog>",
+        "  <conbody>    <ol>",
+        "    <li><p>Search results matching navigation trees.</p>",
+        "      <ul>"
+      ],
+      "affected_lines": [],
+      "suggestion": "<prodname> is present but empty.\nAdd a `<prodname>` element inside `<prodinfo>` within the `<prolog>`.\nExample: `<prodinfo><prodname>Your Product Name</prodname></prodinfo>`",
+      "status": "pending",
+      "created_at": "2026-05-18T07:43:00.895935+00:00"
+    }
+  ],
+  "pending_count": 3,
+  "accepted_count": 0,
+  "edited_count": 0,
+  "dismissed_count": 0
+}
