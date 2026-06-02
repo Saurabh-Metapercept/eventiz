@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="sample_document_map" xml:lang="en-us">
+  <title>Sample Document</title>
+  <topicref href="sample_document/sample_document.dita" navtitle="Sample Document" />
+  <topicref href="sample_document/headings.dita" navtitle="Headings" />
+  <topicref href="sample_document/lists.dita" navtitle="Lists" />
+  <topicref href="sample_document/links.dita" navtitle="Links" />
+  <topicref href="sample_document/images.dita" navtitle="Images" />
+  <topicref href="sample_document/tables.dita" navtitle="Tables" chunk="to-content">
+    <topicref href="sample_document/simple_tables.dita" navtitle="Simple Tables" />
+    <topicref href="sample_document/complex_tables.dita" navtitle="Complex Tables" />
+  </topicref>
+  <topicref href="sample_document/columns.dita" navtitle="Columns" />
+</map>

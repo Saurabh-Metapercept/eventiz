@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="lists" xml:lang="en-us">
+  <title>Lists</title>
+  <shortdesc>The following outline of the sections of this document is an ordered (numbered) list with</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>Tables</keyword>
+        <keyword>Lists</keyword>
+        <keyword>items</keyword>
+        <keyword>following</keyword>
+        <keyword>outline</keyword>
+        <keyword>sections</keyword>
+        <indexterm>Tables</indexterm>
+        <indexterm>Lists</indexterm>
+        <indexterm>items</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+  <conbody><p>The following outline of the sections of this document is an ordered (numbered) list with six items. The fifth item, "Tables," contains a nested unordered (bulleted) list with two items.</p>
+    <ol>
+    <li>Headings</li>
+    <li>Lists</li>
+    <li>Links</li>
+    <li>Images</li>
+    <li><p>Tables</p>
+      <ul id="ul_124553">
+            <li>Simple Tables</li>
+            <li>Complex Tables</li>
+          </ul></li>
+    <li>Columns</li>
+    </ol></conbody>
+</concept>

@@ -1,0 +1,141 @@
+[2026-06-02T07:15:53.130837+00:00] detect_docx_toc No TOC styles or field codes detected.
+[2026-06-02T07:15:53.131176+00:00] detect_docx_toc No TOC styles, field codes, or SDT detected.
+[2026-06-02T07:15:53.131494+00:00] PipelineOrchestrator TOC DETECTED = False
+[2026-06-02T07:15:53.203240+00:00] PipelineOrchestrator Starting conversion pipeline for 'sample3.docx'.
+[2026-06-02T07:15:53.203625+00:00] DocxToHtmlProcessor Converting 'sample3.docx' from DOCX to HTML.
+[2026-06-02T07:15:53.248918+00:00] DocxToHtmlProcessor Opening DOCX archive: 'sample3.docx'.
+[2026-06-02T07:15:53.249648+00:00] DocxToHtmlProcessor Reading relationships.
+[2026-06-02T07:15:53.249993+00:00] DocxToHtmlProcessor Parsing relationships from 'word/_rels/document.xml.rels'.
+[2026-06-02T07:15:53.251958+00:00] DocxToHtmlProcessor Extracted 11 relationship(s).
+[2026-06-02T07:15:53.252681+00:00] DocxToHtmlProcessor Extracting media files.
+[2026-06-02T07:15:53.253721+00:00] DocxToHtmlProcessor Copying 2 media file(s) to 'D:\MetR Phase 2\metR-Converter-DOCX\output\dad6024c-2480-4f99-bada-36d07838feb6\sample3\media'.
+[2026-06-02T07:15:53.254497+00:00] DocxToHtmlProcessor Media copied: 'image1.gif'.
+[2026-06-02T07:15:53.255841+00:00] DocxToHtmlProcessor Media copied: 'image2.png'.
+[2026-06-02T07:15:53.256076+00:00] DocxToHtmlProcessor Media copy complete -- 2 file(s) exported.
+[2026-06-02T07:15:53.256287+00:00] DocxToHtmlProcessor Reading list numbering definitions.
+[2026-06-02T07:15:53.256587+00:00] DocxToHtmlProcessor Parsing 'word/numbering.xml' for list type map.
+[2026-06-02T07:15:53.257240+00:00] DocxToHtmlProcessor Numbering map built with 2 numId(s).
+[2026-06-02T07:15:53.257460+00:00] DocxToHtmlProcessor Reading 'word/document.xml'.
+[2026-06-02T07:15:53.257723+00:00] DocxToHtmlProcessor Parsing 'word/document.xml' XML structure.
+[2026-06-02T07:15:53.259036+00:00] DocxToHtmlProcessor Processing document body paragraphs for 'sample3.docx'.
+[2026-06-02T07:15:53.261300+00:00] DocxToHtmlProcessor Document body processed — 25 HTML block(s) generated for 'sample3.docx'.
+[2026-06-02T07:15:53.261614+00:00] DocxToHtmlProcessor DOCX to HTML conversion complete.
+[2026-06-02T07:15:53.306991+00:00] HtmlToDitaNormalizer Normalizing generated HTML for DITA conversion.
+[2026-06-02T07:15:53.384021+00:00] helper_port.py class is running.
+[2026-06-02T07:15:53.395326+00:00] HtmlToDitaNormalizer HTML normalization complete.
+[2026-06-02T07:15:53.439392+00:00] TopicSplitter Splitting HTML content into topics.
+[2026-06-02T07:15:53.476764+00:00] TopicSplitter Found 9 topics.
+[2026-06-02T07:15:53.525454+00:00] TopicWriter Writing topics to .dita files.
+[2026-06-02T07:15:53.576527+00:00] TopicWriter Starting to write 9 topics to 'D:\MetR Phase 2\metR-Converter-DOCX\output\dad6024c-2480-4f99-bada-36d07838feb6\sample3'.
+[2026-06-02T07:15:53.577702+00:00] TopicWriter Building topic tree hierarchy.
+[2026-06-02T07:15:53.577940+00:00] TopicWriter Building topic tree from 9 flat topic(s).
+[2026-06-02T07:15:53.578168+00:00] TopicWriter Topic tree built — 1 root node(s).
+[2026-06-02T07:15:53.578330+00:00] TopicWriter Assigning output paths to all topics.
+[2026-06-02T07:15:53.578594+00:00] TopicWriter Assigning output paths for 1 node(s) under 'D:\MetR Phase 2\metR-Converter-DOCX\output\dad6024c-2480-4f99-bada-36d07838feb6\sample3'.
+[2026-06-02T07:15:53.579561+00:00] TopicWriter Assigning output paths for 6 node(s) under 'D:\MetR Phase 2\metR-Converter-DOCX\output\dad6024c-2480-4f99-bada-36d07838feb6\sample3'.
+[2026-06-02T07:15:53.580117+00:00] TopicWriter Assigned path for topic 'Headings': 'D:\MetR Phase 2\metR-Converter-DOCX\output\dad6024c-2480-4f99-bada-36d07838feb6\sample3\sample_document\headings.dita'.
+[2026-06-02T07:15:53.580570+00:00] TopicWriter Assigned path for topic 'Lists': 'D:\MetR Phase 2\metR-Converter-DOCX\output\dad6024c-2480-4f99-bada-36d07838feb6\sample3\sample_document\lists.dita'.
+[2026-06-02T07:15:53.580943+00:00] TopicWriter Assigned path for topic 'Links': 'D:\MetR Phase 2\metR-Converter-DOCX\output\dad6024c-2480-4f99-bada-36d07838feb6\sample3\sample_document\links.dita'.
+[2026-06-02T07:15:53.581223+00:00] TopicWriter Assigned path for topic 'Images': 'D:\MetR Phase 2\metR-Converter-DOCX\output\dad6024c-2480-4f99-bada-36d07838feb6\sample3\sample_document\images.dita'.
+[2026-06-02T07:15:53.581445+00:00] TopicWriter Assigning output paths for 2 node(s) under 'D:\MetR Phase 2\metR-Converter-DOCX\output\dad6024c-2480-4f99-bada-36d07838feb6\sample3'.
+[2026-06-02T07:15:53.581623+00:00] TopicWriter Assigned path for topic 'Simple Tables': 'D:\MetR Phase 2\metR-Converter-DOCX\output\dad6024c-2480-4f99-bada-36d07838feb6\sample3\sample_document\simple_tables.dita'.
+[2026-06-02T07:15:53.581832+00:00] TopicWriter Assigned path for topic 'Complex Tables': 'D:\MetR Phase 2\metR-Converter-DOCX\output\dad6024c-2480-4f99-bada-36d07838feb6\sample3\sample_document\complex_tables.dita'.
+[2026-06-02T07:15:53.581981+00:00] TopicWriter Path assignment complete for 2 node(s).
+[2026-06-02T07:15:53.582250+00:00] TopicWriter Assigned path for topic 'Tables': 'D:\MetR Phase 2\metR-Converter-DOCX\output\dad6024c-2480-4f99-bada-36d07838feb6\sample3\sample_document\tables.dita'.
+[2026-06-02T07:15:53.582628+00:00] TopicWriter Assigned path for topic 'Columns': 'D:\MetR Phase 2\metR-Converter-DOCX\output\dad6024c-2480-4f99-bada-36d07838feb6\sample3\sample_document\columns.dita'.
+[2026-06-02T07:15:53.582989+00:00] TopicWriter Path assignment complete for 6 node(s).
+[2026-06-02T07:15:53.583236+00:00] TopicWriter Assigned path for topic 'Sample Document': 'D:\MetR Phase 2\metR-Converter-DOCX\output\dad6024c-2480-4f99-bada-36d07838feb6\sample3\sample_document\sample_document.dita'.
+[2026-06-02T07:15:53.583422+00:00] TopicWriter Path assignment complete for 1 node(s).
+[2026-06-02T07:15:53.583603+00:00] TopicWriter Walking topic tree and writing DITA files.
+[2026-06-02T07:15:53.583872+00:00] TopicWriter Writing topic 'Sample Document' to .dita file.
+[2026-06-02T07:15:53.584102+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-06-02T07:15:53.584538+00:00] topic_structure No section headings found — rendering flat body.
+[2026-06-02T07:15:53.584798+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-06-02T07:15:53.587616+00:00] TopicWriter Topic 'D:\MetR Phase 2\metR-Converter-DOCX\output\dad6024c-2480-4f99-bada-36d07838feb6\sample3\sample_document\sample_document.dita' written successfully.
+[2026-06-02T07:15:53.587964+00:00] TopicWriter Writing topic 'Headings' to .dita file.
+[2026-06-02T07:15:53.588247+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-06-02T07:15:53.589301+00:00] topic_structure No section headings found — rendering flat body.
+[2026-06-02T07:15:53.589693+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-06-02T07:15:53.590596+00:00] TopicWriter Topic 'D:\MetR Phase 2\metR-Converter-DOCX\output\dad6024c-2480-4f99-bada-36d07838feb6\sample3\sample_document\headings.dita' written successfully.
+[2026-06-02T07:15:53.590792+00:00] TopicWriter Writing topic 'Lists' to .dita file.
+[2026-06-02T07:15:53.590931+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-06-02T07:15:53.591592+00:00] topic_structure No section headings found — rendering flat body.
+[2026-06-02T07:15:53.592014+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-06-02T07:15:53.592194+00:00] topic_structure Running convert_ol_to_steps on DITA body.
+[2026-06-02T07:15:53.593107+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-06-02T07:15:53.593493+00:00] topic_structure <steps> block built with 5 step(s).
+[2026-06-02T07:15:53.593868+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-06-02T07:15:53.594235+00:00] topic_structure <steps> block built with 1 step(s).
+[2026-06-02T07:15:53.594441+00:00] topic_structure convert_ol_to_steps completed.
+[2026-06-02T07:15:53.594742+00:00] topic_structure Partitioning task body into context/steps/result.
+[2026-06-02T07:15:53.597054+00:00] topic_structure Taskbody partitioning complete.
+[2026-06-02T07:15:53.597790+00:00] TopicWriter Topic 'D:\MetR Phase 2\metR-Converter-DOCX\output\dad6024c-2480-4f99-bada-36d07838feb6\sample3\sample_document\lists.dita' written successfully.
+[2026-06-02T07:15:53.598017+00:00] TopicWriter Writing topic 'Links' to .dita file.
+[2026-06-02T07:15:53.598299+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-06-02T07:15:53.599036+00:00] topic_structure No section headings found — rendering flat body.
+[2026-06-02T07:15:53.599467+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-06-02T07:15:53.600377+00:00] TopicWriter Topic 'D:\MetR Phase 2\metR-Converter-DOCX\output\dad6024c-2480-4f99-bada-36d07838feb6\sample3\sample_document\links.dita' written successfully.
+[2026-06-02T07:15:53.600635+00:00] TopicWriter Writing topic 'Images' to .dita file.
+[2026-06-02T07:15:53.600876+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-06-02T07:15:53.601588+00:00] topic_structure No section headings found — rendering flat body.
+[2026-06-02T07:15:53.601921+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-06-02T07:15:53.603651+00:00] TopicWriter Topic 'D:\MetR Phase 2\metR-Converter-DOCX\output\dad6024c-2480-4f99-bada-36d07838feb6\sample3\sample_document\images.dita' written successfully.
+[2026-06-02T07:15:53.603907+00:00] TopicWriter Writing topic 'Tables' to .dita file.
+[2026-06-02T07:15:53.604141+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-06-02T07:15:53.604506+00:00] topic_structure No section headings found — rendering flat body.
+[2026-06-02T07:15:53.604719+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-06-02T07:15:53.605332+00:00] TopicWriter Topic 'D:\MetR Phase 2\metR-Converter-DOCX\output\dad6024c-2480-4f99-bada-36d07838feb6\sample3\sample_document\tables.dita' written successfully.
+[2026-06-02T07:15:53.605492+00:00] TopicWriter Writing topic 'Simple Tables' to .dita file.
+[2026-06-02T07:15:53.605635+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-06-02T07:15:53.606788+00:00] topic_structure No section headings found — rendering flat body.
+[2026-06-02T07:15:53.607451+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-06-02T07:15:53.607633+00:00] topic_structure Ensuring <refbody> content is correctly wrapped in a <section> element.
+[2026-06-02T07:15:53.609112+00:00] topic_structure Wrapped <refbody> content in a single <section>.
+[2026-06-02T07:15:53.610002+00:00] TopicWriter Topic 'D:\MetR Phase 2\metR-Converter-DOCX\output\dad6024c-2480-4f99-bada-36d07838feb6\sample3\sample_document\simple_tables.dita' written successfully.
+[2026-06-02T07:15:53.610205+00:00] TopicWriter Writing topic 'Complex Tables' to .dita file.
+[2026-06-02T07:15:53.610362+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-06-02T07:15:53.611756+00:00] topic_structure No section headings found — rendering flat body.
+[2026-06-02T07:15:53.612422+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-06-02T07:15:53.612640+00:00] topic_structure Ensuring <refbody> content is correctly wrapped in a <section> element.
+[2026-06-02T07:15:53.614223+00:00] topic_structure Wrapped <refbody> content in a single <section>.
+[2026-06-02T07:15:53.614978+00:00] TopicWriter Topic 'D:\MetR Phase 2\metR-Converter-DOCX\output\dad6024c-2480-4f99-bada-36d07838feb6\sample3\sample_document\complex_tables.dita' written successfully.
+[2026-06-02T07:15:53.615211+00:00] TopicWriter Writing topic 'Columns' to .dita file.
+[2026-06-02T07:15:53.615426+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-06-02T07:15:53.616063+00:00] topic_structure No section headings found — rendering flat body.
+[2026-06-02T07:15:53.616517+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-06-02T07:15:53.617733+00:00] TopicWriter Topic 'D:\MetR Phase 2\metR-Converter-DOCX\output\dad6024c-2480-4f99-bada-36d07838feb6\sample3\sample_document\columns.dita' written successfully.
+[2026-06-02T07:15:53.618099+00:00] TopicWriter All 9 topic file(s) written successfully.
+[2026-06-02T07:15:53.687223+00:00] TopicWriter Finished writing .dita files.
+[2026-06-02T07:15:53.734717+00:00] DitaMapBuilder Generating DITAMAP file.
+[2026-06-02T07:15:53.808929+00:00] DitaMapBuilder DITAMAP generation complete.
+[2026-06-02T07:15:53.929067+00:00] DitaPostProcessor Post-processing all generated DITA files.
+[2026-06-02T07:15:54.034830+00:00] DitaPostProcessor Starting EMF->image conversion in 'D:\MetR Phase 2\metR-Converter-DOCX\output\dad6024c-2480-4f99-bada-36d07838feb6\sample3\media'.
+[2026-06-02T07:15:54.035770+00:00] DitaPostProcessor No EMF files converted (none found or all failed).
+[2026-06-02T07:15:54.211766+00:00] DitaPostProcessor Post-processing complete.
+[2026-06-02T07:15:54.263856+00:00] PipelineOrchestrator Running concept reclassification pass on topic files.
+[2026-06-02T07:15:54.264379+00:00] PipelineOrchestrator Concept reclassification complete — no files required updating.
+[2026-06-02T07:15:54.264729+00:00] HyperlinkResolver Resolving internal hyperlinks.
+[2026-06-02T07:15:54.303393+00:00] HyperlinkResolver Resolving internal hyperlinks in 9 DITA file(s) under 'D:\MetR Phase 2\metR-Converter-DOCX\output\dad6024c-2480-4f99-bada-36d07838feb6\sample3'.
+[2026-06-02T07:15:54.381408+00:00] HyperlinkResolver Hyperlink resolution complete -- no anchor xrefs required updating.
+[2026-06-02T07:15:54.381678+00:00] HyperlinkResolver Hyperlink resolution complete.
+[2026-06-02T07:15:54.435904+00:00] PipelineOrchestrator Running DTD compliance validation on all output files.
+[2026-06-02T07:15:54.482821+00:00] DitaDtdValidator Starting DTD structural compliance check for all output files in 'D:\MetR Phase 2\metR-Converter-DOCX\output\dad6024c-2480-4f99-bada-36d07838feb6\sample3'.
+[2026-06-02T07:15:54.504126+00:00] DitaDtdValidator [PASS] 'columns.dita' - This file is following DTD-compliant structure.
+[2026-06-02T07:15:54.504510+00:00] DitaDtdValidator [PASS] 'complex_tables.dita' - This file is following DTD-compliant structure.
+[2026-06-02T07:15:54.504768+00:00] DitaDtdValidator [PASS] 'headings.dita' - This file is following DTD-compliant structure.
+[2026-06-02T07:15:54.504955+00:00] DitaDtdValidator [PASS] 'images.dita' - This file is following DTD-compliant structure.
+[2026-06-02T07:15:54.505185+00:00] DitaDtdValidator [PASS] 'links.dita' - This file is following DTD-compliant structure.
+[2026-06-02T07:15:54.505481+00:00] DitaDtdValidator [PASS] 'lists.dita' - This file is following DTD-compliant structure.
+[2026-06-02T07:15:54.505712+00:00] DitaDtdValidator [PASS] 'sample_document.dita' - This file is following DTD-compliant structure.
+[2026-06-02T07:15:54.505903+00:00] DitaDtdValidator [PASS] 'simple_tables.dita' - This file is following DTD-compliant structure.
+[2026-06-02T07:15:54.506109+00:00] DitaDtdValidator [PASS] 'tables.dita' - This file is following DTD-compliant structure.
+[2026-06-02T07:15:54.506265+00:00] DitaDtdValidator [PASS] 'sample3.ditamap' - This file is following DTD-compliant structure.
+[2026-06-02T07:15:54.506637+00:00] DitaDtdValidator [PASS] 'sample_document_map.ditamap' - This file is following DTD-compliant structure.
+[2026-06-02T07:15:54.506883+00:00] DitaDtdValidator All 11 output file(s) are following DTD-compliant structure.
+[2026-06-02T07:15:54.508463+00:00] DitaDtdValidator Validation report written: 'sample3_report.txt'.
+[2026-06-02T07:15:54.556985+00:00] PipelineOrchestrator Successfully converted 'sample3.docx'.
+[2026-06-02T07:15:54.605343+00:00] ConversionService class completed successfully.
+[2026-06-02T07:15:54.682708+00:00] Upload Endpoint Successfully processed 'sample3.docx' for user 'dad6024c-2480-4f99-bada-36d07838feb6'.
+[2026-06-02T07:15:54.683315+00:00] Upload Endpoint Processing slot released for user 'dad6024c-2480-4f99-bada-36d07838feb6'.
+[2026-06-02T07:16:47.512119+00:00] Download Endpoint Received download request for user 'dad6024c-2480-4f99-bada-36d07838feb6'.
+[2026-06-02T07:16:47.512485+00:00] DownloadService class is running.

@@ -1,0 +1,185 @@
+{
+  "job_id": "dad6024c-2480-4f99-bada-36d07838feb6",
+  "output_dir": "D:\\MetR Phase 2\\metR-Converter-DOCX\\output\\dad6024c-2480-4f99-bada-36d07838feb6\\sample3",
+  "run_at": "2026-06-02T07:16:00.464238+00:00",
+  "files_discovered": {
+    "dita_file_count": 9,
+    "dita_files": [
+      "sample_document/columns.dita",
+      "sample_document/complex_tables.dita",
+      "sample_document/headings.dita",
+      "sample_document/images.dita",
+      "sample_document/links.dita",
+      "sample_document/lists.dita",
+      "sample_document/sample_document.dita",
+      "sample_document/simple_tables.dita",
+      "sample_document/tables.dita"
+    ],
+    "ditamap_file_count": 2,
+    "ditamap_files": [
+      "sample3.ditamap",
+      "sample_document_map.ditamap"
+    ]
+  },
+  "document_context": {
+    "prodname": "",
+    "equipment_name": "",
+    "task_type": "",
+    "document_keywords": [],
+    "extraction_method": "heuristic"
+  },
+  "structural_issues": [
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "sample_document/columns.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "section_missing_title",
+      "file": "sample_document/complex_tables.dita",
+      "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+      "line": 6
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_col_mismatch",
+      "file": "sample_document/complex_tables.dita",
+      "message": "table 1 row has 3 entries but cols=5"
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "sample_document/complex_tables.dita",
+      "message": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 8
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "sample_document/complex_tables.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "sample_document/headings.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "image_missing_alt",
+      "file": "sample_document/images.dita",
+      "message": "<image> #1 (href='../media/image1.gif') has no alt text \u2014 required for accessibility",
+      "line": 8
+    },
+    {
+      "severity": "WARNING",
+      "category": "image_missing_alt",
+      "file": "sample_document/images.dita",
+      "message": "<image> #2 (href='../media/image2.png') has no alt text \u2014 required for accessibility",
+      "line": 13
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "sample_document/images.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "sample_document/links.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "sample_document/lists.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "sample_document/sample_document.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "section_missing_title",
+      "file": "sample_document/simple_tables.dita",
+      "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+      "line": 6
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "sample_document/simple_tables.dita",
+      "message": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 8
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "sample_document/simple_tables.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "empty_body",
+      "file": "sample_document/tables.dita",
+      "message": "<conbody> exists but has no child elements or text content",
+      "line": 5
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "sample_document/tables.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    }
+  ],
+  "summary": {
+    "dita_file_count": 9,
+    "missing_count": 0,
+    "broken_xml_count": 0,
+    "empty_count": 1,
+    "ditamap_broken_ref_count": 0,
+    "broken_mapref_count": 0,
+    "orphan_file_count": 0,
+    "duplicate_id_count": 0,
+    "broken_xref_count": 0,
+    "filename_space_count": 0,
+    "severity_counts": {
+      "CRITICAL": 0,
+      "WARNING": 17,
+      "INFO": 0
+    },
+    "category_counts": {
+      "missing_shortdesc": 9,
+      "section_missing_title": 2,
+      "table_col_mismatch": 1,
+      "table_missing_title": 2,
+      "image_missing_alt": 2,
+      "empty_body": 1
+    }
+  },
+  "zone1_auto_fixes": {
+    "fixed": [
+      {
+        "file": "sample_document/tables.dita",
+        "fix": "expanded self-closing <conbody/> to explicit open/close tags"
+      }
+    ],
+    "errors": [],
+    "summary": {
+      "fixed_count": 1,
+      "error_count": 0
+    }
+  },
+  "backend_dtd_errors": {
+    "source": "backend core _report.txt",
+    "errors_by_file": {},
+    "file_count_with_errors": 0
+  }
+}

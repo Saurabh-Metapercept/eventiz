@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="images" xml:lang="en-us">
+  <title>Images</title>
+  <shortdesc>Documents may contain images. For example, there is an image of the web accessibility symbol</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>image</keyword>
+        <keyword>Images</keyword>
+        <keyword>images</keyword>
+        <keyword>descriptions</keyword>
+        <keyword>below</keyword>
+        <keyword>Documents</keyword>
+        <indexterm>image</indexterm>
+        <indexterm>Images</indexterm>
+        <indexterm>images</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+  <conbody>
+    <p>
+      <fig>
+        <image href="../media/image1.gif"/>
+      </fig>Documents may contain images. For example, there is an image of the web accessibility symbol to the left of this paragraph. Its alternate text is "Web Access Symbol".</p>
+    <p>Alt text should communicate what an image means, not how it looks.</p>
+    <p>
+      <fig>
+        <image href="../media/image2.png"/>
+      </fig>Some images, such as charts or graphs, require long descriptions, but not all document types allow that. In web pages, long descriptions may be provided in several ways: on the page below the image, via a link below the image, or via a link on the image.</p>
+  </conbody>
+</concept>

@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="simple_tables" xml:lang="en-us">
+  <title>Simple Tables</title>
+  <shortdesc>have a uniform number of columns and rows, without any merged cells:</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>Simple</keyword>
+        <keyword>Tables</keyword>
+        <keyword>tables</keyword>
+        <keyword>uniform</keyword>
+        <keyword>number</keyword>
+        <keyword>columns</keyword>
+        <indexterm>Simple</indexterm>
+        <indexterm>Tables</indexterm>
+        <indexterm>tables</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+  <body><p>Simple tables have a uniform number of columns and rows, without any merged cells:</p>
+<table frame="all" colsep="1" rowsep="1">
+        <tgroup cols="3">
+          <colspec colname="col1" colnum="1" colwidth="1*"/>
+          <colspec colname="col2" colnum="2" colwidth="1*"/>
+          <colspec colname="col3" colnum="3" colwidth="1*"/>
+          <tbody>
+            <row>
+              <entry>
+                <b>Screen Reader</b>
+              </entry>
+              <entry>
+                <b>Responses</b>
+              </entry>
+              <entry>
+                <b>Share</b>
+              </entry>
+            </row>
+            <row>
+              <entry>JAWS</entry>
+              <entry>853</entry>
+              <entry>49%</entry>
+            </row>
+            <row>
+              <entry>NVDA</entry>
+              <entry>238</entry>
+              <entry>14%</entry>
+            </row>
+            <row>
+              <entry>Window-Eyes</entry>
+              <entry>214</entry>
+              <entry>12%</entry>
+            </row>
+            <row>
+              <entry>System Access</entry>
+              <entry>181</entry>
+              <entry>10%</entry>
+            </row>
+            <row>
+              <entry>VoiceOver</entry>
+              <entry>159</entry>
+              <entry>9%</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table></body>
+</topic>

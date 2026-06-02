@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="columns" xml:lang="en-us">
+  <title>Columns</title>
+  <shortdesc>This is an example of columns. With columns, the page is split into two or</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>columns</keyword>
+        <keyword>column</keyword>
+        <keyword>first</keyword>
+        <keyword>Columns</keyword>
+        <keyword>across</keyword>
+        <keyword>second</keyword>
+        <indexterm>columns</indexterm>
+        <indexterm>column</indexterm>
+        <indexterm>first</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+  <conbody>
+    <p>This is an example of columns. With columns, the page is split into two or more horizontal sections. Unlike tables, in which you usually read across a row and then down to the next, in columns, you read down a column and then across to the next.
+  When columns are not created correctly, screen readers may run lines together, reading the first line of the first column, then the first line of the second column, then the second line of the first column, and so on. Obviously, that is not accessible.</p>
+  </conbody>
+</concept>

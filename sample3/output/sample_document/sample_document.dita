@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="_top" xml:lang="en-us">
+  <title>Sample Document</title>
+  <shortdesc>This document was created using accessibility techniques for headings, lists, image alternate text, tables, and</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>Sample</keyword>
+        <keyword>Document</keyword>
+        <keyword>using</keyword>
+        <keyword>document</keyword>
+        <keyword>created</keyword>
+        <keyword>accessibility</keyword>
+        <indexterm>Sample</indexterm>
+        <indexterm>Document</indexterm>
+        <indexterm>using</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+  <body>
+    <p>This document was created using accessibility techniques for headings, lists, image alternate text, tables, and columns. It should be completely accessible using assistive technologies such as screen readers.</p>
+  </body>
+</topic>
