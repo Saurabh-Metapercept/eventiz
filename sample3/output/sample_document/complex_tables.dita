@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="complex_tables" xml:lang="en-us">
+  <title>Complex Tables</title>
+  <refbody>
+    <section id="sec_d15e7">
+      <p>The following is a complex table, using merged cells as headers for sections within the table. This can't be made accessible in all types of documents:</p>
+      <table frame="all" colsep="1" rowsep="1">
+        <tgroup cols="5">
+          <colspec colname="col1" colwidth="1*"/>
+          <colspec colname="col2" colwidth="1*"/>
+          <colspec colname="col3" colwidth="1*"/>
+          <colspec colname="col4" colwidth="1*"/>
+          <colspec colname="col5" colwidth="1*"/>
+          <tbody>
+            <row>
+              <entry/>
+              <entry>
+                <b>May 2012</b>
+              </entry>
+              <entry>
+                <b>September 2010</b>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <b>Screen Reader</b>
+              </entry>
+              <entry>
+                <b>Responses</b>
+              </entry>
+              <entry>
+                <b>Share</b>
+              </entry>
+              <entry>
+                <b>Responses</b>
+              </entry>
+              <entry>
+                <b>Share</b>
+              </entry>
+            </row>
+            <row>
+              <entry>JAWS</entry>
+              <entry>853</entry>
+              <entry>49%</entry>
+              <entry>727</entry>
+              <entry>59%</entry>
+            </row>
+            <row>
+              <entry>NVDA</entry>
+              <entry>238</entry>
+              <entry>14%</entry>
+              <entry>105</entry>
+              <entry>9%</entry>
+            </row>
+            <row>
+              <entry>Window-Eyes</entry>
+              <entry>214</entry>
+              <entry>12%</entry>
+              <entry>138</entry>
+              <entry>11%</entry>
+            </row>
+            <row>
+              <entry>System Access</entry>
+              <entry>181</entry>
+              <entry>10%</entry>
+              <entry>58</entry>
+              <entry>5%</entry>
+            </row>
+            <row>
+              <entry>VoiceOver</entry>
+              <entry>159</entry>
+              <entry>9%</entry>
+              <entry>120</entry>
+              <entry>10%</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

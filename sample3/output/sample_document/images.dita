@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="images" xml:lang="en-us">
+  <title>Images</title>
+  <conbody>
+    <p>
+      <fig><title>placeholder</title>
+        <image href="../media/image1.gif"><alt>placeholder</alt></image>
+      </fig>Documents may contain images. For example, there is an image of the web accessibility symbol to the left of this paragraph. Its alternate text is "Web Access Symbol".</p>
+    <p>Alt text should communicate what an image means, not how it looks.</p>
+    <p>
+      <fig><title>placeholder</title>
+        <image href="../media/image2.png"><alt>placeholder</alt></image>
+      </fig>Some images, such as charts or graphs, require long descriptions, but not all document types allow that. In web pages, long descriptions may be provided in several ways: on the page below the image, via a link below the image, or via a link on the image.</p>
+  </conbody>
+</concept>

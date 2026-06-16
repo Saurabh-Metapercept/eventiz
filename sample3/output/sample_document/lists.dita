@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="lists" xml:lang="en-us">
+  <title>Lists</title>
+  <taskbody>
+    <context>
+      <p>The following outline of the sections of this document is an ordered (numbered) list with six items. The fifth item, "Tables," contains a nested unordered (bulleted) list with two items.</p>
+    </context>
+    <steps id="steps_14050201">
+      <step>
+        <cmd>Headings</cmd>
+      </step>
+      <step>
+        <cmd>Lists</cmd>
+      </step>
+      <step>
+        <cmd>Links</cmd>
+      </step>
+      <step>
+        <cmd>Images</cmd>
+      </step>
+      <step>
+        <cmd>Tables</cmd>
+        <info>
+          <ul id="ul_140502">
+            <li>Simple Tables</li>
+            <li>Complex Tables</li>
+          </ul>
+        </info>
+      </step>
+      <step>
+        <cmd>Columns</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

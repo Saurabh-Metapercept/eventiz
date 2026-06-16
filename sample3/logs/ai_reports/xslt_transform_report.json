@@ -1,0 +1,99 @@
+{
+  "status": "completed",
+  "run_at": "2026-06-16T08:35:36.254726+00:00",
+  "xslt_applied": "doc-type-specific",
+  "summary": {
+    "files_processed": 9,
+    "files_modified": 3,
+    "files_unchanged": 6,
+    "files_failed": 0,
+    "total_fixes_by_type": {
+      "FIX-01_colspec_bad_attrs": 8,
+      "FIX-03_section_missing_id": 2,
+      "FIX-02_image_missing_alt": 2
+    }
+  },
+  "per_file": [
+    {
+      "file": "sample_document/columns.dita",
+      "doc_type": "concept",
+      "xsl_applied": "concept.xsl",
+      "modified": false,
+      "fixes_applied": {},
+      "error": null
+    },
+    {
+      "file": "sample_document/complex_tables.dita",
+      "doc_type": "reference",
+      "xsl_applied": "reference.xsl",
+      "modified": true,
+      "fixes_applied": {
+        "FIX-01_colspec_bad_attrs": 5,
+        "FIX-03_section_missing_id": 1
+      },
+      "error": null
+    },
+    {
+      "file": "sample_document/headings.dita",
+      "doc_type": "concept",
+      "xsl_applied": "concept.xsl",
+      "modified": false,
+      "fixes_applied": {},
+      "error": null
+    },
+    {
+      "file": "sample_document/images.dita",
+      "doc_type": "concept",
+      "xsl_applied": "concept.xsl",
+      "modified": true,
+      "fixes_applied": {
+        "FIX-02_image_missing_alt": 2
+      },
+      "error": null
+    },
+    {
+      "file": "sample_document/links.dita",
+      "doc_type": "concept",
+      "xsl_applied": "concept.xsl",
+      "modified": false,
+      "fixes_applied": {},
+      "error": null
+    },
+    {
+      "file": "sample_document/lists.dita",
+      "doc_type": "task",
+      "xsl_applied": "task.xsl",
+      "modified": false,
+      "fixes_applied": {},
+      "error": null
+    },
+    {
+      "file": "sample_document/sample_document.dita",
+      "doc_type": "concept",
+      "xsl_applied": "concept.xsl",
+      "modified": false,
+      "fixes_applied": {},
+      "error": null
+    },
+    {
+      "file": "sample_document/simple_tables.dita",
+      "doc_type": "reference",
+      "xsl_applied": "reference.xsl",
+      "modified": true,
+      "fixes_applied": {
+        "FIX-01_colspec_bad_attrs": 3,
+        "FIX-03_section_missing_id": 1
+      },
+      "error": null
+    },
+    {
+      "file": "sample_document/tables.dita",
+      "doc_type": "concept",
+      "xsl_applied": "concept.xsl",
+      "modified": false,
+      "fixes_applied": {},
+      "error": null
+    }
+  ],
+  "xslt_errors": []
+}

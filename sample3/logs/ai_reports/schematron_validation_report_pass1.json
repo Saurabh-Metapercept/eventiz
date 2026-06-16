@@ -1,0 +1,310 @@
+{
+  "status": "completed",
+  "run_at": "2026-06-16T08:36:11.448041+00:00",
+  "summary": {
+    "files_validated": 11,
+    "files_with_violations": 4,
+    "total_violations": 21,
+    "violations_by_gate": {
+      "gate1": 10,
+      "gate2": 0,
+      "gate3": 11,
+      "gate4": 0
+    },
+    "violations_by_severity": {
+      "error": 21,
+      "warning": 0
+    }
+  },
+  "violations": [
+    {
+      "file": "sample_document/complex_tables.dita",
+      "doc_type": "concept",
+      "gate": 3,
+      "rule_code": "CM-ENTRY",
+      "severity": "ERROR",
+      "message": "[CM-ENTRY] <b> is not a permitted child of <entry> per the DITA 2.0 DTD. Permitted children: dl div fig image lines lq note object ol p pre sl ul boolean cite keyword ph q term text tm xref state data data-about foreign unknown draft-comment fn indextermref indexterm required-cleanup.",
+      "category": "invalid_inline_element",
+      "source": "schematron_gate3"
+    },
+    {
+      "file": "sample_document/complex_tables.dita",
+      "doc_type": "concept",
+      "gate": 3,
+      "rule_code": "CM-ENTRY",
+      "severity": "ERROR",
+      "message": "[CM-ENTRY] <b> is not a permitted child of <entry> per the DITA 2.0 DTD. Permitted children: dl div fig image lines lq note object ol p pre sl ul boolean cite keyword ph q term text tm xref state data data-about foreign unknown draft-comment fn indextermref indexterm required-cleanup.",
+      "category": "invalid_inline_element",
+      "source": "schematron_gate3"
+    },
+    {
+      "file": "sample_document/complex_tables.dita",
+      "doc_type": "concept",
+      "gate": 3,
+      "rule_code": "CM-ENTRY",
+      "severity": "ERROR",
+      "message": "[CM-ENTRY] <b> is not a permitted child of <entry> per the DITA 2.0 DTD. Permitted children: dl div fig image lines lq note object ol p pre sl ul boolean cite keyword ph q term text tm xref state data data-about foreign unknown draft-comment fn indextermref indexterm required-cleanup.",
+      "category": "invalid_inline_element",
+      "source": "schematron_gate3"
+    },
+    {
+      "file": "sample_document/complex_tables.dita",
+      "doc_type": "concept",
+      "gate": 3,
+      "rule_code": "CM-ENTRY",
+      "severity": "ERROR",
+      "message": "[CM-ENTRY] <b> is not a permitted child of <entry> per the DITA 2.0 DTD. Permitted children: dl div fig image lines lq note object ol p pre sl ul boolean cite keyword ph q term text tm xref state data data-about foreign unknown draft-comment fn indextermref indexterm required-cleanup.",
+      "category": "invalid_inline_element",
+      "source": "schematron_gate3"
+    },
+    {
+      "file": "sample_document/complex_tables.dita",
+      "doc_type": "concept",
+      "gate": 3,
+      "rule_code": "CM-ENTRY",
+      "severity": "ERROR",
+      "message": "[CM-ENTRY] <b> is not a permitted child of <entry> per the DITA 2.0 DTD. Permitted children: dl div fig image lines lq note object ol p pre sl ul boolean cite keyword ph q term text tm xref state data data-about foreign unknown draft-comment fn indextermref indexterm required-cleanup.",
+      "category": "invalid_inline_element",
+      "source": "schematron_gate3"
+    },
+    {
+      "file": "sample_document/complex_tables.dita",
+      "doc_type": "concept",
+      "gate": 3,
+      "rule_code": "CM-ENTRY",
+      "severity": "ERROR",
+      "message": "[CM-ENTRY] <b> is not a permitted child of <entry> per the DITA 2.0 DTD. Permitted children: dl div fig image lines lq note object ol p pre sl ul boolean cite keyword ph q term text tm xref state data data-about foreign unknown draft-comment fn indextermref indexterm required-cleanup.",
+      "category": "invalid_inline_element",
+      "source": "schematron_gate3"
+    },
+    {
+      "file": "sample_document/complex_tables.dita",
+      "doc_type": "concept",
+      "gate": 3,
+      "rule_code": "CM-ENTRY",
+      "severity": "ERROR",
+      "message": "[CM-ENTRY] <b> is not a permitted child of <entry> per the DITA 2.0 DTD. Permitted children: dl div fig image lines lq note object ol p pre sl ul boolean cite keyword ph q term text tm xref state data data-about foreign unknown draft-comment fn indextermref indexterm required-cleanup.",
+      "category": "invalid_inline_element",
+      "source": "schematron_gate3"
+    },
+    {
+      "file": "sample_document/simple_tables.dita",
+      "doc_type": "topic",
+      "gate": 3,
+      "rule_code": "CM-ENTRY",
+      "severity": "ERROR",
+      "message": "[CM-ENTRY] <b> is not a permitted child of <entry> per the DITA 2.0 DTD. Permitted children: dl div fig image lines lq note object ol p pre sl ul boolean cite keyword ph q term text tm xref state data data-about foreign unknown draft-comment fn indextermref indexterm required-cleanup.",
+      "category": "invalid_inline_element",
+      "source": "schematron_gate3"
+    },
+    {
+      "file": "sample_document/simple_tables.dita",
+      "doc_type": "topic",
+      "gate": 3,
+      "rule_code": "CM-ENTRY",
+      "severity": "ERROR",
+      "message": "[CM-ENTRY] <b> is not a permitted child of <entry> per the DITA 2.0 DTD. Permitted children: dl div fig image lines lq note object ol p pre sl ul boolean cite keyword ph q term text tm xref state data data-about foreign unknown draft-comment fn indextermref indexterm required-cleanup.",
+      "category": "invalid_inline_element",
+      "source": "schematron_gate3"
+    },
+    {
+      "file": "sample_document/simple_tables.dita",
+      "doc_type": "topic",
+      "gate": 3,
+      "rule_code": "CM-ENTRY",
+      "severity": "ERROR",
+      "message": "[CM-ENTRY] <b> is not a permitted child of <entry> per the DITA 2.0 DTD. Permitted children: dl div fig image lines lq note object ol p pre sl ul boolean cite keyword ph q term text tm xref state data data-about foreign unknown draft-comment fn indextermref indexterm required-cleanup.",
+      "category": "invalid_inline_element",
+      "source": "schematron_gate3"
+    },
+    {
+      "file": "sample3.ditamap",
+      "doc_type": "map",
+      "gate": 1,
+      "rule_code": "",
+      "severity": "ERROR",
+      "message": "Error: Attribute \"navtitle\" on <mapref> is not permitted in a DITA 2.0 map document.",
+      "category": "mapref_in_map",
+      "source": "schematron_gate1"
+    },
+    {
+      "file": "sample3.ditamap",
+      "doc_type": "map",
+      "gate": 3,
+      "rule_code": "CM-MAP",
+      "severity": "ERROR",
+      "message": "[CM-MAP] <mapref> is not a permitted child of <map> per the DITA 2.0 DTD. Permitted children: title topicmeta anchor data data-about navref reltable topicref.",
+      "category": "mapref_in_map",
+      "source": "schematron_gate3"
+    },
+    {
+      "file": "sample_document_map.ditamap",
+      "doc_type": "map",
+      "gate": 1,
+      "rule_code": "",
+      "severity": "ERROR",
+      "message": "Error: Attribute \"navtitle\" on <topicref> is not permitted in a DITA 2.0 map document.",
+      "category": "dtd_violation",
+      "source": "schematron_gate1"
+    },
+    {
+      "file": "sample_document_map.ditamap",
+      "doc_type": "map",
+      "gate": 1,
+      "rule_code": "",
+      "severity": "ERROR",
+      "message": "Error: Attribute \"navtitle\" on <topicref> is not permitted in a DITA 2.0 map document.",
+      "category": "dtd_violation",
+      "source": "schematron_gate1"
+    },
+    {
+      "file": "sample_document_map.ditamap",
+      "doc_type": "map",
+      "gate": 1,
+      "rule_code": "",
+      "severity": "ERROR",
+      "message": "Error: Attribute \"navtitle\" on <topicref> is not permitted in a DITA 2.0 map document.",
+      "category": "dtd_violation",
+      "source": "schematron_gate1"
+    },
+    {
+      "file": "sample_document_map.ditamap",
+      "doc_type": "map",
+      "gate": 1,
+      "rule_code": "",
+      "severity": "ERROR",
+      "message": "Error: Attribute \"navtitle\" on <topicref> is not permitted in a DITA 2.0 map document.",
+      "category": "dtd_violation",
+      "source": "schematron_gate1"
+    },
+    {
+      "file": "sample_document_map.ditamap",
+      "doc_type": "map",
+      "gate": 1,
+      "rule_code": "",
+      "severity": "ERROR",
+      "message": "Error: Attribute \"navtitle\" on <topicref> is not permitted in a DITA 2.0 map document.",
+      "category": "dtd_violation",
+      "source": "schematron_gate1"
+    },
+    {
+      "file": "sample_document_map.ditamap",
+      "doc_type": "map",
+      "gate": 1,
+      "rule_code": "",
+      "severity": "ERROR",
+      "message": "Error: Attribute \"navtitle\" on <topicref> is not permitted in a DITA 2.0 map document.",
+      "category": "dtd_violation",
+      "source": "schematron_gate1"
+    },
+    {
+      "file": "sample_document_map.ditamap",
+      "doc_type": "map",
+      "gate": 1,
+      "rule_code": "",
+      "severity": "ERROR",
+      "message": "Error: Attribute \"navtitle\" on <topicref> is not permitted in a DITA 2.0 map document.",
+      "category": "dtd_violation",
+      "source": "schematron_gate1"
+    },
+    {
+      "file": "sample_document_map.ditamap",
+      "doc_type": "map",
+      "gate": 1,
+      "rule_code": "",
+      "severity": "ERROR",
+      "message": "Error: Attribute \"navtitle\" on <topicref> is not permitted in a DITA 2.0 map document.",
+      "category": "dtd_violation",
+      "source": "schematron_gate1"
+    },
+    {
+      "file": "sample_document_map.ditamap",
+      "doc_type": "map",
+      "gate": 1,
+      "rule_code": "",
+      "severity": "ERROR",
+      "message": "Error: Attribute \"navtitle\" on <topicref> is not permitted in a DITA 2.0 map document.",
+      "category": "dtd_violation",
+      "source": "schematron_gate1"
+    }
+  ],
+  "per_file": [
+    {
+      "file": "sample_document/columns.dita",
+      "doc_type": "concept",
+      "is_valid": true,
+      "error_count": 0,
+      "warning_count": 0
+    },
+    {
+      "file": "sample_document/complex_tables.dita",
+      "doc_type": "concept",
+      "is_valid": false,
+      "error_count": 7,
+      "warning_count": 0
+    },
+    {
+      "file": "sample_document/headings.dita",
+      "doc_type": "concept",
+      "is_valid": true,
+      "error_count": 0,
+      "warning_count": 0
+    },
+    {
+      "file": "sample_document/images.dita",
+      "doc_type": "concept",
+      "is_valid": true,
+      "error_count": 0,
+      "warning_count": 0
+    },
+    {
+      "file": "sample_document/links.dita",
+      "doc_type": "topic",
+      "is_valid": true,
+      "error_count": 0,
+      "warning_count": 0
+    },
+    {
+      "file": "sample_document/lists.dita",
+      "doc_type": "concept",
+      "is_valid": true,
+      "error_count": 0,
+      "warning_count": 0
+    },
+    {
+      "file": "sample_document/sample_document.dita",
+      "doc_type": "topic",
+      "is_valid": true,
+      "error_count": 0,
+      "warning_count": 0
+    },
+    {
+      "file": "sample_document/simple_tables.dita",
+      "doc_type": "topic",
+      "is_valid": false,
+      "error_count": 3,
+      "warning_count": 0
+    },
+    {
+      "file": "sample_document/tables.dita",
+      "doc_type": "concept",
+      "is_valid": true,
+      "error_count": 0,
+      "warning_count": 0
+    },
+    {
+      "file": "sample3.ditamap",
+      "doc_type": "map",
+      "is_valid": false,
+      "error_count": 2,
+      "warning_count": 0
+    },
+    {
+      "file": "sample_document_map.ditamap",
+      "doc_type": "map",
+      "is_valid": false,
+      "error_count": 9,
+      "warning_count": 0
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "status": "completed",
+  "files_fixed": 1,
+  "total_fixed": 2,
+  "file_results": [
+    {
+      "file": "sample_document/complex_tables.dita",
+      "violations_in": 7,
+      "fixes_applied": 0,
+      "fix_types": [],
+      "warnings": [
+        "<b>(7) kept as DITA 1.3 \u2014 as per DITA 2.x should be <ph outputclass=\"bold\">"
+      ],
+      "inline_warnings": [
+        {
+          "tag": "b",
+          "count": 7,
+          "lines": [
+            36,
+            39,
+            44,
+            47,
+            50,
+            53,
+            56
+          ],
+          "message": "<b>(7) kept as DITA 1.3 \u2014 as per DITA 2.x should be <ph outputclass=\"bold\">",
+          "dita2x_replacement": "<ph outputclass=\"bold\">"
+        }
+      ]
+    },
+    {
+      "file": "sample_document/images.dita",
+      "violations_in": 4,
+      "fixes_applied": 2,
+      "fix_types": [
+        "image_dims(2)"
+      ],
+      "warnings": [],
+      "inline_warnings": []
+    },
+    {
+      "file": "sample_document/simple_tables.dita",
+      "violations_in": 3,
+      "fixes_applied": 0,
+      "fix_types": [],
+      "warnings": [
+        "<b>(3) kept as DITA 1.3 \u2014 as per DITA 2.x should be <ph outputclass=\"bold\">"
+      ],
+      "inline_warnings": [
+        {
+          "tag": "b",
+          "count": 3,
+          "lines": [
+            33,
+            36,
+            39
+          ],
+          "message": "<b>(3) kept as DITA 1.3 \u2014 as per DITA 2.x should be <ph outputclass=\"bold\">",
+          "dita2x_replacement": "<ph outputclass=\"bold\">"
+        }
+      ]
+    },
+    {
+      "file": "sample3.ditamap",
+      "violations_in": 2,
+      "fixes_applied": 0,
+      "fix_types": [],
+      "warnings": [],
+      "inline_warnings": []
+    },
+    {
+      "file": "sample_document_map.ditamap",
+      "violations_in": 9,
+      "fixes_applied": 0,
+      "fix_types": [],
+      "warnings": [],
+      "inline_warnings": []
+    }
+  ]
+}

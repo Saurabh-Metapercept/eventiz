@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="links" xml:lang="en-us">
+  <title>Links</title>
+  <conbody>
+    <p>In web documents, links can point different locations on the page, different pages, or even downloadable documents, such as Word documents or PDFs:</p>
+    <p>
+      <xref href="../sample_document/sample_document.dita" format="dita">Top of this Page</xref>
+      <xref href="http://www.dhs.state.il.us/page.aspx?item=67072" scope="external" format="html">Sample Document</xref>
+      <xref href="http://www.dhs.state.il.us/OneNetLibrary/27897/documents/Initiatives/IITAA/Sample-Document.docx" scope="external" format="html">Sample Document (docx)</xref>
+    </p>
+  </conbody>
+</concept>

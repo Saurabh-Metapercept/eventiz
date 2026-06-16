@@ -1,0 +1,268 @@
+[2026-06-16T08:35:02.061950+00:00] detect_docx_toc No TOC styles or field codes detected.
+[2026-06-16T08:35:02.062247+00:00] detect_docx_toc No TOC styles, field codes, or SDT detected.
+[2026-06-16T08:35:02.062757+00:00] PipelineOrchestrator TOC DETECTED = False
+[2026-06-16T08:35:02.097598+00:00] PipelineOrchestrator Starting conversion pipeline for 'sample3.docx'.
+[2026-06-16T08:35:02.098057+00:00] DocxToHtmlProcessor Converting 'sample3.docx' from DOCX to HTML.
+[2026-06-16T08:35:02.136580+00:00] DocxToHtmlProcessor Opening DOCX archive: 'sample3.docx'.
+[2026-06-16T08:35:02.137112+00:00] DocxToHtmlProcessor Reading relationships.
+[2026-06-16T08:35:02.137388+00:00] DocxToHtmlProcessor Parsing relationships from 'word/_rels/document.xml.rels'.
+[2026-06-16T08:35:02.139524+00:00] DocxToHtmlProcessor Extracted 11 relationship(s).
+[2026-06-16T08:35:02.139979+00:00] DocxToHtmlProcessor Extracting media files.
+[2026-06-16T08:35:02.140532+00:00] DocxToHtmlProcessor Copying 2 media file(s) to 'D:\MetR Phase 2\metR-Converter-DOCX\Storage\121c248f-ecf3-4e7c-a261-bb44ff5ae18c\output\sample3\media'.
+[2026-06-16T08:35:02.141352+00:00] DocxToHtmlProcessor Media copied: 'image1.gif'.
+[2026-06-16T08:35:02.142300+00:00] DocxToHtmlProcessor Media copied: 'image2.png'.
+[2026-06-16T08:35:02.142549+00:00] DocxToHtmlProcessor Media copy complete -- 2 file(s) exported.
+[2026-06-16T08:35:02.142774+00:00] DocxToHtmlProcessor Reading list numbering definitions.
+[2026-06-16T08:35:02.142953+00:00] DocxToHtmlProcessor Parsing 'word/numbering.xml' for list type map.
+[2026-06-16T08:35:02.143661+00:00] DocxToHtmlProcessor Numbering map built with 2 numId(s).
+[2026-06-16T08:35:02.143901+00:00] DocxToHtmlProcessor Reading 'word/document.xml'.
+[2026-06-16T08:35:02.144245+00:00] DocxToHtmlProcessor Parsing 'word/document.xml' XML structure.
+[2026-06-16T08:35:02.146156+00:00] DocxToHtmlProcessor Processing document body paragraphs for 'sample3.docx'.
+[2026-06-16T08:35:02.148605+00:00] DocxToHtmlProcessor Document body processed — 25 HTML block(s) generated for 'sample3.docx'.
+[2026-06-16T08:35:02.149151+00:00] DocxToHtmlProcessor DOCX to HTML conversion complete.
+[2026-06-16T08:35:02.190241+00:00] HtmlToDitaNormalizer Normalizing generated HTML for DITA conversion.
+[2026-06-16T08:35:02.230842+00:00] helper_port.py class is running.
+[2026-06-16T08:35:02.242076+00:00] HtmlToDitaNormalizer HTML normalization complete.
+[2026-06-16T08:35:02.286432+00:00] TopicSplitter Splitting HTML content into topics.
+[2026-06-16T08:35:02.328903+00:00] TopicSplitter Found 9 topics.
+[2026-06-16T08:35:02.369790+00:00] TopicWriter Writing topics to .dita files.
+[2026-06-16T08:35:02.407354+00:00] TopicWriter Starting to write 9 topics to 'D:\MetR Phase 2\metR-Converter-DOCX\Storage\121c248f-ecf3-4e7c-a261-bb44ff5ae18c\output\sample3'.
+[2026-06-16T08:35:02.407998+00:00] TopicWriter Building topic tree hierarchy.
+[2026-06-16T08:35:02.408203+00:00] TopicWriter Building topic tree from 9 flat topic(s).
+[2026-06-16T08:35:02.408391+00:00] TopicWriter Topic tree built — 1 root node(s).
+[2026-06-16T08:35:02.408584+00:00] TopicWriter Assigning output paths to all topics.
+[2026-06-16T08:35:02.408809+00:00] TopicWriter Assigning output paths for 1 node(s) under 'D:\MetR Phase 2\metR-Converter-DOCX\Storage\121c248f-ecf3-4e7c-a261-bb44ff5ae18c\output\sample3'.
+[2026-06-16T08:35:02.409560+00:00] TopicWriter Assigning output paths for 6 node(s) under 'D:\MetR Phase 2\metR-Converter-DOCX\Storage\121c248f-ecf3-4e7c-a261-bb44ff5ae18c\output\sample3'.
+[2026-06-16T08:35:02.409876+00:00] TopicWriter Assigned path for topic 'Headings': 'D:\MetR Phase 2\metR-Converter-DOCX\Storage\121c248f-ecf3-4e7c-a261-bb44ff5ae18c\output\sample3\sample_document\headings.dita'.
+[2026-06-16T08:35:02.410157+00:00] TopicWriter Assigned path for topic 'Lists': 'D:\MetR Phase 2\metR-Converter-DOCX\Storage\121c248f-ecf3-4e7c-a261-bb44ff5ae18c\output\sample3\sample_document\lists.dita'.
+[2026-06-16T08:35:02.410350+00:00] TopicWriter Assigned path for topic 'Links': 'D:\MetR Phase 2\metR-Converter-DOCX\Storage\121c248f-ecf3-4e7c-a261-bb44ff5ae18c\output\sample3\sample_document\links.dita'.
+[2026-06-16T08:35:02.410589+00:00] TopicWriter Assigned path for topic 'Images': 'D:\MetR Phase 2\metR-Converter-DOCX\Storage\121c248f-ecf3-4e7c-a261-bb44ff5ae18c\output\sample3\sample_document\images.dita'.
+[2026-06-16T08:35:02.410847+00:00] TopicWriter Assigning output paths for 2 node(s) under 'D:\MetR Phase 2\metR-Converter-DOCX\Storage\121c248f-ecf3-4e7c-a261-bb44ff5ae18c\output\sample3'.
+[2026-06-16T08:35:02.411059+00:00] TopicWriter Assigned path for topic 'Simple Tables': 'D:\MetR Phase 2\metR-Converter-DOCX\Storage\121c248f-ecf3-4e7c-a261-bb44ff5ae18c\output\sample3\sample_document\simple_tables.dita'.
+[2026-06-16T08:35:02.411286+00:00] TopicWriter Assigned path for topic 'Complex Tables': 'D:\MetR Phase 2\metR-Converter-DOCX\Storage\121c248f-ecf3-4e7c-a261-bb44ff5ae18c\output\sample3\sample_document\complex_tables.dita'.
+[2026-06-16T08:35:02.411446+00:00] TopicWriter Path assignment complete for 2 node(s).
+[2026-06-16T08:35:02.411657+00:00] TopicWriter Assigned path for topic 'Tables': 'D:\MetR Phase 2\metR-Converter-DOCX\Storage\121c248f-ecf3-4e7c-a261-bb44ff5ae18c\output\sample3\sample_document\tables.dita'.
+[2026-06-16T08:35:02.411895+00:00] TopicWriter Assigned path for topic 'Columns': 'D:\MetR Phase 2\metR-Converter-DOCX\Storage\121c248f-ecf3-4e7c-a261-bb44ff5ae18c\output\sample3\sample_document\columns.dita'.
+[2026-06-16T08:35:02.412067+00:00] TopicWriter Path assignment complete for 6 node(s).
+[2026-06-16T08:35:02.412266+00:00] TopicWriter Assigned path for topic 'Sample Document': 'D:\MetR Phase 2\metR-Converter-DOCX\Storage\121c248f-ecf3-4e7c-a261-bb44ff5ae18c\output\sample3\sample_document\sample_document.dita'.
+[2026-06-16T08:35:02.412416+00:00] TopicWriter Path assignment complete for 1 node(s).
+[2026-06-16T08:35:02.412579+00:00] TopicWriter Walking topic tree and writing DITA files.
+[2026-06-16T08:35:02.412740+00:00] TopicWriter Writing topic 'Sample Document' to .dita file.
+[2026-06-16T08:35:02.412974+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-06-16T08:35:02.413488+00:00] topic_structure No section headings found — rendering flat body.
+[2026-06-16T08:35:02.413848+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-06-16T08:35:02.414604+00:00] TopicWriter Topic 'D:\MetR Phase 2\metR-Converter-DOCX\Storage\121c248f-ecf3-4e7c-a261-bb44ff5ae18c\output\sample3\sample_document\sample_document.dita' written successfully.
+[2026-06-16T08:35:02.414896+00:00] TopicWriter Writing topic 'Headings' to .dita file.
+[2026-06-16T08:35:02.415146+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-06-16T08:35:02.415810+00:00] topic_structure No section headings found — rendering flat body.
+[2026-06-16T08:35:02.416348+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-06-16T08:35:02.418459+00:00] TopicWriter Topic 'D:\MetR Phase 2\metR-Converter-DOCX\Storage\121c248f-ecf3-4e7c-a261-bb44ff5ae18c\output\sample3\sample_document\headings.dita' written successfully.
+[2026-06-16T08:35:02.418772+00:00] TopicWriter Writing topic 'Lists' to .dita file.
+[2026-06-16T08:35:02.419018+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-06-16T08:35:02.419864+00:00] topic_structure No section headings found — rendering flat body.
+[2026-06-16T08:35:02.420305+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-06-16T08:35:02.420495+00:00] topic_structure Running convert_ol_to_steps on DITA body.
+[2026-06-16T08:35:02.421177+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-06-16T08:35:02.421476+00:00] topic_structure <steps> block built with 5 step(s).
+[2026-06-16T08:35:02.421807+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-06-16T08:35:02.422102+00:00] topic_structure <steps> block built with 1 step(s).
+[2026-06-16T08:35:02.422271+00:00] topic_structure convert_ol_to_steps completed.
+[2026-06-16T08:35:02.422428+00:00] topic_structure Partitioning task body into context/steps/result.
+[2026-06-16T08:35:02.424006+00:00] topic_structure Taskbody partitioning complete.
+[2026-06-16T08:35:02.424637+00:00] TopicWriter Topic 'D:\MetR Phase 2\metR-Converter-DOCX\Storage\121c248f-ecf3-4e7c-a261-bb44ff5ae18c\output\sample3\sample_document\lists.dita' written successfully.
+[2026-06-16T08:35:02.424836+00:00] TopicWriter Writing topic 'Links' to .dita file.
+[2026-06-16T08:35:02.425062+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-06-16T08:35:02.425687+00:00] topic_structure No section headings found — rendering flat body.
+[2026-06-16T08:35:02.425955+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-06-16T08:35:02.426531+00:00] TopicWriter Topic 'D:\MetR Phase 2\metR-Converter-DOCX\Storage\121c248f-ecf3-4e7c-a261-bb44ff5ae18c\output\sample3\sample_document\links.dita' written successfully.
+[2026-06-16T08:35:02.426729+00:00] TopicWriter Writing topic 'Images' to .dita file.
+[2026-06-16T08:35:02.426876+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-06-16T08:35:02.427312+00:00] topic_structure No section headings found — rendering flat body.
+[2026-06-16T08:35:02.427582+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-06-16T08:35:02.428213+00:00] TopicWriter Topic 'D:\MetR Phase 2\metR-Converter-DOCX\Storage\121c248f-ecf3-4e7c-a261-bb44ff5ae18c\output\sample3\sample_document\images.dita' written successfully.
+[2026-06-16T08:35:02.428408+00:00] TopicWriter Writing topic 'Tables' to .dita file.
+[2026-06-16T08:35:02.428607+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-06-16T08:35:02.428935+00:00] topic_structure No section headings found — rendering flat body.
+[2026-06-16T08:35:02.429120+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-06-16T08:35:02.429856+00:00] TopicWriter Topic 'D:\MetR Phase 2\metR-Converter-DOCX\Storage\121c248f-ecf3-4e7c-a261-bb44ff5ae18c\output\sample3\sample_document\tables.dita' written successfully.
+[2026-06-16T08:35:02.430139+00:00] TopicWriter Writing topic 'Simple Tables' to .dita file.
+[2026-06-16T08:35:02.430403+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-06-16T08:35:02.431558+00:00] topic_structure No section headings found — rendering flat body.
+[2026-06-16T08:35:02.432251+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-06-16T08:35:02.432512+00:00] topic_structure Ensuring <refbody> content is correctly wrapped in a <section> element.
+[2026-06-16T08:35:02.434510+00:00] topic_structure Wrapped <refbody> content in a single <section>.
+[2026-06-16T08:35:02.437251+00:00] TopicWriter Topic 'D:\MetR Phase 2\metR-Converter-DOCX\Storage\121c248f-ecf3-4e7c-a261-bb44ff5ae18c\output\sample3\sample_document\simple_tables.dita' written successfully.
+[2026-06-16T08:35:02.437611+00:00] TopicWriter Writing topic 'Complex Tables' to .dita file.
+[2026-06-16T08:35:02.437928+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-06-16T08:35:02.439303+00:00] topic_structure No section headings found — rendering flat body.
+[2026-06-16T08:35:02.439959+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-06-16T08:35:02.440154+00:00] topic_structure Ensuring <refbody> content is correctly wrapped in a <section> element.
+[2026-06-16T08:35:02.441838+00:00] topic_structure Wrapped <refbody> content in a single <section>.
+[2026-06-16T08:35:02.442456+00:00] TopicWriter Topic 'D:\MetR Phase 2\metR-Converter-DOCX\Storage\121c248f-ecf3-4e7c-a261-bb44ff5ae18c\output\sample3\sample_document\complex_tables.dita' written successfully.
+[2026-06-16T08:35:02.442675+00:00] TopicWriter Writing topic 'Columns' to .dita file.
+[2026-06-16T08:35:02.442870+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-06-16T08:35:02.443227+00:00] topic_structure No section headings found — rendering flat body.
+[2026-06-16T08:35:02.443453+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-06-16T08:35:02.444112+00:00] TopicWriter Topic 'D:\MetR Phase 2\metR-Converter-DOCX\Storage\121c248f-ecf3-4e7c-a261-bb44ff5ae18c\output\sample3\sample_document\columns.dita' written successfully.
+[2026-06-16T08:35:02.444387+00:00] TopicWriter All 9 topic file(s) written successfully.
+[2026-06-16T08:35:02.479897+00:00] TopicWriter Finished writing .dita files.
+[2026-06-16T08:35:02.513571+00:00] DitaMapBuilder Generating DITAMAP file.
+[2026-06-16T08:35:02.552386+00:00] DitaMapBuilder DITAMAP generation complete.
+[2026-06-16T08:35:02.614076+00:00] DitaPostProcessor Post-processing all generated DITA files.
+[2026-06-16T08:35:02.684410+00:00] DitaPostProcessor Starting EMF->image conversion in 'D:\MetR Phase 2\metR-Converter-DOCX\Storage\121c248f-ecf3-4e7c-a261-bb44ff5ae18c\output\sample3\media'.
+[2026-06-16T08:35:02.685241+00:00] DitaPostProcessor No EMF files converted (none found or all failed).
+[2026-06-16T08:35:02.759047+00:00] DitaPostProcessor Post-processing complete.
+[2026-06-16T08:35:02.793779+00:00] PipelineOrchestrator Running concept reclassification pass on topic files.
+[2026-06-16T08:35:02.794348+00:00] PipelineOrchestrator Concept reclassification complete — no files required updating.
+[2026-06-16T08:35:02.794635+00:00] HyperlinkResolver Resolving internal hyperlinks.
+[2026-06-16T08:35:02.827222+00:00] HyperlinkResolver Resolving internal hyperlinks in 9 DITA file(s) under 'D:\MetR Phase 2\metR-Converter-DOCX\Storage\121c248f-ecf3-4e7c-a261-bb44ff5ae18c\output\sample3'.
+[2026-06-16T08:35:02.857277+00:00] HyperlinkResolver Hyperlink resolution complete -- no anchor xrefs required updating.
+[2026-06-16T08:35:02.857529+00:00] HyperlinkResolver Hyperlink resolution complete.
+[2026-06-16T08:35:02.893204+00:00] PipelineOrchestrator Running DTD compliance validation on all output files.
+[2026-06-16T08:35:02.925890+00:00] DitaDtdValidator Starting DTD structural compliance check for all output files in 'D:\MetR Phase 2\metR-Converter-DOCX\Storage\121c248f-ecf3-4e7c-a261-bb44ff5ae18c\output\sample3'.
+[2026-06-16T08:35:02.931669+00:00] DitaDtdValidator [PASS] 'columns.dita' - This file is following DTD-compliant structure.
+[2026-06-16T08:35:02.931986+00:00] DitaDtdValidator [PASS] 'complex_tables.dita' - This file is following DTD-compliant structure.
+[2026-06-16T08:35:02.932551+00:00] DitaDtdValidator [PASS] 'headings.dita' - This file is following DTD-compliant structure.
+[2026-06-16T08:35:02.932884+00:00] DitaDtdValidator [PASS] 'images.dita' - This file is following DTD-compliant structure.
+[2026-06-16T08:35:02.933267+00:00] DitaDtdValidator [PASS] 'links.dita' - This file is following DTD-compliant structure.
+[2026-06-16T08:35:02.933543+00:00] DitaDtdValidator [PASS] 'lists.dita' - This file is following DTD-compliant structure.
+[2026-06-16T08:35:02.933742+00:00] DitaDtdValidator [PASS] 'sample_document.dita' - This file is following DTD-compliant structure.
+[2026-06-16T08:35:02.933919+00:00] DitaDtdValidator [PASS] 'simple_tables.dita' - This file is following DTD-compliant structure.
+[2026-06-16T08:35:02.934275+00:00] DitaDtdValidator [PASS] 'tables.dita' - This file is following DTD-compliant structure.
+[2026-06-16T08:35:02.934516+00:00] DitaDtdValidator [PASS] 'sample3.ditamap' - This file is following DTD-compliant structure.
+[2026-06-16T08:35:02.934735+00:00] DitaDtdValidator [PASS] 'sample_document_map.ditamap' - This file is following DTD-compliant structure.
+[2026-06-16T08:35:02.934970+00:00] DitaDtdValidator All 11 output file(s) are following DTD-compliant structure.
+[2026-06-16T08:35:02.936650+00:00] DitaDtdValidator Validation report written: 'sample3_report.txt'.
+[2026-06-16T08:35:02.971287+00:00] PipelineOrchestrator Successfully converted 'sample3.docx'.
+[2026-06-16T08:35:03.007833+00:00] ConversionService class completed successfully.
+[2026-06-16T08:35:03.008168+00:00] SchematronService Starting Schematron validation for job 121c248f-ecf3-4e7c-a261-bb44ff5ae18c.
+[2026-06-16T08:35:03.018385+00:00] DITA2Validator Starting folder validation: 11 file(s) found in D:\MetR Phase 2\metR-Converter-DOCX\Storage\121c248f-ecf3-4e7c-a261-bb44ff5ae18c\output\sample3.
+[2026-06-16T08:35:03.019612+00:00] DITA2Validator Validating sample3.ditamap [map] through 4 gate(s).
+[2026-06-16T08:35:03.025058+00:00] SchematronCompiler Compiling map_validation.sch via ISO Schematron 3-step pipeline.
+[2026-06-16T08:35:03.061460+00:00] SchematronCompiler Compiled map_validation.sch -> tmp7byowozx_step3_validator.xsl
+[2026-06-16T08:35:03.072622+00:00] SchematronCompiler Compiling map_structural_rules.sch via ISO Schematron 3-step pipeline.
+[2026-06-16T08:35:03.105223+00:00] SchematronCompiler Compiled map_structural_rules.sch -> tmpfsj2iae5_step3_validator.xsl
+[2026-06-16T08:35:03.126113+00:00] SchematronCompiler Compiling DITA2_content_model.sch via ISO Schematron 3-step pipeline.
+[2026-06-16T08:35:03.217393+00:00] SchematronCompiler Compiled DITA2_content_model.sch -> tmpx8v9woue_step3_validator.xsl
+[2026-06-16T08:35:03.376869+00:00] SchematronCompiler Compiling DITA2_element_attributes.sch via ISO Schematron 3-step pipeline.
+[2026-06-16T08:35:03.717733+00:00] SchematronCompiler Compiled DITA2_element_attributes.sch -> tmp_c9h7te1_step3_validator.xsl
+[2026-06-16T08:35:04.976165+00:00] DITA2Validator Validated sample3.ditamap: 2 error(s), 0 warning(s).
+[2026-06-16T08:35:04.977353+00:00] DITA2Validator Validating columns.dita [concept] through 4 gate(s).
+[2026-06-16T08:35:04.977863+00:00] SchematronCompiler Compiling concept_validation.sch via ISO Schematron 3-step pipeline.
+[2026-06-16T08:35:04.989383+00:00] SchematronCompiler Compiled concept_validation.sch -> tmpgzsmhhlb_step3_validator.xsl
+[2026-06-16T08:35:04.996409+00:00] SchematronCompiler Compiling concept_structural_rules.sch via ISO Schematron 3-step pipeline.
+[2026-06-16T08:35:05.096865+00:00] SchematronCompiler Compiled concept_structural_rules.sch -> tmpnd_dmmf9_step3_validator.xsl
+[2026-06-16T08:35:06.314388+00:00] DITA2Validator Validated columns.dita: 0 error(s), 0 warning(s).
+[2026-06-16T08:35:06.315299+00:00] DITA2Validator Validating complex_tables.dita [reference] through 4 gate(s).
+[2026-06-16T08:35:06.315763+00:00] SchematronCompiler Compiling reference_validation.sch via ISO Schematron 3-step pipeline.
+[2026-06-16T08:35:06.327223+00:00] SchematronCompiler Compiled reference_validation.sch -> tmptnr9rpgx_step3_validator.xsl
+[2026-06-16T08:35:06.336292+00:00] SchematronCompiler Compiling reference_structural_rules.sch via ISO Schematron 3-step pipeline.
+[2026-06-16T08:35:06.367083+00:00] SchematronCompiler Compiled reference_structural_rules.sch -> tmpjs7gpom2_step3_validator.xsl
+[2026-06-16T08:35:07.670879+00:00] DITA2Validator Validated complex_tables.dita: 12 error(s), 1 warning(s).
+[2026-06-16T08:35:07.671871+00:00] DITA2Validator Validating headings.dita [concept] through 4 gate(s).
+[2026-06-16T08:35:08.951499+00:00] DITA2Validator Validated headings.dita: 0 error(s), 0 warning(s).
+[2026-06-16T08:35:08.952379+00:00] DITA2Validator Validating images.dita [concept] through 4 gate(s).
+[2026-06-16T08:35:10.321493+00:00] DITA2Validator Validated images.dita: 4 error(s), 4 warning(s).
+[2026-06-16T08:35:10.322361+00:00] DITA2Validator Validating links.dita [concept] through 4 gate(s).
+[2026-06-16T08:35:11.646285+00:00] DITA2Validator Validated links.dita: 0 error(s), 0 warning(s).
+[2026-06-16T08:35:11.647204+00:00] DITA2Validator Validating lists.dita [task] through 4 gate(s).
+[2026-06-16T08:35:11.647865+00:00] SchematronCompiler Compiling task_validation.sch via ISO Schematron 3-step pipeline.
+[2026-06-16T08:35:11.659602+00:00] SchematronCompiler Compiled task_validation.sch -> tmp9kafc9yf_step3_validator.xsl
+[2026-06-16T08:35:11.672796+00:00] SchematronCompiler Compiling task_structural_rules.sch via ISO Schematron 3-step pipeline.
+[2026-06-16T08:35:11.753911+00:00] SchematronCompiler Compiled task_structural_rules.sch -> tmpbm5znxzr_step3_validator.xsl
+[2026-06-16T08:35:13.051401+00:00] DITA2Validator Validated lists.dita: 0 error(s), 0 warning(s).
+[2026-06-16T08:35:13.052324+00:00] DITA2Validator Validating sample_document.dita [concept] through 4 gate(s).
+[2026-06-16T08:35:14.304227+00:00] DITA2Validator Validated sample_document.dita: 0 error(s), 0 warning(s).
+[2026-06-16T08:35:14.305262+00:00] DITA2Validator Validating simple_tables.dita [reference] through 4 gate(s).
+[2026-06-16T08:35:15.575776+00:00] DITA2Validator Validated simple_tables.dita: 6 error(s), 1 warning(s).
+[2026-06-16T08:35:15.576694+00:00] DITA2Validator Validating tables.dita [concept] through 4 gate(s).
+[2026-06-16T08:35:16.822326+00:00] DITA2Validator Validated tables.dita: 0 error(s), 1 warning(s).
+[2026-06-16T08:35:16.823426+00:00] DITA2Validator Validating sample_document_map.ditamap [map] through 4 gate(s).
+[2026-06-16T08:35:18.084071+00:00] DITA2Validator Validated sample_document_map.ditamap: 9 error(s), 0 warning(s).
+[2026-06-16T08:35:18.084459+00:00] DITA2Validator Folder validation complete: 6/11 file(s) valid.
+[2026-06-16T08:35:18.087931+00:00] SchematronReportWriter Writing TXT report for job 121c248f-ecf3-4e7c-a261-bb44ff5ae18c.
+[2026-06-16T08:35:18.088888+00:00] SchematronReportWriter TXT report written: D:\MetR Phase 2\metR-Converter-DOCX\Storage\121c248f-ecf3-4e7c-a261-bb44ff5ae18c\schematron report\121c248f-ecf3-4e7c-a261-bb44ff5ae18c_schematron_report.txt  (33 errors, 7 warnings across 11 files)
+[2026-06-16T08:35:18.090792+00:00] SchematronReportWriter CSV report saved: D:\MetR Phase 2\metR-Converter-DOCX\Storage\121c248f-ecf3-4e7c-a261-bb44ff5ae18c\schematron report\121c248f-ecf3-4e7c-a261-bb44ff5ae18c_schematron_report.csv  (40 rows: 33 errors, 7 warnings)
+[2026-06-16T08:35:18.091489+00:00] SchematronService Schematron validation complete for job 121c248f-ecf3-4e7c-a261-bb44ff5ae18c: 33 error(s), 7 warning(s).  Report: D:\MetR Phase 2\metR-Converter-DOCX\Storage\121c248f-ecf3-4e7c-a261-bb44ff5ae18c\schematron report\121c248f-ecf3-4e7c-a261-bb44ff5ae18c_schematron_report.txt
+[2026-06-16T08:35:18.091766+00:00] XsltService Starting XSLT transformation for job 121c248f-ecf3-4e7c-a261-bb44ff5ae18c.
+[2026-06-16T08:35:18.095083+00:00] DitaTransformer Starting folder transformation: 11 file(s) in D:\MetR Phase 2\metR-Converter-DOCX\Storage\121c248f-ecf3-4e7c-a261-bb44ff5ae18c\output\sample3.
+[2026-06-16T08:35:18.131595+00:00] DitaTransformer Transforming sample3.ditamap [map] through 4 XSLT step(s).
+[2026-06-16T08:35:18.142442+00:00] DitaTransformer Written: sample3.ditamap  (0 error(s) captured during pipeline).
+[2026-06-16T08:35:18.143023+00:00] DitaTransformer Transforming columns.dita [concept] through 4 XSLT step(s).
+[2026-06-16T08:35:18.160322+00:00] DitaTransformer Written: columns.dita  (0 error(s) captured during pipeline).
+[2026-06-16T08:35:18.160906+00:00] DitaTransformer Transforming complex_tables.dita [reference] through 4 XSLT step(s).
+[2026-06-16T08:35:18.179913+00:00] DitaTransformer Written: complex_tables.dita  (0 error(s) captured during pipeline).
+[2026-06-16T08:35:18.180503+00:00] DitaTransformer Transforming headings.dita [concept] through 4 XSLT step(s).
+[2026-06-16T08:35:18.196613+00:00] DitaTransformer Written: headings.dita  (0 error(s) captured during pipeline).
+[2026-06-16T08:35:18.197186+00:00] DitaTransformer Transforming images.dita [concept] through 4 XSLT step(s).
+[2026-06-16T08:35:18.208939+00:00] DitaTransformer Written: images.dita  (0 error(s) captured during pipeline).
+[2026-06-16T08:35:18.209536+00:00] DitaTransformer Transforming links.dita [concept] through 4 XSLT step(s).
+[2026-06-16T08:35:18.227003+00:00] DitaTransformer Written: links.dita  (0 error(s) captured during pipeline).
+[2026-06-16T08:35:18.227669+00:00] DitaTransformer Transforming lists.dita [task] through 4 XSLT step(s).
+[2026-06-16T08:35:18.246271+00:00] DitaTransformer Written: lists.dita  (0 error(s) captured during pipeline).
+[2026-06-16T08:35:18.246836+00:00] DitaTransformer Transforming sample_document.dita [concept] through 4 XSLT step(s).
+[2026-06-16T08:35:18.257991+00:00] DitaTransformer Written: sample_document.dita  (0 error(s) captured during pipeline).
+[2026-06-16T08:35:18.258482+00:00] DitaTransformer Transforming simple_tables.dita [reference] through 4 XSLT step(s).
+[2026-06-16T08:35:18.270170+00:00] DitaTransformer Written: simple_tables.dita  (0 error(s) captured during pipeline).
+[2026-06-16T08:35:18.270696+00:00] DitaTransformer Transforming tables.dita [concept] through 4 XSLT step(s).
+[2026-06-16T08:35:18.280941+00:00] DitaTransformer Written: tables.dita  (0 error(s) captured during pipeline).
+[2026-06-16T08:35:18.281444+00:00] DitaTransformer Transforming sample_document_map.ditamap [map] through 4 XSLT step(s).
+[2026-06-16T08:35:18.292860+00:00] DitaTransformer Written: sample_document_map.ditamap  (0 error(s) captured during pipeline).
+[2026-06-16T08:35:18.293121+00:00] DitaTransformer Folder transformation complete: 11/11 file(s) succeeded.
+[2026-06-16T08:35:18.296735+00:00] XsltReportWriter Writing TXT report for job 121c248f-ecf3-4e7c-a261-bb44ff5ae18c.
+[2026-06-16T08:35:18.297658+00:00] XsltReportWriter TXT report written: D:\MetR Phase 2\metR-Converter-DOCX\Storage\121c248f-ecf3-4e7c-a261-bb44ff5ae18c\xslt report\121c248f-ecf3-4e7c-a261-bb44ff5ae18c_xslt_report.txt  (11 succeeded, 0 failed, 0 errors across 11 files)
+[2026-06-16T08:35:18.298518+00:00] XsltReportWriter CSV report saved: D:\MetR Phase 2\metR-Converter-DOCX\Storage\121c248f-ecf3-4e7c-a261-bb44ff5ae18c\xslt report\121c248f-ecf3-4e7c-a261-bb44ff5ae18c_xslt_report.csv  (11 succeeded, 0 failed across 11 files)
+[2026-06-16T08:35:18.299037+00:00] XsltService XSLT transformation complete for job 121c248f-ecf3-4e7c-a261-bb44ff5ae18c: 11 succeeded, 0 failed.  Output: D:\MetR Phase 2\metR-Converter-DOCX\Storage\121c248f-ecf3-4e7c-a261-bb44ff5ae18c\transformed output
+[2026-06-16T08:35:18.299365+00:00] SchematronService Starting Schematron validation on transformed output for job 121c248f-ecf3-4e7c-a261-bb44ff5ae18c.
+[2026-06-16T08:35:18.300527+00:00] DITA2Validator Starting folder validation: 11 file(s) found in D:\MetR Phase 2\metR-Converter-DOCX\Storage\121c248f-ecf3-4e7c-a261-bb44ff5ae18c\transformed output.
+[2026-06-16T08:35:18.302009+00:00] DITA2Validator Validating sample3.ditamap [map] through 4 gate(s).
+[2026-06-16T08:35:18.302523+00:00] SchematronCompiler Compiling map_validation.sch via ISO Schematron 3-step pipeline.
+[2026-06-16T08:35:18.316081+00:00] SchematronCompiler Compiled map_validation.sch -> tmp1_47446o_step3_validator.xsl
+[2026-06-16T08:35:18.323583+00:00] SchematronCompiler Compiling map_structural_rules.sch via ISO Schematron 3-step pipeline.
+[2026-06-16T08:35:18.353208+00:00] SchematronCompiler Compiled map_structural_rules.sch -> tmpra3sb2ib_step3_validator.xsl
+[2026-06-16T08:35:18.375525+00:00] SchematronCompiler Compiling DITA2_content_model.sch via ISO Schematron 3-step pipeline.
+[2026-06-16T08:35:18.446254+00:00] SchematronCompiler Compiled DITA2_content_model.sch -> tmpb2inz8pv_step3_validator.xsl
+[2026-06-16T08:35:18.569482+00:00] SchematronCompiler Compiling DITA2_element_attributes.sch via ISO Schematron 3-step pipeline.
+[2026-06-16T08:35:18.872406+00:00] SchematronCompiler Compiled DITA2_element_attributes.sch -> tmp3hcx3wqo_step3_validator.xsl
+[2026-06-16T08:35:20.159883+00:00] DITA2Validator Validated sample3.ditamap: 0 error(s), 0 warning(s).
+[2026-06-16T08:35:20.161864+00:00] DITA2Validator Validating columns.dita [concept] through 4 gate(s).
+[2026-06-16T08:35:20.162662+00:00] SchematronCompiler Compiling concept_validation.sch via ISO Schematron 3-step pipeline.
+[2026-06-16T08:35:20.273831+00:00] SchematronCompiler Compiled concept_validation.sch -> tmpvkb3un5__step3_validator.xsl
+[2026-06-16T08:35:20.282798+00:00] SchematronCompiler Compiling concept_structural_rules.sch via ISO Schematron 3-step pipeline.
+[2026-06-16T08:35:20.320445+00:00] SchematronCompiler Compiled concept_structural_rules.sch -> tmpls9nbaeb_step3_validator.xsl
+[2026-06-16T08:35:21.708692+00:00] DITA2Validator Validated columns.dita: 0 error(s), 0 warning(s).
+[2026-06-16T08:35:21.720724+00:00] DITA2Validator Validating complex_tables.dita [reference] through 4 gate(s).
+[2026-06-16T08:35:21.721473+00:00] SchematronCompiler Compiling reference_validation.sch via ISO Schematron 3-step pipeline.
+[2026-06-16T08:35:21.734554+00:00] SchematronCompiler Compiled reference_validation.sch -> tmp1dxs3s7k_step3_validator.xsl
+[2026-06-16T08:35:21.742897+00:00] SchematronCompiler Compiling reference_structural_rules.sch via ISO Schematron 3-step pipeline.
+[2026-06-16T08:35:21.842436+00:00] SchematronCompiler Compiled reference_structural_rules.sch -> tmphd3_ueb6_step3_validator.xsl
+[2026-06-16T08:35:23.166605+00:00] DITA2Validator Validated complex_tables.dita: 7 error(s), 0 warning(s).
+[2026-06-16T08:35:23.168676+00:00] DITA2Validator Validating headings.dita [concept] through 4 gate(s).
+[2026-06-16T08:35:24.546276+00:00] DITA2Validator Validated headings.dita: 0 error(s), 0 warning(s).
+[2026-06-16T08:35:24.548520+00:00] DITA2Validator Validating images.dita [concept] through 4 gate(s).
+[2026-06-16T08:35:25.899713+00:00] DITA2Validator Validated images.dita: 4 error(s), 0 warning(s).
+[2026-06-16T08:35:25.901669+00:00] DITA2Validator Validating links.dita [concept] through 4 gate(s).
+[2026-06-16T08:35:27.168691+00:00] DITA2Validator Validated links.dita: 0 error(s), 0 warning(s).
+[2026-06-16T08:35:27.176620+00:00] DITA2Validator Validating lists.dita [task] through 4 gate(s).
+[2026-06-16T08:35:27.177273+00:00] SchematronCompiler Compiling task_validation.sch via ISO Schematron 3-step pipeline.
+[2026-06-16T08:35:27.239953+00:00] SchematronCompiler Compiled task_validation.sch -> tmp7ox0_mq3_step3_validator.xsl
+[2026-06-16T08:35:27.253025+00:00] SchematronCompiler Compiling task_structural_rules.sch via ISO Schematron 3-step pipeline.
+[2026-06-16T08:35:27.283331+00:00] SchematronCompiler Compiled task_structural_rules.sch -> tmpojz3zvgr_step3_validator.xsl
+[2026-06-16T08:35:28.592415+00:00] DITA2Validator Validated lists.dita: 0 error(s), 0 warning(s).
+[2026-06-16T08:35:28.594336+00:00] DITA2Validator Validating sample_document.dita [concept] through 4 gate(s).
+[2026-06-16T08:35:29.937073+00:00] DITA2Validator Validated sample_document.dita: 0 error(s), 0 warning(s).
+[2026-06-16T08:35:29.948190+00:00] DITA2Validator Validating simple_tables.dita [reference] through 4 gate(s).
+[2026-06-16T08:35:31.282525+00:00] DITA2Validator Validated simple_tables.dita: 3 error(s), 0 warning(s).
+[2026-06-16T08:35:31.284673+00:00] DITA2Validator Validating tables.dita [concept] through 4 gate(s).
+[2026-06-16T08:35:32.644913+00:00] DITA2Validator Validated tables.dita: 0 error(s), 0 warning(s).
+[2026-06-16T08:35:32.653180+00:00] DITA2Validator Validating sample_document_map.ditamap [map] through 4 gate(s).
+[2026-06-16T08:35:33.971133+00:00] DITA2Validator Validated sample_document_map.ditamap: 0 error(s), 0 warning(s).
+[2026-06-16T08:35:33.971534+00:00] DITA2Validator Folder validation complete: 8/11 file(s) valid.
+[2026-06-16T08:35:33.974553+00:00] SchematronReportWriter Writing TXT report for job 121c248f-ecf3-4e7c-a261-bb44ff5ae18c.
+[2026-06-16T08:35:33.975484+00:00] SchematronReportWriter TXT report written: D:\MetR Phase 2\metR-Converter-DOCX\Storage\121c248f-ecf3-4e7c-a261-bb44ff5ae18c\schematron report new\121c248f-ecf3-4e7c-a261-bb44ff5ae18c_schematron_report.txt  (14 errors, 0 warnings across 11 files)
+[2026-06-16T08:35:33.976371+00:00] SchematronReportWriter CSV report saved: D:\MetR Phase 2\metR-Converter-DOCX\Storage\121c248f-ecf3-4e7c-a261-bb44ff5ae18c\schematron report new\121c248f-ecf3-4e7c-a261-bb44ff5ae18c_schematron_report.csv  (14 rows: 14 errors, 0 warnings)
+[2026-06-16T08:35:33.976947+00:00] SchematronService New Schematron validation complete for job 121c248f-ecf3-4e7c-a261-bb44ff5ae18c: 14 error(s), 0 warning(s).  Report: D:\MetR Phase 2\metR-Converter-DOCX\Storage\121c248f-ecf3-4e7c-a261-bb44ff5ae18c\schematron report new\121c248f-ecf3-4e7c-a261-bb44ff5ae18c_schematron_report.txt
+[2026-06-16T08:35:34.004891+00:00] Upload Endpoint Successfully processed 'sample3.docx' for user '121c248f-ecf3-4e7c-a261-bb44ff5ae18c'.
+[2026-06-16T08:35:34.005326+00:00] Upload Endpoint Processing slot released for user '121c248f-ecf3-4e7c-a261-bb44ff5ae18c'.
+[2026-06-16T08:49:59.877388+00:00] Download Endpoint Received download request for user '121c248f-ecf3-4e7c-a261-bb44ff5ae18c'.
+[2026-06-16T08:49:59.877770+00:00] DownloadService class is running.

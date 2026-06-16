@@ -1,0 +1,330 @@
+{
+  "Columns": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.0,
+        "paragraph_count": 2,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 1,
+        "concept_pattern_hits": 4,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 46
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "Columns",
+        "columns",
+        "then",
+        "column",
+        "first",
+        "line",
+        "read",
+        "across",
+        "down",
+        "next",
+        "second",
+        "example"
+      ],
+      "compact_excerpt": "Columns This is an example of columns. With columns, the page is split into two or more horizontal sections. Unlike tables, in which you usually read across a row and then down to the next, in columns, you read down a column and then across to the next. When columns are not created correctly, screen readers may run lines together, reading the first line of the first column, then the first line of "
+    },
+    "classified_at": 1781598936.7210712
+  },
+  "Headings": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.222,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 4,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 49
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "Headings",
+        "headings",
+        "section",
+        "level",
+        "Table",
+        "There",
+        "eight",
+        "document",
+        "beginning",
+        "Sample",
+        "Document",
+        "heading"
+      ],
+      "compact_excerpt": "Headings There are eight section headings in this document. At the beginning, \"Sample Document\" is a level 1 heading. The main section headings, such as \"Headings\" and \"Lists\" are level 2 headings. The Tables section contains two sub-headings, \"Simple Table\" and \"Complex Table,\" which are both level 3 headings."
+    },
+    "classified_at": 1781598936.8215425
+  },
+  "Images": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.333,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 3,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 88
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "image",
+        "Images",
+        "images",
+        "text",
+        "long",
+        "descriptions",
+        "below",
+        "link",
+        "Documents",
+        "contain",
+        "example",
+        "there"
+      ],
+      "compact_excerpt": "Images Documents may contain images. For example, there is an image of the web accessibility symbol to the left of this paragraph. Its alternate text is \"Web Access Symbol\". Alt text should communicate what an image means, not how it looks. Some images, such as charts or graphs, require long descriptions, but not all document types allow that. In web pages, long descriptions may be provided in sev"
+    },
+    "classified_at": 1781598936.8353703
+  },
+  "Links": {
+    "topic_type": "topic",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.444,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 33
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "Links",
+        "documents",
+        "different",
+        "Sample",
+        "Document",
+        "links",
+        "point",
+        "locations",
+        "page",
+        "pages",
+        "even",
+        "downloadable"
+      ],
+      "compact_excerpt": "Links In web documents, links can point different locations on the page, different pages, or even downloadable documents, such as Word documents or PDFs: Top of this Page Sample Document Sample Document (docx)"
+    },
+    "classified_at": 1781598936.8519151
+  },
+  "Complex Tables": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.111,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 64
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "Complex",
+        "Tables",
+        "table",
+        "Responses",
+        "Share",
+        "following",
+        "complex",
+        "using",
+        "merged",
+        "cells",
+        "headers",
+        "sections"
+      ],
+      "compact_excerpt": "Complex Tables The following is a complex table, using merged cells as headers for sections within the table. This can't be made accessible in all types of documents: May 2012 September 2010 Screen Reader Responses Share Responses Share JAWS 853 49% 727 59% NVDA 238 14% 105 9% Window-Eyes 214 12% 138 11% System Access 181 10% 58 5% VoiceOver 159 9% 120 10%"
+    },
+    "classified_at": 1781598936.9653518
+  },
+  "Lists": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.556,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 41
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "Lists",
+        "Tables",
+        "list",
+        "items",
+        "following",
+        "outline",
+        "sections",
+        "document",
+        "ordered",
+        "numbered",
+        "fifth",
+        "item"
+      ],
+      "compact_excerpt": "Lists The following outline of the sections of this document is an ordered (numbered) list with six items. The fifth item, \"Tables,\" contains a nested unordered (bulleted) list with two items. Headings Lists Links Images Tables Simple Tables Complex Tables Columns"
+    },
+    "classified_at": 1781598937.1167514
+  },
+  "Sample Document": {
+    "topic_type": "topic",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.667,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 30
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "Sample",
+        "Document",
+        "using",
+        "document",
+        "created",
+        "accessibility",
+        "techniques",
+        "headings",
+        "lists",
+        "image",
+        "alternate",
+        "text"
+      ],
+      "compact_excerpt": "Sample Document This document was created using accessibility techniques for headings, lists, image alternate text, tables, and columns. It should be completely accessible using assistive technologies such as screen readers."
+    },
+    "classified_at": 1781598937.2188926
+  },
+  "Simple Tables": {
+    "topic_type": "topic",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.778,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 36
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "Simple",
+        "Tables",
+        "tables",
+        "uniform",
+        "number",
+        "columns",
+        "rows",
+        "without",
+        "merged",
+        "cells",
+        "Screen",
+        "Reader"
+      ],
+      "compact_excerpt": "Simple Tables Simple tables have a uniform number of columns and rows, without any merged cells: Screen Reader Responses Share JAWS 853 49% NVDA 238 14% Window-Eyes 214 12% System Access 181 10% VoiceOver 159 9%"
+    },
+    "classified_at": 1781598937.2366424
+  }
+}

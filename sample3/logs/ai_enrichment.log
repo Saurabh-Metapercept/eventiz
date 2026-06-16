@@ -1,0 +1,337 @@
+2026-06-16 14:05:34,593 [INFO] pipeline.enrich_runner: [EnrichPipeline] Raw backup created at: D:\MetR Phase 2\metR-Converter-DOCX\Storage\121c248f-ecf3-4e7c-a261-bb44ff5ae18c\output\.tmp_backup_sample3
+2026-06-16 14:05:34,625 [INFO] pipeline.enrich_runner: [EnrichPipeline] Discovered 9 .dita files, 2 .ditamap files
+2026-06-16 14:05:34,629 [INFO] pipeline.enrich_runner: [EnrichPipeline] Parsed 9 DITA files
+2026-06-16 14:05:34,629 [INFO] pipeline.enrich_runner: [EnrichPipeline] ══ BEFORE ENRICHMENT ══════════════════════════════
+2026-06-16 14:05:34,630 [INFO] pipeline.enrich_runner: [EnrichPipeline] Total DITA files: 9
+2026-06-16 14:05:34,630 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] sample_document/columns.dita                       type=concept    shortdesc=NO  prolog=NO 
+2026-06-16 14:05:34,630 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] sample_document/complex_tables.dita                type=reference  shortdesc=NO  prolog=NO 
+2026-06-16 14:05:34,630 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] sample_document/headings.dita                      type=concept    shortdesc=NO  prolog=NO 
+2026-06-16 14:05:34,630 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] sample_document/images.dita                        type=concept    shortdesc=NO  prolog=NO 
+2026-06-16 14:05:34,630 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] sample_document/links.dita                         type=concept    shortdesc=NO  prolog=NO 
+2026-06-16 14:05:34,631 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] sample_document/lists.dita                         type=task       shortdesc=NO  prolog=NO 
+2026-06-16 14:05:34,631 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] sample_document/sample_document.dita               type=concept    shortdesc=NO  prolog=NO 
+2026-06-16 14:05:34,631 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] sample_document/simple_tables.dita                 type=reference  shortdesc=NO  prolog=NO 
+2026-06-16 14:05:34,631 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] sample_document/tables.dita                        type=concept    shortdesc=NO  prolog=NO 
+2026-06-16 14:05:34,631 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Structure & Schema Validation (DITA-only) ──
+2026-06-16 14:05:34,659 [INFO] utils.structure_validator: [StructureValidator] Checking .ditamap topicref and mapref references
+2026-06-16 14:05:34,665 [INFO] utils.structure_validator: [StructureValidator] Checking for duplicate id attributes
+2026-06-16 14:05:34,668 [INFO] utils.structure_validator: [StructureValidator] Checking <xref> href targets
+2026-06-16 14:05:34,670 [INFO] utils.structure_validator: [StructureValidator] Checking for spaces in filenames and folder names
+2026-06-16 14:05:34,671 [INFO] utils.structure_validator: [StructureValidator] Running per-file DITA schema validation
+2026-06-16 14:05:34,672 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'sample_document/columns.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-06-16 14:05:34,672 [WARNING] utils.structure_validator: [StructureValidator] WARNING [section_missing_title]: 'sample_document/complex_tables.dita' — <section> #1 has no <title> — recommended for DITA compliance
+2026-06-16 14:05:34,673 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_col_mismatch]: 'sample_document/complex_tables.dita' — table 1 row has 3 entries but cols=5
+2026-06-16 14:05:34,673 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'sample_document/complex_tables.dita' — <table> #1 has no <title> element — required for accessibility and DITA compliance
+2026-06-16 14:05:34,673 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'sample_document/complex_tables.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-06-16 14:05:34,674 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'sample_document/headings.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-06-16 14:05:34,675 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'sample_document/images.dita' — <image> #1 (href='../media/image1.gif') has no alt text — required for accessibility
+2026-06-16 14:05:34,675 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'sample_document/images.dita' — <image> #2 (href='../media/image2.png') has no alt text — required for accessibility
+2026-06-16 14:05:34,675 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'sample_document/images.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-06-16 14:05:34,675 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'sample_document/links.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-06-16 14:05:34,676 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'sample_document/lists.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-06-16 14:05:34,677 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'sample_document/sample_document.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-06-16 14:05:34,677 [WARNING] utils.structure_validator: [StructureValidator] WARNING [section_missing_title]: 'sample_document/simple_tables.dita' — <section> #1 has no <title> — recommended for DITA compliance
+2026-06-16 14:05:34,677 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'sample_document/simple_tables.dita' — <table> #1 has no <title> element — required for accessibility and DITA compliance
+2026-06-16 14:05:34,678 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'sample_document/simple_tables.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-06-16 14:05:34,678 [WARNING] utils.structure_validator: [StructureValidator] WARNING [empty_body]: 'sample_document/tables.dita' — <conbody> exists but has no child elements or text content
+2026-06-16 14:05:34,678 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'sample_document/tables.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-06-16 14:05:34,679 [INFO] utils.structure_validator: [StructureValidator] Complete — CRITICAL=0, WARNING=17 | dita_files=9, broken_xml=0, empty=1, broken_dita_refs=0, broken_maprefs=0, orphans=0, duplicate_ids=0, broken_xrefs=0, filename_spaces=0
+2026-06-16 14:05:34,680 [INFO] pipeline.enrich_runner: [EnrichPipeline] Validation done — CRITICAL=0, WARNING=17 | broken_xml=0, empty=1, broken_refs=0, orphans=0
+2026-06-16 14:05:34,712 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Safe Fixer: Zone 1 auto-fixes ──
+2026-06-16 14:05:34,743 [INFO] utils.dita_safe_fixer: [SafeFixer] FIXED: sample_document/tables.dita — expanded self-closing <conbody/> to explicit open/close tags
+2026-06-16 14:05:34,743 [INFO] utils.dita_safe_fixer: [SafeFixer] Complete — 1 fix(es) applied, 0 write failure(s)
+2026-06-16 14:05:34,743 [INFO] pipeline.enrich_runner: [EnrichPipeline] Safe fixes applied=1, write_failures=0
+2026-06-16 14:05:34,771 [INFO] pipeline.enrich_runner: [EnrichPipeline] Marked 1 empty topic(s) to skip enrichment
+2026-06-16 14:05:35,582 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2026-06-16 14:05:35,585 [WARNING] pipeline.enrich_runner: [EnrichPipeline] ANTHROPIC_API_KEY is invalid or expired — heuristic fallbacks will be used.
+2026-06-16 14:05:35,613 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Extracting document context from DITA files ──
+2026-06-16 14:05:35,642 [INFO] utils.document_context_extractor: [DocContext] extract_context_from_dita — 9 files found, stem='sample3'
+2026-06-16 14:05:35,642 [INFO] utils.document_context_extractor: [DocContext] Extracting document-level context from: D:\MetR Phase 2\metR-Converter-DOCX\Storage\121c248f-ecf3-4e7c-a261-bb44ff5ae18c\output\sample3\sample3.ditamap
+2026-06-16 14:05:35,643 [INFO] utils.document_context_extractor: [DocContext] Aggregated content from 9 files
+2026-06-16 14:05:36,127 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2026-06-16 14:05:36,129 [WARNING] utils.document_context_extractor: [DocContext] AI extraction failed: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cc6deWDcZ5ejuKqNSjcpV'}
+2026-06-16 14:05:36,130 [INFO] utils.document_context_extractor: [DocContext] AI confidence low (0.00), using heuristic for task_type only
+2026-06-16 14:05:36,131 [INFO] utils.document_context_extractor: [DocContext] Heuristic task_type: ''
+2026-06-16 14:05:36,131 [INFO] utils.document_context_extractor: [DocContext] Final context: {'prodname': 'sample3', 'prodname_confirmed': False, 'equipment_name': '', 'task_type': '', 'document_keywords': [], 'extraction_method': 'heuristic', 'confidence': 0.0}
+2026-06-16 14:05:36,132 [INFO] pipeline.enrich_runner: [EnrichPipeline] prodname 'sample3' is AI-inferred — clearing so DITA gets empty <prodname>
+2026-06-16 14:05:36,132 [INFO] pipeline.enrich_runner: [EnrichPipeline] Context — prodname='', equipment='', task_type='', method=heuristic, confidence=0.00
+2026-06-16 14:05:36,141 [INFO] utils.core_log_parser: [CoreLogParser] Parsed core report 'sample3_report.txt' — 11 topics, 0 errors
+2026-06-16 14:05:36,142 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Backend Report (core _report.txt) ──────────────
+2026-06-16 14:05:36,142 [INFO] pipeline.enrich_runner: [BackendReport] [Core Engine] total=11, passed=11, failed=0, root_map=sample3.ditamap, images=2
+2026-06-16 14:05:36,142 [INFO] pipeline.enrich_runner: [BackendReport] [Core Files]
+2026-06-16 14:05:36,143 [INFO] pipeline.enrich_runner: [BackendReport]   sample_document/columns.dita: type=concept, status=PASS
+2026-06-16 14:05:36,143 [INFO] pipeline.enrich_runner: [BackendReport]   sample_document/complex_tables.dita: type=reference, status=PASS
+2026-06-16 14:05:36,143 [INFO] pipeline.enrich_runner: [BackendReport]   sample_document/headings.dita: type=concept, status=PASS
+2026-06-16 14:05:36,143 [INFO] pipeline.enrich_runner: [BackendReport]   sample_document/images.dita: type=concept, status=PASS
+2026-06-16 14:05:36,144 [INFO] pipeline.enrich_runner: [BackendReport]   sample_document/links.dita: type=concept, status=PASS
+2026-06-16 14:05:36,144 [INFO] pipeline.enrich_runner: [BackendReport]   sample_document/lists.dita: type=task, status=PASS
+2026-06-16 14:05:36,144 [INFO] pipeline.enrich_runner: [BackendReport]   sample_document/sample_document.dita: type=concept, status=PASS
+2026-06-16 14:05:36,144 [INFO] pipeline.enrich_runner: [BackendReport]   sample_document/simple_tables.dita: type=reference, status=PASS
+2026-06-16 14:05:36,144 [INFO] pipeline.enrich_runner: [BackendReport]   sample_document/tables.dita: type=concept, status=PASS
+2026-06-16 14:05:36,144 [INFO] pipeline.enrich_runner: [BackendReport] [Core DTD] all files passed
+2026-06-16 14:05:36,144 [INFO] pipeline.enrich_runner: [BackendReport] [Core Errors] none
+2026-06-16 14:05:36,144 [INFO] pipeline.enrich_runner: [BackendReport] [Core Headings] Sample Document(9)
+2026-06-16 14:05:36,145 [INFO] pipeline.enrich_runner: [BackendReport] DTD validation: all files passed
+2026-06-16 14:05:36,145 [INFO] pipeline.enrich_runner: [EnrichPipeline] ────────────────────────────────────────────────────
+2026-06-16 14:05:36,145 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── XSLT Pre-clean ──
+2026-06-16 14:05:36,179 [INFO] utils.xslt_runner: [XSLT] Loaded task → task.xsl
+2026-06-16 14:05:36,179 [INFO] utils.xslt_runner: [XSLT] Loaded concept → concept.xsl
+2026-06-16 14:05:36,179 [INFO] utils.xslt_runner: [XSLT] Loaded reference → reference.xsl
+2026-06-16 14:05:36,180 [INFO] utils.xslt_runner: [XSLT] Loaded map → map.xsl
+2026-06-16 14:05:36,180 [INFO] utils.xslt_runner: [XSLT] Loaded bookmap → bookmap.xsl
+2026-06-16 14:05:36,180 [INFO] utils.xslt_runner: [XSLT] Loaded glossentry → glossentry.xsl
+2026-06-16 14:05:36,181 [INFO] utils.xslt_runner: [XSLT] Loaded topic → topic.xsl
+2026-06-16 14:05:36,204 [INFO] utils.xslt_runner: [XSLT] Modified: sample_document/complex_tables.dita [reference] — fixes: {'FIX-01_colspec_bad_attrs': 5, 'FIX-03_section_missing_id': 1}
+2026-06-16 14:05:36,214 [INFO] utils.xslt_runner: [XSLT] Modified: sample_document/images.dita [concept] — fixes: {'FIX-02_image_missing_alt': 2}
+2026-06-16 14:05:36,249 [INFO] utils.xslt_runner: [XSLT] Modified: sample_document/simple_tables.dita [reference] — fixes: {'FIX-01_colspec_bad_attrs': 3, 'FIX-03_section_missing_id': 1}
+2026-06-16 14:05:36,254 [INFO] utils.xslt_runner: [XSLT] Done — processed=9, modified=3, unchanged=6, failed=0
+2026-06-16 14:05:36,254 [INFO] pipeline.enrich_runner: [EnrichPipeline] XSLT — status=completed, modified=3, failed=0
+2026-06-16 14:05:36,255 [INFO] pipeline.enrich_runner: [EnrichPipeline] Saved: D:\MetR Phase 2\metR-Converter-DOCX\Storage\121c248f-ecf3-4e7c-a261-bb44ff5ae18c\logs\ai_reports\xslt_transform_report.json
+2026-06-16 14:05:36,285 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Layers 1+2+3+4: Classify + Shortdesc + Keywords + Alt Text ──
+2026-06-16 14:05:36,317 [INFO] layers.layer1234_enrichment: L1234 › 'Columns' sample_document/columns.dita
+2026-06-16 14:05:36,319 [INFO] layers.layer1234_enrichment: L1234 › 'Complex Tables' sample_document/complex_tables.dita
+2026-06-16 14:05:36,321 [INFO] layers.layer1234_enrichment: L1234 › 'Headings' sample_document/headings.dita
+2026-06-16 14:05:36,323 [INFO] layers.layer1234_enrichment: L1234 › 'Images' sample_document/images.dita
+2026-06-16 14:05:36,325 [INFO] layers.layer1234_enrichment: L1234 › 'Links' sample_document/links.dita
+2026-06-16 14:05:36,327 [INFO] layers.layer1234_enrichment: L1234 › 'Lists' sample_document/lists.dita
+2026-06-16 14:05:36,328 [INFO] layers.layer1234_enrichment: L1234 › 'Sample Document' sample_document/sample_document.dita
+2026-06-16 14:05:36,329 [INFO] layers.layer1234_enrichment: L1234 › 'Simple Tables' sample_document/simple_tables.dita
+2026-06-16 14:05:36,330 [INFO] pipeline.enrich_runner: [EnrichPipeline] SKIPPED 'sample_document/tables.dita' — empty topic
+2026-06-16 14:05:36,713 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2026-06-16 14:05:36,714 [ERROR] layers.layer1234_enrichment: L1234 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cc6deYkQqog1m1yw3n7Sa'}
+2026-06-16 14:05:36,715 [WARNING] layers.layer1234_enrichment: L1234 ⊘ fallback 'Columns'
+2026-06-16 14:05:36,717 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-06-16 14:05:36,717 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc columns.dita
+2026-06-16 14:05:36,719 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-06-16 14:05:36,720 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog columns.dita
+2026-06-16 14:05:36,721 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Columns' → type=concept, confidence=low
+2026-06-16 14:05:36,813 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2026-06-16 14:05:36,815 [ERROR] layers.layer1234_enrichment: L1234 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cc6deZAUFZ4cCmr6u2rwZ'}
+2026-06-16 14:05:36,815 [WARNING] layers.layer1234_enrichment: L1234 ⊘ fallback 'Headings'
+2026-06-16 14:05:36,817 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-06-16 14:05:36,818 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc headings.dita
+2026-06-16 14:05:36,820 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-06-16 14:05:36,820 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog headings.dita
+2026-06-16 14:05:36,822 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Headings' → type=concept, confidence=low
+2026-06-16 14:05:36,828 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2026-06-16 14:05:36,829 [ERROR] layers.layer1234_enrichment: L1234 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cc6deZEgc3oGuCWpw4tWY'}
+2026-06-16 14:05:36,830 [WARNING] layers.layer1234_enrichment: L1234 ⊘ fallback 'Images'
+2026-06-16 14:05:36,831 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-06-16 14:05:36,832 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc images.dita
+2026-06-16 14:05:36,834 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-06-16 14:05:36,834 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog images.dita
+2026-06-16 14:05:36,836 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Images' → type=concept, confidence=low
+2026-06-16 14:05:36,837 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2026-06-16 14:05:36,838 [ERROR] layers.layer1234_enrichment: L1234 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cc6deZGB8jQrbzPYZsHQj'}
+2026-06-16 14:05:36,838 [WARNING] layers.layer1234_enrichment: L1234 ⊘ fallback 'Links'
+2026-06-16 14:05:36,840 [INFO] layers.layer1_topic_classifier: L1 ✓ concept→topic links.dita
+2026-06-16 14:05:36,848 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-06-16 14:05:36,849 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc links.dita
+2026-06-16 14:05:36,851 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-06-16 14:05:36,851 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog links.dita
+2026-06-16 14:05:36,852 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Links' → type=topic, confidence=low
+2026-06-16 14:05:36,955 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2026-06-16 14:05:36,957 [ERROR] layers.layer1234_enrichment: L1234 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cc6deZLdx9grnC1RXYsxc'}
+2026-06-16 14:05:36,957 [WARNING] layers.layer1234_enrichment: L1234 ⊘ fallback 'Complex Tables'
+2026-06-16 14:05:36,959 [INFO] layers.layer1_topic_classifier: L1 ✓ reference→concept complex_tables.dita
+2026-06-16 14:05:36,961 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-06-16 14:05:36,962 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc complex_tables.dita
+2026-06-16 14:05:36,964 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-06-16 14:05:36,965 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog complex_tables.dita
+2026-06-16 14:05:36,965 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Complex Tables' → type=concept, confidence=low
+2026-06-16 14:05:37,096 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2026-06-16 14:05:37,098 [ERROR] layers.layer1234_enrichment: L1234 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cc6deaNeAfP312Z9kzweU'}
+2026-06-16 14:05:37,098 [WARNING] layers.layer1234_enrichment: L1234 ⊘ fallback 'Lists'
+2026-06-16 14:05:37,101 [INFO] layers.layer1_topic_classifier: L1 ✓ task→concept lists.dita
+2026-06-16 14:05:37,107 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-06-16 14:05:37,107 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc lists.dita
+2026-06-16 14:05:37,115 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-06-16 14:05:37,116 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog lists.dita
+2026-06-16 14:05:37,117 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Lists' → type=concept, confidence=low
+2026-06-16 14:05:37,209 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2026-06-16 14:05:37,211 [ERROR] layers.layer1234_enrichment: L1234 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cc6deamD8i3vdrAw6suyH'}
+2026-06-16 14:05:37,211 [WARNING] layers.layer1234_enrichment: L1234 ⊘ fallback 'Sample Document'
+2026-06-16 14:05:37,213 [INFO] layers.layer1_topic_classifier: L1 ✓ concept→topic sample_document.dita
+2026-06-16 14:05:37,215 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-06-16 14:05:37,215 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc sample_document.dita
+2026-06-16 14:05:37,217 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-06-16 14:05:37,218 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog sample_document.dita
+2026-06-16 14:05:37,219 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Sample Document' → type=topic, confidence=low
+2026-06-16 14:05:37,221 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2026-06-16 14:05:37,223 [ERROR] layers.layer1234_enrichment: L1234 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cc6deau9epoTf1YG8CBL2'}
+2026-06-16 14:05:37,223 [WARNING] layers.layer1234_enrichment: L1234 ⊘ fallback 'Simple Tables'
+2026-06-16 14:05:37,224 [INFO] layers.layer1_topic_classifier: L1 ✓ reference→topic simple_tables.dita
+2026-06-16 14:05:37,226 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-06-16 14:05:37,226 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc simple_tables.dita
+2026-06-16 14:05:37,235 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-06-16 14:05:37,235 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog simple_tables.dita
+2026-06-16 14:05:37,237 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Simple Tables' → type=topic, confidence=low
+2026-06-16 14:05:37,283 [INFO] pipeline.enrich_runner: [EnrichPipeline] Layers 1+2+3+4 complete — 9 topics processed
+2026-06-16 14:05:37,312 [INFO] pipeline.enrich_runner: [EnrichPipeline] Reclassification summary — 5 of 9 topics had type changed by AI
+2026-06-16 14:05:37,313 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] sample_document/complex_tables.dita                          reference → concept (confidence=low)
+2026-06-16 14:05:37,313 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] sample_document/links.dita                                   concept → topic (confidence=low)
+2026-06-16 14:05:37,313 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] sample_document/lists.dita                                   task → concept (confidence=low)
+2026-06-16 14:05:37,313 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] sample_document/sample_document.dita                         concept → topic (confidence=low)
+2026-06-16 14:05:37,314 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] sample_document/simple_tables.dita                           reference → topic (confidence=low)
+2026-06-16 14:05:37,314 [INFO] pipeline.enrich_runner: [EnrichPipeline] ══ AFTER ENRICHMENT ═══════════════════════════════
+2026-06-16 14:05:37,314 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  sample_document/columns.dita                       type=concept    shortdesc='This is an example of columns. With columns, the page is split into tw…'
+2026-06-16 14:05:37,314 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['columns', 'column', 'first', 'Columns', 'across', 'second'] | indexterms=['columns', 'column', 'first']
+2026-06-16 14:05:37,314 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  sample_document/complex_tables.dita                type=concept    shortdesc='The following is a complex table, using merged cells as headers for se…'
+2026-06-16 14:05:37,314 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['Complex', 'Tables', 'table', 'Responses', 'Share', 'following'] | indexterms=['Complex', 'Tables', 'table']
+2026-06-16 14:05:37,315 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  sample_document/headings.dita                      type=concept    shortdesc='There are eight section headings in this document. At the beginning, "…'
+2026-06-16 14:05:37,315 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['headings', 'Headings', 'section', 'level', 'Table', 'There'] | indexterms=['headings', 'Headings', 'section']
+2026-06-16 14:05:37,315 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  sample_document/images.dita                        type=concept    shortdesc='placeholder placeholder Documents may contain images. For example, the…'
+2026-06-16 14:05:37,315 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['image', 'placeholder', 'Images', 'images', 'descriptions', 'below'] | indexterms=['image', 'placeholder', 'Images']
+2026-06-16 14:05:37,315 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  sample_document/links.dita                         type=topic      shortdesc='In web documents, links can point different locations on the page, dif…'
+2026-06-16 14:05:37,316 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['documents', 'Links', 'different', 'Sample', 'Document', 'links'] | indexterms=['documents', 'Links', 'different']
+2026-06-16 14:05:37,316 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  sample_document/lists.dita                         type=concept    shortdesc='The following outline of the sections of this document is an ordered (…'
+2026-06-16 14:05:37,316 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['Tables', 'Lists', 'items', 'following', 'outline', 'sections'] | indexterms=['Tables', 'Lists', 'items']
+2026-06-16 14:05:37,316 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  sample_document/sample_document.dita               type=topic      shortdesc='This document was created using accessibility techniques for headings,…'
+2026-06-16 14:05:37,316 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['Sample', 'Document', 'using', 'document', 'created', 'accessibility'] | indexterms=['Sample', 'Document', 'using']
+2026-06-16 14:05:37,317 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  sample_document/simple_tables.dita                 type=topic      shortdesc='have a uniform number of columns and rows, without any merged cells:'
+2026-06-16 14:05:37,317 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['Simple', 'Tables', 'tables', 'uniform', 'number', 'columns'] | indexterms=['Simple', 'Tables', 'tables']
+2026-06-16 14:05:37,317 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  sample_document/tables.dita                        SKIPPED (empty topic)
+2026-06-16 14:05:37,317 [INFO] pipeline.enrich_runner: [EnrichPipeline] Alt text — filled=0, skipped=0
+2026-06-16 14:05:37,341 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Layer 5: Quality Review ──
+2026-06-16 14:05:37,368 [INFO] layers.layer5_quality_autofix: L4 › sample_document/columns.dita at D:\MetR Phase 2\metR-Converter-DOCX\Storage\121c248f-ecf3-4e7c-a261-bb44ff5ae18c\output\sample3\sample_document\columns.dita
+2026-06-16 14:05:37,368 [INFO] layers.layer5_quality_autofix: L4 › sample_document/complex_tables.dita at D:\MetR Phase 2\metR-Converter-DOCX\Storage\121c248f-ecf3-4e7c-a261-bb44ff5ae18c\output\sample3\sample_document\complex_tables.dita
+2026-06-16 14:05:37,369 [INFO] layers.layer5_quality_autofix: L4 › sample_document/headings.dita at D:\MetR Phase 2\metR-Converter-DOCX\Storage\121c248f-ecf3-4e7c-a261-bb44ff5ae18c\output\sample3\sample_document\headings.dita
+2026-06-16 14:05:37,369 [INFO] layers.layer5_quality_autofix: L4 › sample_document/images.dita at D:\MetR Phase 2\metR-Converter-DOCX\Storage\121c248f-ecf3-4e7c-a261-bb44ff5ae18c\output\sample3\sample_document\images.dita
+2026-06-16 14:05:37,370 [INFO] layers.layer5_quality_autofix: L4 › sample_document/links.dita at D:\MetR Phase 2\metR-Converter-DOCX\Storage\121c248f-ecf3-4e7c-a261-bb44ff5ae18c\output\sample3\sample_document\links.dita
+2026-06-16 14:05:37,370 [INFO] layers.layer5_quality_autofix: L4 › sample_document/lists.dita at D:\MetR Phase 2\metR-Converter-DOCX\Storage\121c248f-ecf3-4e7c-a261-bb44ff5ae18c\output\sample3\sample_document\lists.dita
+2026-06-16 14:05:37,370 [INFO] layers.layer5_quality_autofix: L4 › sample_document/sample_document.dita at D:\MetR Phase 2\metR-Converter-DOCX\Storage\121c248f-ecf3-4e7c-a261-bb44ff5ae18c\output\sample3\sample_document\sample_document.dita
+2026-06-16 14:05:37,371 [INFO] layers.layer5_quality_autofix: L4 › sample_document/simple_tables.dita at D:\MetR Phase 2\metR-Converter-DOCX\Storage\121c248f-ecf3-4e7c-a261-bb44ff5ae18c\output\sample3\sample_document\simple_tables.dita
+2026-06-16 14:05:37,372 [INFO] layers.layer5_quality_autofix: L4 › sample_document/tables.dita at D:\MetR Phase 2\metR-Converter-DOCX\Storage\121c248f-ecf3-4e7c-a261-bb44ff5ae18c\output\sample3\sample_document\tables.dita
+2026-06-16 14:05:37,373 [INFO] layers.layer5_quality_autofix: L4 › review 9/9 topics (0 skipped)
+2026-06-16 14:05:37,834 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2026-06-16 14:05:37,835 [WARNING] layers.layer5_quality_autofix: L4 ✗ review: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cc6dedB52Vh4CupYXCz5B'}
+2026-06-16 14:05:37,836 [INFO] pipeline.enrich_runner: [EnrichPipeline] Layer 5 review — quality=fair, accuracy=0%
+2026-06-16 14:05:37,867 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Layer 5: Autofix ──
+2026-06-16 14:05:37,893 [INFO] layers.layer5_quality_autofix: L4 › autofix: 0 broken
+2026-06-16 14:05:37,894 [INFO] pipeline.enrich_runner: [EnrichPipeline] Layer 5 autofix — fixed=0, flagged=0, failed=0
+2026-06-16 14:05:37,923 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Layer 6: Final Validation ──
+2026-06-16 14:05:37,955 [INFO] layers.layer6_final_validation: L5 ── structural validation start
+2026-06-16 14:05:37,956 [INFO] layers.layer6_final_validation: L5 ⚠ sample_document/columns.dita — 2 issue(s)
+2026-06-16 14:05:37,957 [INFO] layers.layer6_final_validation: L5 ⚠ sample_document/complex_tables.dita — 2 issue(s)
+2026-06-16 14:05:37,957 [INFO] layers.layer6_final_validation: L5 ⚠ sample_document/headings.dita — 2 issue(s)
+2026-06-16 14:05:37,958 [INFO] layers.layer6_final_validation: L5 ⚠ sample_document/images.dita — 2 issue(s)
+2026-06-16 14:05:37,959 [INFO] layers.layer6_final_validation: L5 ⚠ sample_document/links.dita — 2 issue(s)
+2026-06-16 14:05:37,959 [INFO] layers.layer6_final_validation: L5 ⚠ sample_document/lists.dita — 2 issue(s)
+2026-06-16 14:05:37,960 [INFO] layers.layer6_final_validation: L5 ⚠ sample_document/sample_document.dita — 2 issue(s)
+2026-06-16 14:05:37,961 [INFO] layers.layer6_final_validation: L5 ⚠ sample_document/simple_tables.dita — 2 issue(s)
+2026-06-16 14:05:37,962 [INFO] layers.layer6_final_validation: L5 ⚠ sample_document/tables.dita — 2 issue(s)
+2026-06-16 14:05:37,962 [INFO] layers.layer6_final_validation: L5 ✓ done pass=True acc=100% crit=0 err=0 warn=18
+2026-06-16 14:05:37,962 [INFO] layers.layer6_final_validation: L5 DTD schema start
+2026-06-16 14:05:37,964 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    columns.dita
+2026-06-16 14:05:37,965 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    complex_tables.dita
+2026-06-16 14:05:37,965 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    headings.dita
+2026-06-16 14:05:37,966 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    images.dita
+2026-06-16 14:05:37,966 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    links.dita
+2026-06-16 14:05:37,966 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    lists.dita
+2026-06-16 14:05:37,967 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    sample_document.dita
+2026-06-16 14:05:37,967 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    simple_tables.dita
+2026-06-16 14:05:37,968 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    tables.dita
+2026-06-16 14:05:37,968 [INFO] utils.dita_schema_validator: [SchemaValidator] ── DONE ── schema_passed=True, valid=9/9
+2026-06-16 14:05:37,968 [INFO] layers.layer6_final_validation: L5 DTD schema pass=True valid=9/9
+2026-06-16 14:05:37,968 [INFO] pipeline.enrich_runner: [EnrichPipeline] Layer 6 — passed=True, accuracy=100%
+2026-06-16 14:05:37,996 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Post-Enrichment Structural Validation ──
+2026-06-16 14:05:38,026 [INFO] utils.structure_validator: [StructureValidator] Checking .ditamap topicref and mapref references
+2026-06-16 14:05:38,032 [INFO] utils.structure_validator: [StructureValidator] Checking for duplicate id attributes
+2026-06-16 14:05:38,034 [INFO] utils.structure_validator: [StructureValidator] Checking <xref> href targets
+2026-06-16 14:05:38,037 [INFO] utils.structure_validator: [StructureValidator] Checking for spaces in filenames and folder names
+2026-06-16 14:05:38,037 [INFO] utils.structure_validator: [StructureValidator] Running per-file DITA schema validation
+2026-06-16 14:05:38,038 [WARNING] utils.structure_validator: [StructureValidator] WARNING [doctype_mismatch]: 'sample_document/columns.dita' — DOCTYPE declaration may not match root tag <concept> — expected 'DITA Concept' in DOCTYPE line
+2026-06-16 14:05:38,039 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_col_mismatch]: 'sample_document/complex_tables.dita' — table 1 row has 3 entries but cols=5
+2026-06-16 14:05:38,039 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'sample_document/complex_tables.dita' — <table> #1 has no <title> element — required for accessibility and DITA compliance
+2026-06-16 14:05:38,040 [WARNING] utils.structure_validator: [StructureValidator] WARNING [doctype_mismatch]: 'sample_document/headings.dita' — DOCTYPE declaration may not match root tag <concept> — expected 'DITA Concept' in DOCTYPE line
+2026-06-16 14:05:38,041 [WARNING] utils.structure_validator: [StructureValidator] WARNING [doctype_mismatch]: 'sample_document/images.dita' — DOCTYPE declaration may not match root tag <concept> — expected 'DITA Concept' in DOCTYPE line
+2026-06-16 14:05:38,042 [WARNING] utils.structure_validator: [StructureValidator] WARNING [shortdesc_too_generic]: 'sample_document/sample_document.dita' — <shortdesc> starts with generic opener 'this document': 'This document was created using accessibility techniques for...'
+2026-06-16 14:05:38,043 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'sample_document/simple_tables.dita' — <table> #1 has no <title> element — required for accessibility and DITA compliance
+2026-06-16 14:05:38,044 [WARNING] utils.structure_validator: [StructureValidator] WARNING [doctype_mismatch]: 'sample_document/tables.dita' — DOCTYPE declaration may not match root tag <concept> — expected 'DITA Concept' in DOCTYPE line
+2026-06-16 14:05:38,044 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'sample_document/tables.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-06-16 14:05:38,044 [WARNING] utils.structure_validator: [StructureValidator] WARNING [empty_p]: 'sample_document/tables.dita' — <p> #1 is empty — remove or add content
+2026-06-16 14:05:38,045 [INFO] utils.structure_validator: [StructureValidator] Complete — CRITICAL=0, WARNING=10 | dita_files=9, broken_xml=0, empty=0, broken_dita_refs=0, broken_maprefs=0, orphans=0, duplicate_ids=0, broken_xrefs=0, filename_spaces=0
+2026-06-16 14:05:38,045 [INFO] pipeline.enrich_runner: [EnrichPipeline] Post-structural — CRITICAL=0, WARNING=10
+2026-06-16 14:05:38,075 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Post-Enrichment AI Content Quality Check ──
+2026-06-16 14:05:38,105 [INFO] utils.structure_validator: [EnrichmentQuality] Post-AI check — 3 issues in 9 files (CRITICAL=0, WARNING=3)
+2026-06-16 14:05:38,105 [INFO] pipeline.enrich_runner: [EnrichPipeline] AI content quality — CRITICAL=0, WARNING=3 (checks: shortdesc, keywords, indexterms)
+2026-06-16 14:05:38,133 [INFO] pipeline.enrich_runner: [EnrichPipeline] Fix report — backend_errors=0 | fixed_by_zone1=0, fixed_by_ai=12, remaining=4, ai_obligations_missed=1, new_by_ai=6
+2026-06-16 14:05:38,162 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Schematron 4-Gate Validation ──
+2026-06-16 14:05:39,912 [INFO] pipeline.enrich_runner: [Schematron] 1/11 — columns.dita
+2026-06-16 14:05:41,453 [INFO] pipeline.enrich_runner: [Schematron] 2/11 — complex_tables.dita
+2026-06-16 14:05:42,915 [INFO] pipeline.enrich_runner: [Schematron] 3/11 — headings.dita
+2026-06-16 14:05:44,519 [INFO] pipeline.enrich_runner: [Schematron] 4/11 — images.dita
+2026-06-16 14:05:46,186 [INFO] pipeline.enrich_runner: [Schematron] 5/11 — links.dita
+2026-06-16 14:05:47,686 [INFO] pipeline.enrich_runner: [Schematron] 6/11 — lists.dita
+2026-06-16 14:05:49,092 [INFO] pipeline.enrich_runner: [Schematron] 7/11 — sample_document.dita
+2026-06-16 14:05:50,574 [INFO] pipeline.enrich_runner: [Schematron] 8/11 — simple_tables.dita
+2026-06-16 14:05:51,984 [INFO] pipeline.enrich_runner: [Schematron] 9/11 — tables.dita
+2026-06-16 14:05:53,549 [INFO] pipeline.enrich_runner: [Schematron] 10/11 — sample3.ditamap
+2026-06-16 14:05:54,824 [INFO] pipeline.enrich_runner: [Schematron] 11/11 — sample_document_map.ditamap
+2026-06-16 14:05:54,866 [INFO] utils.schematron_runner: [Schematron] Done — files=11, violations=25 (errors=25, warnings=0)
+2026-06-16 14:05:54,866 [INFO] pipeline.enrich_runner: [EnrichPipeline] Schematron — status=completed, violations=25, files_affected=5
+2026-06-16 14:05:54,868 [INFO] pipeline.enrich_runner: [EnrichPipeline] Saved: D:\MetR Phase 2\metR-Converter-DOCX\Storage\121c248f-ecf3-4e7c-a261-bb44ff5ae18c\logs\ai_reports\schematron_validation_report.json
+2026-06-16 14:05:54,898 [INFO] pipeline.enrich_runner: [EnrichPipeline] Schematron fix pass 1/3 — 25 violation(s) remaining
+2026-06-16 14:05:54,923 [WARNING] utils.schematron_fixer: [SchematronFixer] complex_tables.dita — <b>(7) kept as DITA 1.3 — as per DITA 2.x should be <ph outputclass="bold">
+2026-06-16 14:05:54,925 [INFO] utils.schematron_fixer: [SchematronFixer] sample_document/images.dita — fixed 2 violation(s): ['image_dims(2)']
+2026-06-16 14:05:54,927 [WARNING] utils.schematron_fixer: [SchematronFixer] simple_tables.dita — <b>(3) kept as DITA 1.3 — as per DITA 2.x should be <ph outputclass="bold">
+2026-06-16 14:05:54,927 [INFO] utils.schematron_fixer: [SchematronFixer] Done — 1 file(s) fixed, 2 total fixes applied
+2026-06-16 14:05:54,928 [INFO] pipeline.enrich_runner: [EnrichPipeline] Schematron fix pass 1 — fixed 2 in 1 file(s)
+2026-06-16 14:05:54,928 [INFO] pipeline.enrich_runner: [EnrichPipeline] Saved: D:\MetR Phase 2\metR-Converter-DOCX\Storage\121c248f-ecf3-4e7c-a261-bb44ff5ae18c\logs\ai_reports\schematron_fix_pass1.json
+2026-06-16 14:05:56,640 [INFO] pipeline.enrich_runner: [Schematron] 1/11 — columns.dita
+2026-06-16 14:05:58,055 [INFO] pipeline.enrich_runner: [Schematron] 2/11 — complex_tables.dita
+2026-06-16 14:05:59,381 [INFO] pipeline.enrich_runner: [Schematron] 3/11 — headings.dita
+2026-06-16 14:06:00,743 [INFO] pipeline.enrich_runner: [Schematron] 4/11 — images.dita
+2026-06-16 14:06:02,167 [INFO] pipeline.enrich_runner: [Schematron] 5/11 — links.dita
+2026-06-16 14:06:03,509 [INFO] pipeline.enrich_runner: [Schematron] 6/11 — lists.dita
+2026-06-16 14:06:05,781 [INFO] pipeline.enrich_runner: [Schematron] 7/11 — sample_document.dita
+2026-06-16 14:06:07,147 [INFO] pipeline.enrich_runner: [Schematron] 8/11 — simple_tables.dita
+2026-06-16 14:06:08,465 [INFO] pipeline.enrich_runner: [Schematron] 9/11 — tables.dita
+2026-06-16 14:06:09,914 [INFO] pipeline.enrich_runner: [Schematron] 10/11 — sample3.ditamap
+2026-06-16 14:06:11,409 [INFO] pipeline.enrich_runner: [Schematron] 11/11 — sample_document_map.ditamap
+2026-06-16 14:06:11,447 [INFO] utils.schematron_runner: [Schematron] Done — files=11, violations=21 (errors=21, warnings=0)
+2026-06-16 14:06:11,448 [INFO] pipeline.enrich_runner: [EnrichPipeline] Schematron re-validation pass 1 — 25 → 21 violation(s)
+2026-06-16 14:06:11,451 [INFO] pipeline.enrich_runner: [EnrichPipeline] Saved: D:\MetR Phase 2\metR-Converter-DOCX\Storage\121c248f-ecf3-4e7c-a261-bb44ff5ae18c\logs\ai_reports\schematron_validation_report_pass1.json
+2026-06-16 14:06:11,451 [INFO] pipeline.enrich_runner: [EnrichPipeline] Schematron fix pass 2/3 — 21 violation(s) remaining
+2026-06-16 14:06:11,481 [WARNING] utils.schematron_fixer: [SchematronFixer] complex_tables.dita — <b>(7) kept as DITA 1.3 — as per DITA 2.x should be <ph outputclass="bold">
+2026-06-16 14:06:11,481 [WARNING] utils.schematron_fixer: [SchematronFixer] simple_tables.dita — <b>(3) kept as DITA 1.3 — as per DITA 2.x should be <ph outputclass="bold">
+2026-06-16 14:06:11,482 [INFO] utils.schematron_fixer: [SchematronFixer] Done — 0 file(s) fixed, 0 total fixes applied
+2026-06-16 14:06:11,482 [INFO] pipeline.enrich_runner: [EnrichPipeline] Schematron fix pass 2 — fixed 0 in 0 file(s)
+2026-06-16 14:06:11,484 [INFO] pipeline.enrich_runner: [EnrichPipeline] Saved: D:\MetR Phase 2\metR-Converter-DOCX\Storage\121c248f-ecf3-4e7c-a261-bb44ff5ae18c\logs\ai_reports\schematron_fix_pass2.json
+2026-06-16 14:06:11,515 [INFO] pipeline.enrich_runner: [EnrichPipeline] No deterministic fixes applied — stopping iteration
+2026-06-16 14:06:11,516 [INFO] pipeline.enrich_runner: [EnrichPipeline] Saved: D:\MetR Phase 2\metR-Converter-DOCX\Storage\121c248f-ecf3-4e7c-a261-bb44ff5ae18c\logs\ai_reports\schematron_validation_report.json
+2026-06-16 14:06:11,517 [INFO] pipeline.enrich_runner: [EnrichPipeline] Saved: D:\MetR Phase 2\metR-Converter-DOCX\Storage\121c248f-ecf3-4e7c-a261-bb44ff5ae18c\logs\ai_reports\_agent_report.json
+2026-06-16 14:06:11,517 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Layer 7: Suggestion Agent ──
+2026-06-16 14:06:11,699 [INFO] layers.layer7_fix_agent: L6/Suggest ── Started ──
+2026-06-16 14:06:11,707 [INFO] layers.layer7_fix_agent: L6/Suggest 32 issues (pre-dedup)
+2026-06-16 14:06:11,707 [INFO] layers.layer7_fix_agent: L6/Suggest 15 unique issues
+2026-06-16 14:06:11,708 [INFO] layers.layer7_fix_agent: L6/Suggest tmpl invalid_inline_element sample_document/complex_tables.dita
+2026-06-16 14:06:11,708 [INFO] layers.layer7_fix_agent: L6/Suggest tmpl invalid_inline_element sample_document/simple_tables.dita
+2026-06-16 14:06:11,708 [INFO] layers.layer7_fix_agent: L6/Suggest tmpl mapref_in_map sample3.ditamap
+2026-06-16 14:06:11,708 [INFO] layers.layer7_fix_agent: L6/Suggest tmpl dtd_violation sample_document_map.ditamap
+2026-06-16 14:06:11,709 [INFO] layers.layer7_fix_agent: L6/Suggest tmpl table_col_mismatch sample_document/complex_tables.dita
+2026-06-16 14:06:11,709 [INFO] layers.layer7_fix_agent: L6/Suggest tmpl table_missing_title sample_document/complex_tables.dita
+2026-06-16 14:06:11,709 [INFO] layers.layer7_fix_agent: L6/Suggest tmpl table_missing_title sample_document/simple_tables.dita
+2026-06-16 14:06:11,710 [INFO] layers.layer7_fix_agent: L6/Suggest tmpl missing_shortdesc sample_document/tables.dita
+2026-06-16 14:06:11,710 [INFO] layers.layer7_fix_agent: L6/Suggest tmpl missing_prolog sample_document/tables.dita
+2026-06-16 14:06:12,191 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2026-06-16 14:06:12,193 [WARNING] layers.layer7_fix_agent: L6/Suggest ✗ Claude sample_document/tables.dita: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cc6dhASoxqTfDE1dYQ2K5'}
+2026-06-16 14:06:12,197 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2026-06-16 14:06:12,197 [WARNING] layers.layer7_fix_agent: L6/Suggest ✗ Claude sample_document/images.dita: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cc6dhAUJTzHDGB5wN5WNa'}
+2026-06-16 14:06:12,199 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2026-06-16 14:06:12,200 [WARNING] layers.layer7_fix_agent: L6/Suggest ✗ Claude sample_document/columns.dita: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cc6dhASZfvtpKrST5x5ab'}
+2026-06-16 14:06:12,328 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2026-06-16 14:06:12,329 [WARNING] layers.layer7_fix_agent: L6/Suggest ✗ Claude sample_document/headings.dita: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cc6dhAV3MUDrQBpg43qRk'}
+2026-06-16 14:06:12,550 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2026-06-16 14:06:12,551 [WARNING] layers.layer7_fix_agent: L6/Suggest ✗ Claude sample_document/tables.dita: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cc6dhBzLCTrCpPuMpvJpT'}
+2026-06-16 14:06:12,589 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2026-06-16 14:06:12,590 [WARNING] layers.layer7_fix_agent: L6/Suggest ✗ Claude sample_document/sample_document.dita: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cc6dhAeDtJd4c7K7jSRfy'}
+2026-06-16 14:06:12,593 [INFO] layers.layer7_fix_agent: L6/Suggest ✓ enriched 2 invalid_inline_element suggestion(s) with line info
+2026-06-16 14:06:12,594 [INFO] layers.layer7_fix_agent: L6/Suggest ✓ saved 15 suggestions
+2026-06-16 14:06:12,595 [INFO] layers.layer7_fix_agent: L6/Suggest ── Done ──
+2026-06-16 14:06:12,595 [INFO] pipeline.enrich_runner: [EnrichPipeline] Layer 7 — suggestions_generated=15
+2026-06-16 14:06:12,641 [INFO] pipeline.enrich_runner: [EnrichPipeline] Final element counts (post-enrichment): {'ol': 1, 'ul': 1, 'table': 2, 'image': 2, 'crosslink': 1, 'hyperlink': 2, 'concept': 6, 'task': 0, 'reference': 0, 'topic': 3}
+2026-06-16 14:06:12,642 [INFO] pipeline.enrich_runner: [EnrichPipeline] Saved: D:\MetR Phase 2\metR-Converter-DOCX\Storage\121c248f-ecf3-4e7c-a261-bb44ff5ae18c\logs\ai_reports\_agent_report.json
+2026-06-16 14:06:12,643 [INFO] pipeline.enrich_runner: [EnrichPipeline] Saved: D:\MetR Phase 2\metR-Converter-DOCX\Storage\121c248f-ecf3-4e7c-a261-bb44ff5ae18c\logs\ai_reports\pre_enrichment.json
+2026-06-16 14:06:12,644 [INFO] pipeline.enrich_runner: [EnrichPipeline] Saved: D:\MetR Phase 2\metR-Converter-DOCX\Storage\121c248f-ecf3-4e7c-a261-bb44ff5ae18c\logs\ai_reports\post_enrichment.json
+2026-06-16 14:06:12,687 [INFO] pipeline.enrich_runner: [EnrichPipeline] Raw backup deleted after successful enrichment
