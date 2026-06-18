@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="_Toc359077865" xml:lang="en-us">
+  <title>Numbered List</title>
+  <taskbody>
+    <steps id="steps_11020901">
+      <step>
+        <cmd>One, with a very long line to demonstrate that the hanging indent for the list is working correctly</cmd>
+      </step>
+      <step>
+        <cmd>Two</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

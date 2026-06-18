@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="_Toc359077858" xml:lang="en-us">
+  <title>Footnotes &amp; Endnotes</title>
+  <conbody>
+    <p>Footnotes and endnotes are automatically recognized and both are converted to endnotes, with backlinks for maximum ease of use in ebook devices.</p>
+  </conbody>
+</concept>

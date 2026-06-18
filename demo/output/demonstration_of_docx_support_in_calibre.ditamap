@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA 2.x BookMap//EN" "bookmap.dtd">
+<bookmap id="demonstration_of_docx_support_in_calibre" xml:lang="en-us"><booktitle>
+    <mainbooktitle>Demonstration of DOCX support in calibre</mainbooktitle>
+  </booktitle><bookmeta>
+    <critdates>
+      <created date="2013-06-05"/>
+      <revised modified="2013-06-20"/>
+    </critdates>
+  </bookmeta>
+  
+  
+  <topicref href="demonstration_of_docx_support_in_calibre.dita"><topicmeta><navtitle>Demonstration of DOCX support in calibre</navtitle></topicmeta></topicref>
+  <chapter href="text_formatting_map.ditamap" format="ditamap"><topicmeta><navtitle>Text Formatting</navtitle></topicmeta></chapter>
+  <chapter href="tables_map.ditamap" format="ditamap"><topicmeta><navtitle>Tables</navtitle></topicmeta></chapter>
+  <chapter href="structural_elements_map.ditamap" format="ditamap"><topicmeta><navtitle>Structural Elements</navtitle></topicmeta></chapter>
+  <chapter href="images_map.ditamap" format="ditamap"><topicmeta><navtitle>Images</navtitle></topicmeta></chapter>
+  <chapter href="lists_map.ditamap" format="ditamap"><topicmeta><navtitle>Lists</navtitle></topicmeta></chapter>
+</bookmap>

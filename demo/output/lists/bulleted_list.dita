@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="_Toc359077864" xml:lang="en-us">
+  <title>Bulleted List</title>
+  <conbody>
+    <ul id="ul_110209">
+      <li>One</li>
+      <li>Two</li>
+    </ul>
+  </conbody>
+</concept>

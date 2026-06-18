@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="_Toc359077867" xml:lang="en-us">
+  <title>Continued Lists</title>
+  <taskbody>
+    <steps id="steps_11020909">
+      <step>
+        <cmd>One</cmd>
+      </step>
+      <step>
+        <cmd>Two</cmd>
+        <info>
+          <p>An interruption in our regularly scheduled listing, for this essential and very relevant public service announcement.</p>
+        </info>
+      </step>
+      <step>
+        <cmd>We now resume our normal programming</cmd>
+      </step>
+      <step>
+        <cmd>Four</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

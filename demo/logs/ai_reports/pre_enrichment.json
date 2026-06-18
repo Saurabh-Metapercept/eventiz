@@ -1,0 +1,352 @@
+{
+  "job_id": "13e6f427-8f22-4fb7-b191-9ac75b7c9b14",
+  "output_dir": "D:\\MetR Phase 2\\metR-Converter-DOCX\\Storage\\13e6f427-8f22-4fb7-b191-9ac75b7c9b14\\output\\demo",
+  "run_at": "2026-06-18T05:34:24.000154+00:00",
+  "files_discovered": {
+    "dita_file_count": 17,
+    "dita_files": [
+      "demonstration_of_docx_support_in_calibre.dita",
+      "images/images.dita",
+      "lists/bulleted_list.dita",
+      "lists/continued_lists.dita",
+      "lists/lists.dita",
+      "lists/multi_level_lists.dita",
+      "lists/numbered_list.dita",
+      "structural_elements/dropcaps.dita",
+      "structural_elements/footnotes_endnotes.dita",
+      "structural_elements/links.dita",
+      "structural_elements/structural_elements.dita",
+      "structural_elements/table_of_contents.dita",
+      "tables/tables.dita",
+      "text_formatting/fun_with_fonts.dita",
+      "text_formatting/inline_formatting.dita",
+      "text_formatting/paragraph_level_formatting.dita",
+      "text_formatting/text_formatting.dita"
+    ],
+    "ditamap_file_count": 6,
+    "ditamap_files": [
+      "demonstration_of_docx_support_in_calibre.ditamap",
+      "images_map.ditamap",
+      "lists_map.ditamap",
+      "structural_elements_map.ditamap",
+      "tables_map.ditamap",
+      "text_formatting_map.ditamap"
+    ]
+  },
+  "document_context": {
+    "prodname": "",
+    "equipment_name": "",
+    "task_type": "",
+    "document_keywords": [],
+    "extraction_method": "heuristic"
+  },
+  "structural_issues": [
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "demonstration_of_docx_support_in_calibre.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "image_missing_alt",
+      "file": "images/images.dita",
+      "message": "<image> #1 (href='../media/image2.png') has no alt text \u2014 required for accessibility",
+      "line": 7
+    },
+    {
+      "severity": "WARNING",
+      "category": "image_missing_alt",
+      "file": "images/images.dita",
+      "message": "<image> #2 (href='../media/image3.png') has no alt text \u2014 required for accessibility",
+      "line": 9
+    },
+    {
+      "severity": "WARNING",
+      "category": "image_missing_alt",
+      "file": "images/images.dita",
+      "message": "<image> #3 (href='../media/image2.png') has no alt text \u2014 required for accessibility",
+      "line": 14
+    },
+    {
+      "severity": "WARNING",
+      "category": "image_missing_alt",
+      "file": "images/images.dita",
+      "message": "<image> #4 (href='../media/image4.png') has no alt text \u2014 required for accessibility",
+      "line": 17
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "images/images.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "lists/bulleted_list.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "lists/continued_lists.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "lists/lists.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "lists/multi_level_lists.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "lists/numbered_list.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "structural_elements/dropcaps.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "structural_elements/footnotes_endnotes.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "structural_elements/links.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "structural_elements/structural_elements.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "structural_elements/table_of_contents.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "section_missing_title",
+      "file": "tables/tables.dita",
+      "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+      "line": 6
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_col_mismatch",
+      "file": "tables/tables.dita",
+      "message": "table 5 row has 1 entries but cols=14"
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_col_mismatch",
+      "file": "tables/tables.dita",
+      "message": "table 5 row has 13 entries but cols=14"
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_col_mismatch",
+      "file": "tables/tables.dita",
+      "message": "table 5 row has 13 entries but cols=14"
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_col_mismatch",
+      "file": "tables/tables.dita",
+      "message": "table 5 row has 13 entries but cols=14"
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_col_mismatch",
+      "file": "tables/tables.dita",
+      "message": "table 5 row has 13 entries but cols=14"
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_col_mismatch",
+      "file": "tables/tables.dita",
+      "message": "table 5 row has 13 entries but cols=14"
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_col_mismatch",
+      "file": "tables/tables.dita",
+      "message": "table 5 row has 13 entries but cols=14"
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_col_mismatch",
+      "file": "tables/tables.dita",
+      "message": "table 5 row has 13 entries but cols=14"
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_col_mismatch",
+      "file": "tables/tables.dita",
+      "message": "table 5 row has 13 entries but cols=14"
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_col_mismatch",
+      "file": "tables/tables.dita",
+      "message": "table 5 row has 13 entries but cols=14"
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_col_mismatch",
+      "file": "tables/tables.dita",
+      "message": "table 5 row has 13 entries but cols=14"
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_col_mismatch",
+      "file": "tables/tables.dita",
+      "message": "table 5 row has 13 entries but cols=14"
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_col_mismatch",
+      "file": "tables/tables.dita",
+      "message": "table 5 row has 13 entries but cols=14"
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "tables/tables.dita",
+      "message": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 7
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "tables/tables.dita",
+      "message": "<table> #2 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 41
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "tables/tables.dita",
+      "message": "<table> #3 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 102
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "tables/tables.dita",
+      "message": "<table> #4 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 162
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "tables/tables.dita",
+      "message": "<table> #5 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 175
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "tables/tables.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "text_formatting/fun_with_fonts.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "text_formatting/inline_formatting.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "empty_title",
+      "file": "text_formatting/paragraph_level_formatting.dita",
+      "message": "<concept> has an empty <title> element"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "text_formatting/paragraph_level_formatting.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "empty_body",
+      "file": "text_formatting/text_formatting.dita",
+      "message": "<conbody> exists but has no child elements or text content",
+      "line": 5
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "text_formatting/text_formatting.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    }
+  ],
+  "summary": {
+    "dita_file_count": 17,
+    "missing_count": 0,
+    "broken_xml_count": 0,
+    "empty_count": 1,
+    "ditamap_broken_ref_count": 0,
+    "broken_mapref_count": 0,
+    "orphan_file_count": 0,
+    "duplicate_id_count": 0,
+    "broken_xref_count": 0,
+    "filename_space_count": 0,
+    "severity_counts": {
+      "CRITICAL": 0,
+      "WARNING": 42,
+      "INFO": 0
+    },
+    "category_counts": {
+      "missing_shortdesc": 17,
+      "image_missing_alt": 4,
+      "section_missing_title": 1,
+      "table_col_mismatch": 13,
+      "table_missing_title": 5,
+      "empty_title": 1,
+      "empty_body": 1
+    }
+  },
+  "zone1_auto_fixes": {
+    "fixed": [
+      {
+        "file": "text_formatting/text_formatting.dita",
+        "fix": "expanded self-closing <conbody/> to explicit open/close tags"
+      }
+    ],
+    "errors": [],
+    "summary": {
+      "fixed_count": 1,
+      "error_count": 0
+    }
+  },
+  "backend_dtd_errors": {
+    "source": "backend core _report.txt",
+    "errors_by_file": {},
+    "file_count_with_errors": 0
+  }
+}

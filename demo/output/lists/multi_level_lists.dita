@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="_Toc359077866" xml:lang="en-us">
+  <title>Multi-level Lists</title>
+  <taskbody>
+    <steps id="steps_11020906">
+      <step>
+        <cmd>One</cmd>
+        <substeps id="substeps_11020907">
+          <substep>
+            <cmd>Two</cmd>
+            <info>
+              <ol id="ol_11020908" outputclass="lowerroman">
+                <li>Three</li>
+                <li>Four with a very long line to demonstrate that the hanging indent for the list is working correctly.</li>
+                <li>Five</li>
+              </ol>
+            </info>
+          </substep>
+        </substeps>
+      </step>
+      <step>
+        <cmd>Six</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>A Multi-level list with bullets:</p>
+      <ul id="ul_11020905">
+        <li>One<ul id="ul_11020904">
+            <li>Two<ul id="ul_11020903">
+                <li>This bullet uses an image as the bullet item<ul id="ul_11020902">
+                    <li>Four</li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>Five</li>
+      </ul>
+    </result>
+  </taskbody>
+</task>

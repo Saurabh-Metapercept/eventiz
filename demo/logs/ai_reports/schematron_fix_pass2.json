@@ -1,0 +1,142 @@
+{
+  "status": "completed",
+  "files_fixed": 0,
+  "total_fixed": 0,
+  "file_results": [
+    {
+      "file": "demonstration_of_docx_support_in_calibre.dita",
+      "violations_in": 3,
+      "fixes_applied": 0,
+      "fix_types": [],
+      "warnings": [
+        "<b>(3) kept as DITA 1.3 \u2014 as per DITA 2.x should be <ph outputclass=\"bold\">"
+      ],
+      "inline_warnings": [
+        {
+          "tag": "b",
+          "count": 3,
+          "lines": [
+            25,
+            25,
+            25
+          ],
+          "message": "<b>(3) kept as DITA 1.3 \u2014 as per DITA 2.x should be <ph outputclass=\"bold\">",
+          "dita2x_replacement": "<ph outputclass=\"bold\">"
+        }
+      ]
+    },
+    {
+      "file": "lists/multi_level_lists.dita",
+      "violations_in": 1,
+      "fixes_applied": 0,
+      "fix_types": [],
+      "warnings": [],
+      "inline_warnings": []
+    },
+    {
+      "file": "structural_elements/table_of_contents.dita",
+      "violations_in": 1,
+      "fixes_applied": 0,
+      "fix_types": [],
+      "warnings": [],
+      "inline_warnings": []
+    },
+    {
+      "file": "tables/tables.dita",
+      "violations_in": 1,
+      "fixes_applied": 0,
+      "fix_types": [],
+      "warnings": [],
+      "inline_warnings": []
+    },
+    {
+      "file": "text_formatting/inline_formatting.dita",
+      "violations_in": 2,
+      "fixes_applied": 0,
+      "fix_types": [],
+      "warnings": [
+        "<b>(2) kept as DITA 1.3 \u2014 as per DITA 2.x should be <ph outputclass=\"bold\">"
+      ],
+      "inline_warnings": [
+        {
+          "tag": "b",
+          "count": 2,
+          "lines": [
+            27,
+            27
+          ],
+          "message": "<b>(2) kept as DITA 1.3 \u2014 as per DITA 2.x should be <ph outputclass=\"bold\">",
+          "dita2x_replacement": "<ph outputclass=\"bold\">"
+        }
+      ]
+    },
+    {
+      "file": "text_formatting/paragraph_level_formatting.dita",
+      "violations_in": 1,
+      "fixes_applied": 0,
+      "fix_types": [],
+      "warnings": [
+        "<b>(1) kept as DITA 1.3 \u2014 as per DITA 2.x should be <ph outputclass=\"bold\">"
+      ],
+      "inline_warnings": [
+        {
+          "tag": "b",
+          "count": 1,
+          "lines": [
+            6
+          ],
+          "message": "<b>(1) kept as DITA 1.3 \u2014 as per DITA 2.x should be <ph outputclass=\"bold\">",
+          "dita2x_replacement": "<ph outputclass=\"bold\">"
+        }
+      ]
+    },
+    {
+      "file": "demonstration_of_docx_support_in_calibre.ditamap",
+      "violations_in": 17,
+      "fixes_applied": 0,
+      "fix_types": [],
+      "warnings": [],
+      "inline_warnings": []
+    },
+    {
+      "file": "images_map.ditamap",
+      "violations_in": 1,
+      "fixes_applied": 0,
+      "fix_types": [],
+      "warnings": [],
+      "inline_warnings": []
+    },
+    {
+      "file": "lists_map.ditamap",
+      "violations_in": 5,
+      "fixes_applied": 0,
+      "fix_types": [],
+      "warnings": [],
+      "inline_warnings": []
+    },
+    {
+      "file": "structural_elements_map.ditamap",
+      "violations_in": 5,
+      "fixes_applied": 0,
+      "fix_types": [],
+      "warnings": [],
+      "inline_warnings": []
+    },
+    {
+      "file": "tables_map.ditamap",
+      "violations_in": 1,
+      "fixes_applied": 0,
+      "fix_types": [],
+      "warnings": [],
+      "inline_warnings": []
+    },
+    {
+      "file": "text_formatting_map.ditamap",
+      "violations_in": 4,
+      "fixes_applied": 0,
+      "fix_types": [],
+      "warnings": [],
+      "inline_warnings": []
+    }
+  ]
+}

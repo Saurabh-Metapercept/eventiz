@@ -1,0 +1,160 @@
+{
+  "status": "completed",
+  "run_at": "2026-06-18T05:33:15.968303+00:00",
+  "xslt_applied": "doc-type-specific",
+  "summary": {
+    "files_processed": 17,
+    "files_modified": 2,
+    "files_unchanged": 15,
+    "files_failed": 0,
+    "total_fixes_by_type": {
+      "FIX-02_image_missing_alt": 4,
+      "FIX-01_colspec_bad_attrs": 28,
+      "FIX-03_section_missing_id": 1
+    }
+  },
+  "per_file": [
+    {
+      "file": "demonstration_of_docx_support_in_calibre.dita",
+      "doc_type": "concept",
+      "xsl_applied": "concept.xsl",
+      "modified": false,
+      "fixes_applied": {},
+      "error": null
+    },
+    {
+      "file": "images/images.dita",
+      "doc_type": "concept",
+      "xsl_applied": "concept.xsl",
+      "modified": true,
+      "fixes_applied": {
+        "FIX-02_image_missing_alt": 4
+      },
+      "error": null
+    },
+    {
+      "file": "lists/bulleted_list.dita",
+      "doc_type": "concept",
+      "xsl_applied": "concept.xsl",
+      "modified": false,
+      "fixes_applied": {},
+      "error": null
+    },
+    {
+      "file": "lists/continued_lists.dita",
+      "doc_type": "task",
+      "xsl_applied": "task.xsl",
+      "modified": false,
+      "fixes_applied": {},
+      "error": null
+    },
+    {
+      "file": "lists/lists.dita",
+      "doc_type": "concept",
+      "xsl_applied": "concept.xsl",
+      "modified": false,
+      "fixes_applied": {},
+      "error": null
+    },
+    {
+      "file": "lists/multi_level_lists.dita",
+      "doc_type": "task",
+      "xsl_applied": "task.xsl",
+      "modified": false,
+      "fixes_applied": {},
+      "error": null
+    },
+    {
+      "file": "lists/numbered_list.dita",
+      "doc_type": "task",
+      "xsl_applied": "task.xsl",
+      "modified": false,
+      "fixes_applied": {},
+      "error": null
+    },
+    {
+      "file": "structural_elements/dropcaps.dita",
+      "doc_type": "concept",
+      "xsl_applied": "concept.xsl",
+      "modified": false,
+      "fixes_applied": {},
+      "error": null
+    },
+    {
+      "file": "structural_elements/footnotes_endnotes.dita",
+      "doc_type": "concept",
+      "xsl_applied": "concept.xsl",
+      "modified": false,
+      "fixes_applied": {},
+      "error": null
+    },
+    {
+      "file": "structural_elements/links.dita",
+      "doc_type": "concept",
+      "xsl_applied": "concept.xsl",
+      "modified": false,
+      "fixes_applied": {},
+      "error": null
+    },
+    {
+      "file": "structural_elements/structural_elements.dita",
+      "doc_type": "concept",
+      "xsl_applied": "concept.xsl",
+      "modified": false,
+      "fixes_applied": {},
+      "error": null
+    },
+    {
+      "file": "structural_elements/table_of_contents.dita",
+      "doc_type": "concept",
+      "xsl_applied": "concept.xsl",
+      "modified": false,
+      "fixes_applied": {},
+      "error": null
+    },
+    {
+      "file": "tables/tables.dita",
+      "doc_type": "reference",
+      "xsl_applied": "reference.xsl",
+      "modified": true,
+      "fixes_applied": {
+        "FIX-01_colspec_bad_attrs": 28,
+        "FIX-03_section_missing_id": 1
+      },
+      "error": null
+    },
+    {
+      "file": "text_formatting/fun_with_fonts.dita",
+      "doc_type": "concept",
+      "xsl_applied": "concept.xsl",
+      "modified": false,
+      "fixes_applied": {},
+      "error": null
+    },
+    {
+      "file": "text_formatting/inline_formatting.dita",
+      "doc_type": "concept",
+      "xsl_applied": "concept.xsl",
+      "modified": false,
+      "fixes_applied": {},
+      "error": null
+    },
+    {
+      "file": "text_formatting/paragraph_level_formatting.dita",
+      "doc_type": "concept",
+      "xsl_applied": "concept.xsl",
+      "modified": false,
+      "fixes_applied": {},
+      "error": null
+    },
+    {
+      "file": "text_formatting/text_formatting.dita",
+      "doc_type": "concept",
+      "xsl_applied": "concept.xsl",
+      "modified": false,
+      "fixes_applied": {},
+      "error": null
+    }
+  ],
+  "xslt_errors": []
+}

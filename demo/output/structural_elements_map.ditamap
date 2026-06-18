@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA 2.x Map//EN" "map.dtd">
+<map id="structural_elements_map" xml:lang="en-us">
+  <title>Structural Elements</title>
+  <topicref href="structural_elements/structural_elements.dita"><topicmeta><navtitle>Structural Elements</navtitle></topicmeta></topicref>
+  <topicref href="structural_elements/footnotes_endnotes.dita"><topicmeta><navtitle>Footnotes &amp; Endnotes</navtitle></topicmeta></topicref>
+  <topicref href="structural_elements/dropcaps.dita"><topicmeta><navtitle>Dropcaps</navtitle></topicmeta></topicref>
+  <topicref href="structural_elements/links.dita"><topicmeta><navtitle>Links</navtitle></topicmeta></topicref>
+  <topicref href="structural_elements/table_of_contents.dita"><topicmeta><navtitle>Table of Contents</navtitle></topicmeta></topicref>
+</map>

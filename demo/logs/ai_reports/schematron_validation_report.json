@@ -1,0 +1,604 @@
+{
+  "status": "completed",
+  "run_at": "2026-06-18T05:34:23.925212+00:00",
+  "summary": {
+    "files_validated": 23,
+    "files_with_violations": 12,
+    "total_violations": 42,
+    "violations_by_gate": {
+      "gate1": 22,
+      "gate2": 8,
+      "gate3": 12,
+      "gate4": 0
+    },
+    "violations_by_severity": {
+      "error": 35,
+      "warning": 7
+    }
+  },
+  "violations": [
+    {
+      "file": "demonstration_of_docx_support_in_calibre.dita",
+      "doc_type": "task",
+      "gate": 3,
+      "rule_code": "CM-P",
+      "severity": "ERROR",
+      "message": "[CM-P] <b> is not a permitted child of <p> per the DITA 2.0 DTD. Permitted children: dl div fig image lines lq note object ol pre simpletable sl table ul boolean cite keyword ph q term text tm xref state data data-about foreign unknown draft-comment fn indextermref indexterm required-cleanup.",
+      "category": "invalid_inline_element",
+      "source": "schematron_gate3"
+    },
+    {
+      "file": "demonstration_of_docx_support_in_calibre.dita",
+      "doc_type": "task",
+      "gate": 3,
+      "rule_code": "CM-P",
+      "severity": "ERROR",
+      "message": "[CM-P] <b> is not a permitted child of <p> per the DITA 2.0 DTD. Permitted children: dl div fig image lines lq note object ol pre simpletable sl table ul boolean cite keyword ph q term text tm xref state data data-about foreign unknown draft-comment fn indextermref indexterm required-cleanup.",
+      "category": "invalid_inline_element",
+      "source": "schematron_gate3"
+    },
+    {
+      "file": "demonstration_of_docx_support_in_calibre.dita",
+      "doc_type": "task",
+      "gate": 3,
+      "rule_code": "CM-P",
+      "severity": "ERROR",
+      "message": "[CM-P] <b> is not a permitted child of <p> per the DITA 2.0 DTD. Permitted children: dl div fig image lines lq note object ol pre simpletable sl table ul boolean cite keyword ph q term text tm xref state data data-about foreign unknown draft-comment fn indextermref indexterm required-cleanup.",
+      "category": "invalid_inline_element",
+      "source": "schematron_gate3"
+    },
+    {
+      "file": "lists/multi_level_lists.dita",
+      "doc_type": "concept",
+      "gate": 2,
+      "rule_code": "QUALITY-007",
+      "severity": "WARNING",
+      "message": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+      "category": "dtd_violation",
+      "source": "schematron_gate2"
+    },
+    {
+      "file": "structural_elements/table_of_contents.dita",
+      "doc_type": "reference",
+      "gate": 2,
+      "rule_code": "QUALITY-007",
+      "severity": "WARNING",
+      "message": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+      "category": "dtd_violation",
+      "source": "schematron_gate2"
+    },
+    {
+      "file": "tables/tables.dita",
+      "doc_type": "concept",
+      "gate": 2,
+      "rule_code": "",
+      "severity": "ERROR",
+      "message": "ERROR: 6 consecutive <p> elements found more than 5 . These should be converted into a <ul>/<li> structure. First <p>: \"Tables in Word can vary from the extremely simple to the extremely complex. calibre tries to do its best when converting tables. While you may run into trouble with the occasional table, the vast majority of common cases should be converted very well, as demonstrated in this section. Note that for optimum results, when creating tables in Word, you should set their widths using percentages, rather than absolute units. To the left of this paragraph is a floating two column table with a nice green border and header row.\"",
+      "category": "dtd_violation",
+      "source": "schematron_gate2"
+    },
+    {
+      "file": "text_formatting/inline_formatting.dita",
+      "doc_type": "concept",
+      "gate": 3,
+      "rule_code": "CM-P",
+      "severity": "ERROR",
+      "message": "[CM-P] <b> is not a permitted child of <p> per the DITA 2.0 DTD. Permitted children: dl div fig image lines lq note object ol pre simpletable sl table ul boolean cite keyword ph q term text tm xref state data data-about foreign unknown draft-comment fn indextermref indexterm required-cleanup.",
+      "category": "invalid_inline_element",
+      "source": "schematron_gate3"
+    },
+    {
+      "file": "text_formatting/inline_formatting.dita",
+      "doc_type": "concept",
+      "gate": 3,
+      "rule_code": "CM-P",
+      "severity": "ERROR",
+      "message": "[CM-P] <b> is not a permitted child of <p> per the DITA 2.0 DTD. Permitted children: dl div fig image lines lq note object ol pre simpletable sl table ul boolean cite keyword ph q term text tm xref state data data-about foreign unknown draft-comment fn indextermref indexterm required-cleanup.",
+      "category": "invalid_inline_element",
+      "source": "schematron_gate3"
+    },
+    {
+      "file": "text_formatting/paragraph_level_formatting.dita",
+      "doc_type": "concept",
+      "gate": 3,
+      "rule_code": "CM-TITLE",
+      "severity": "ERROR",
+      "message": "[CM-TITLE] <b> is not a permitted child of <title> per the DITA 2.0 DTD. Permitted children: boolean keyword ph q term text tm state cite data data-about draft-comment foreign unknown required-cleanup image.",
+      "category": "invalid_inline_element",
+      "source": "schematron_gate3"
+    },
+    {
+      "file": "demonstration_of_docx_support_in_calibre.ditamap",
+      "doc_type": "bookmap",
+      "gate": 1,
+      "rule_code": "",
+      "severity": "ERROR",
+      "message": "Error: Attribute \"navtitle\" on <topicref> is not permitted in a DITA 2.0 bookmap document.",
+      "category": "dtd_violation",
+      "source": "schematron_gate1"
+    },
+    {
+      "file": "demonstration_of_docx_support_in_calibre.ditamap",
+      "doc_type": "bookmap",
+      "gate": 1,
+      "rule_code": "",
+      "severity": "ERROR",
+      "message": "Error: Attribute \"navtitle\" on <chapter> is not permitted in a DITA 2.0 bookmap document.",
+      "category": "dtd_violation",
+      "source": "schematron_gate1"
+    },
+    {
+      "file": "demonstration_of_docx_support_in_calibre.ditamap",
+      "doc_type": "bookmap",
+      "gate": 1,
+      "rule_code": "",
+      "severity": "ERROR",
+      "message": "Error: Attribute \"navtitle\" on <chapter> is not permitted in a DITA 2.0 bookmap document.",
+      "category": "dtd_violation",
+      "source": "schematron_gate1"
+    },
+    {
+      "file": "demonstration_of_docx_support_in_calibre.ditamap",
+      "doc_type": "bookmap",
+      "gate": 1,
+      "rule_code": "",
+      "severity": "ERROR",
+      "message": "Error: Attribute \"navtitle\" on <chapter> is not permitted in a DITA 2.0 bookmap document.",
+      "category": "dtd_violation",
+      "source": "schematron_gate1"
+    },
+    {
+      "file": "demonstration_of_docx_support_in_calibre.ditamap",
+      "doc_type": "bookmap",
+      "gate": 1,
+      "rule_code": "",
+      "severity": "ERROR",
+      "message": "Error: Attribute \"navtitle\" on <chapter> is not permitted in a DITA 2.0 bookmap document.",
+      "category": "dtd_violation",
+      "source": "schematron_gate1"
+    },
+    {
+      "file": "demonstration_of_docx_support_in_calibre.ditamap",
+      "doc_type": "bookmap",
+      "gate": 1,
+      "rule_code": "",
+      "severity": "ERROR",
+      "message": "Error: Attribute \"navtitle\" on <chapter> is not permitted in a DITA 2.0 bookmap document.",
+      "category": "dtd_violation",
+      "source": "schematron_gate1"
+    },
+    {
+      "file": "demonstration_of_docx_support_in_calibre.ditamap",
+      "doc_type": "bookmap",
+      "gate": 2,
+      "rule_code": "BOOK-007",
+      "severity": "WARNING",
+      "message": "[BOOK-007] <chapter> has no @href, @keyref, or nested <topicref> and may produce an empty book section.",
+      "category": "dtd_violation",
+      "source": "schematron_gate2"
+    },
+    {
+      "file": "demonstration_of_docx_support_in_calibre.ditamap",
+      "doc_type": "bookmap",
+      "gate": 2,
+      "rule_code": "BOOK-007",
+      "severity": "WARNING",
+      "message": "[BOOK-007] <chapter> has no @href, @keyref, or nested <topicref> and may produce an empty book section.",
+      "category": "dtd_violation",
+      "source": "schematron_gate2"
+    },
+    {
+      "file": "demonstration_of_docx_support_in_calibre.ditamap",
+      "doc_type": "bookmap",
+      "gate": 2,
+      "rule_code": "BOOK-007",
+      "severity": "WARNING",
+      "message": "[BOOK-007] <chapter> has no @href, @keyref, or nested <topicref> and may produce an empty book section.",
+      "category": "dtd_violation",
+      "source": "schematron_gate2"
+    },
+    {
+      "file": "demonstration_of_docx_support_in_calibre.ditamap",
+      "doc_type": "bookmap",
+      "gate": 2,
+      "rule_code": "BOOK-007",
+      "severity": "WARNING",
+      "message": "[BOOK-007] <chapter> has no @href, @keyref, or nested <topicref> and may produce an empty book section.",
+      "category": "dtd_violation",
+      "source": "schematron_gate2"
+    },
+    {
+      "file": "demonstration_of_docx_support_in_calibre.ditamap",
+      "doc_type": "bookmap",
+      "gate": 2,
+      "rule_code": "BOOK-007",
+      "severity": "WARNING",
+      "message": "[BOOK-007] <chapter> has no @href, @keyref, or nested <topicref> and may produce an empty book section.",
+      "category": "dtd_violation",
+      "source": "schematron_gate2"
+    },
+    {
+      "file": "demonstration_of_docx_support_in_calibre.ditamap",
+      "doc_type": "bookmap",
+      "gate": 3,
+      "rule_code": "CM-BOOKMAP",
+      "severity": "ERROR",
+      "message": "[CM-BOOKMAP] <topicref> is not a permitted child of <bookmap> per the DITA 2.0 DTD. Permitted children: title booktitle bookmeta frontmatter chapter part appendices appendix backmatter reltable.",
+      "category": "invalid_inline_element",
+      "source": "schematron_gate3"
+    },
+    {
+      "file": "demonstration_of_docx_support_in_calibre.ditamap",
+      "doc_type": "bookmap",
+      "gate": 3,
+      "rule_code": "CM-CHAPTER",
+      "severity": "ERROR",
+      "message": "[CM-CHAPTER] <mapref> is not a permitted child of <chapter> per the DITA 2.0 DTD. Permitted children: topicmeta topicref.",
+      "category": "mapref_in_map",
+      "source": "schematron_gate3"
+    },
+    {
+      "file": "demonstration_of_docx_support_in_calibre.ditamap",
+      "doc_type": "bookmap",
+      "gate": 3,
+      "rule_code": "CM-CHAPTER",
+      "severity": "ERROR",
+      "message": "[CM-CHAPTER] <mapref> is not a permitted child of <chapter> per the DITA 2.0 DTD. Permitted children: topicmeta topicref.",
+      "category": "mapref_in_map",
+      "source": "schematron_gate3"
+    },
+    {
+      "file": "demonstration_of_docx_support_in_calibre.ditamap",
+      "doc_type": "bookmap",
+      "gate": 3,
+      "rule_code": "CM-CHAPTER",
+      "severity": "ERROR",
+      "message": "[CM-CHAPTER] <mapref> is not a permitted child of <chapter> per the DITA 2.0 DTD. Permitted children: topicmeta topicref.",
+      "category": "mapref_in_map",
+      "source": "schematron_gate3"
+    },
+    {
+      "file": "demonstration_of_docx_support_in_calibre.ditamap",
+      "doc_type": "bookmap",
+      "gate": 3,
+      "rule_code": "CM-CHAPTER",
+      "severity": "ERROR",
+      "message": "[CM-CHAPTER] <mapref> is not a permitted child of <chapter> per the DITA 2.0 DTD. Permitted children: topicmeta topicref.",
+      "category": "mapref_in_map",
+      "source": "schematron_gate3"
+    },
+    {
+      "file": "demonstration_of_docx_support_in_calibre.ditamap",
+      "doc_type": "bookmap",
+      "gate": 3,
+      "rule_code": "CM-CHAPTER",
+      "severity": "ERROR",
+      "message": "[CM-CHAPTER] <mapref> is not a permitted child of <chapter> per the DITA 2.0 DTD. Permitted children: topicmeta topicref.",
+      "category": "mapref_in_map",
+      "source": "schematron_gate3"
+    },
+    {
+      "file": "images_map.ditamap",
+      "doc_type": "map",
+      "gate": 1,
+      "rule_code": "",
+      "severity": "ERROR",
+      "message": "Error: Attribute \"navtitle\" on <topicref> is not permitted in a DITA 2.0 map document.",
+      "category": "dtd_violation",
+      "source": "schematron_gate1"
+    },
+    {
+      "file": "lists_map.ditamap",
+      "doc_type": "map",
+      "gate": 1,
+      "rule_code": "",
+      "severity": "ERROR",
+      "message": "Error: Attribute \"navtitle\" on <topicref> is not permitted in a DITA 2.0 map document.",
+      "category": "dtd_violation",
+      "source": "schematron_gate1"
+    },
+    {
+      "file": "lists_map.ditamap",
+      "doc_type": "map",
+      "gate": 1,
+      "rule_code": "",
+      "severity": "ERROR",
+      "message": "Error: Attribute \"navtitle\" on <topicref> is not permitted in a DITA 2.0 map document.",
+      "category": "dtd_violation",
+      "source": "schematron_gate1"
+    },
+    {
+      "file": "lists_map.ditamap",
+      "doc_type": "map",
+      "gate": 1,
+      "rule_code": "",
+      "severity": "ERROR",
+      "message": "Error: Attribute \"navtitle\" on <topicref> is not permitted in a DITA 2.0 map document.",
+      "category": "dtd_violation",
+      "source": "schematron_gate1"
+    },
+    {
+      "file": "lists_map.ditamap",
+      "doc_type": "map",
+      "gate": 1,
+      "rule_code": "",
+      "severity": "ERROR",
+      "message": "Error: Attribute \"navtitle\" on <topicref> is not permitted in a DITA 2.0 map document.",
+      "category": "dtd_violation",
+      "source": "schematron_gate1"
+    },
+    {
+      "file": "lists_map.ditamap",
+      "doc_type": "map",
+      "gate": 1,
+      "rule_code": "",
+      "severity": "ERROR",
+      "message": "Error: Attribute \"navtitle\" on <topicref> is not permitted in a DITA 2.0 map document.",
+      "category": "dtd_violation",
+      "source": "schematron_gate1"
+    },
+    {
+      "file": "structural_elements_map.ditamap",
+      "doc_type": "map",
+      "gate": 1,
+      "rule_code": "",
+      "severity": "ERROR",
+      "message": "Error: Attribute \"navtitle\" on <topicref> is not permitted in a DITA 2.0 map document.",
+      "category": "dtd_violation",
+      "source": "schematron_gate1"
+    },
+    {
+      "file": "structural_elements_map.ditamap",
+      "doc_type": "map",
+      "gate": 1,
+      "rule_code": "",
+      "severity": "ERROR",
+      "message": "Error: Attribute \"navtitle\" on <topicref> is not permitted in a DITA 2.0 map document.",
+      "category": "dtd_violation",
+      "source": "schematron_gate1"
+    },
+    {
+      "file": "structural_elements_map.ditamap",
+      "doc_type": "map",
+      "gate": 1,
+      "rule_code": "",
+      "severity": "ERROR",
+      "message": "Error: Attribute \"navtitle\" on <topicref> is not permitted in a DITA 2.0 map document.",
+      "category": "dtd_violation",
+      "source": "schematron_gate1"
+    },
+    {
+      "file": "structural_elements_map.ditamap",
+      "doc_type": "map",
+      "gate": 1,
+      "rule_code": "",
+      "severity": "ERROR",
+      "message": "Error: Attribute \"navtitle\" on <topicref> is not permitted in a DITA 2.0 map document.",
+      "category": "dtd_violation",
+      "source": "schematron_gate1"
+    },
+    {
+      "file": "structural_elements_map.ditamap",
+      "doc_type": "map",
+      "gate": 1,
+      "rule_code": "",
+      "severity": "ERROR",
+      "message": "Error: Attribute \"navtitle\" on <topicref> is not permitted in a DITA 2.0 map document.",
+      "category": "dtd_violation",
+      "source": "schematron_gate1"
+    },
+    {
+      "file": "tables_map.ditamap",
+      "doc_type": "map",
+      "gate": 1,
+      "rule_code": "",
+      "severity": "ERROR",
+      "message": "Error: Attribute \"navtitle\" on <topicref> is not permitted in a DITA 2.0 map document.",
+      "category": "dtd_violation",
+      "source": "schematron_gate1"
+    },
+    {
+      "file": "text_formatting_map.ditamap",
+      "doc_type": "map",
+      "gate": 1,
+      "rule_code": "",
+      "severity": "ERROR",
+      "message": "Error: Attribute \"navtitle\" on <topicref> is not permitted in a DITA 2.0 map document.",
+      "category": "dtd_violation",
+      "source": "schematron_gate1"
+    },
+    {
+      "file": "text_formatting_map.ditamap",
+      "doc_type": "map",
+      "gate": 1,
+      "rule_code": "",
+      "severity": "ERROR",
+      "message": "Error: Attribute \"navtitle\" on <topicref> is not permitted in a DITA 2.0 map document.",
+      "category": "dtd_violation",
+      "source": "schematron_gate1"
+    },
+    {
+      "file": "text_formatting_map.ditamap",
+      "doc_type": "map",
+      "gate": 1,
+      "rule_code": "",
+      "severity": "ERROR",
+      "message": "Error: Attribute \"navtitle\" on <topicref> is not permitted in a DITA 2.0 map document.",
+      "category": "dtd_violation",
+      "source": "schematron_gate1"
+    },
+    {
+      "file": "text_formatting_map.ditamap",
+      "doc_type": "map",
+      "gate": 1,
+      "rule_code": "",
+      "severity": "ERROR",
+      "message": "Error: Attribute \"navtitle\" on <topicref> is not permitted in a DITA 2.0 map document.",
+      "category": "dtd_violation",
+      "source": "schematron_gate1"
+    }
+  ],
+  "per_file": [
+    {
+      "file": "demonstration_of_docx_support_in_calibre.dita",
+      "doc_type": "task",
+      "is_valid": false,
+      "error_count": 3,
+      "warning_count": 0
+    },
+    {
+      "file": "images/images.dita",
+      "doc_type": "concept",
+      "is_valid": true,
+      "error_count": 0,
+      "warning_count": 0
+    },
+    {
+      "file": "lists/bulleted_list.dita",
+      "doc_type": "concept",
+      "is_valid": true,
+      "error_count": 0,
+      "warning_count": 0
+    },
+    {
+      "file": "lists/continued_lists.dita",
+      "doc_type": "topic",
+      "is_valid": true,
+      "error_count": 0,
+      "warning_count": 0
+    },
+    {
+      "file": "lists/lists.dita",
+      "doc_type": "concept",
+      "is_valid": true,
+      "error_count": 0,
+      "warning_count": 0
+    },
+    {
+      "file": "lists/multi_level_lists.dita",
+      "doc_type": "concept",
+      "is_valid": true,
+      "error_count": 0,
+      "warning_count": 1
+    },
+    {
+      "file": "lists/numbered_list.dita",
+      "doc_type": "concept",
+      "is_valid": true,
+      "error_count": 0,
+      "warning_count": 0
+    },
+    {
+      "file": "structural_elements/dropcaps.dita",
+      "doc_type": "concept",
+      "is_valid": true,
+      "error_count": 0,
+      "warning_count": 0
+    },
+    {
+      "file": "structural_elements/footnotes_endnotes.dita",
+      "doc_type": "concept",
+      "is_valid": true,
+      "error_count": 0,
+      "warning_count": 0
+    },
+    {
+      "file": "structural_elements/links.dita",
+      "doc_type": "concept",
+      "is_valid": true,
+      "error_count": 0,
+      "warning_count": 0
+    },
+    {
+      "file": "structural_elements/structural_elements.dita",
+      "doc_type": "task",
+      "is_valid": true,
+      "error_count": 0,
+      "warning_count": 0
+    },
+    {
+      "file": "structural_elements/table_of_contents.dita",
+      "doc_type": "reference",
+      "is_valid": true,
+      "error_count": 0,
+      "warning_count": 1
+    },
+    {
+      "file": "tables/tables.dita",
+      "doc_type": "concept",
+      "is_valid": false,
+      "error_count": 1,
+      "warning_count": 0
+    },
+    {
+      "file": "text_formatting/fun_with_fonts.dita",
+      "doc_type": "concept",
+      "is_valid": true,
+      "error_count": 0,
+      "warning_count": 0
+    },
+    {
+      "file": "text_formatting/inline_formatting.dita",
+      "doc_type": "concept",
+      "is_valid": false,
+      "error_count": 2,
+      "warning_count": 0
+    },
+    {
+      "file": "text_formatting/paragraph_level_formatting.dita",
+      "doc_type": "concept",
+      "is_valid": false,
+      "error_count": 1,
+      "warning_count": 0
+    },
+    {
+      "file": "text_formatting/text_formatting.dita",
+      "doc_type": "concept",
+      "is_valid": true,
+      "error_count": 0,
+      "warning_count": 0
+    },
+    {
+      "file": "demonstration_of_docx_support_in_calibre.ditamap",
+      "doc_type": "bookmap",
+      "is_valid": false,
+      "error_count": 12,
+      "warning_count": 5
+    },
+    {
+      "file": "images_map.ditamap",
+      "doc_type": "map",
+      "is_valid": false,
+      "error_count": 1,
+      "warning_count": 0
+    },
+    {
+      "file": "lists_map.ditamap",
+      "doc_type": "map",
+      "is_valid": false,
+      "error_count": 5,
+      "warning_count": 0
+    },
+    {
+      "file": "structural_elements_map.ditamap",
+      "doc_type": "map",
+      "is_valid": false,
+      "error_count": 5,
+      "warning_count": 0
+    },
+    {
+      "file": "tables_map.ditamap",
+      "doc_type": "map",
+      "is_valid": false,
+      "error_count": 1,
+      "warning_count": 0
+    },
+    {
+      "file": "text_formatting_map.ditamap",
+      "doc_type": "map",
+      "is_valid": false,
+      "error_count": 4,
+      "warning_count": 0
+    }
+  ]
+}

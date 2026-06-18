@@ -1,0 +1,1280 @@
+{
+  "job_id": "13e6f427-8f22-4fb7-b191-9ac75b7c9b14",
+  "mode": "enrich-only",
+  "output_dir": "D:\\MetR Phase 2\\metR-Converter-DOCX\\Storage\\13e6f427-8f22-4fb7-b191-9ac75b7c9b14\\output\\demo",
+  "processed_at": "2026-06-18T05:34:24.000154+00:00",
+  "counts": {
+    "dita_files_total": 17,
+    "ditamap_files_total": 6,
+    "topics_reclassified": 7,
+    "issues_fixed_by_zone1": 1,
+    "issues_fixed_by_ai": 19,
+    "issues_remaining": 20,
+    "ai_obligations_missed": 1,
+    "new_issues_by_ai": 16,
+    "pending_suggestions": 35,
+    "alt_text_images_filled": 0,
+    "alt_text_images_skipped": 0,
+    "alt_text_images_scanned": 0
+  },
+  "quality_metrics": {
+    "element_validation_success_pct": 11,
+    "attribute_mapping_success_pct": 100,
+    "href_resolution_success_pct": 100,
+    "table_resolution": {
+      "validated": 0,
+      "total": 5,
+      "success_pct": 0
+    }
+  },
+  "token_usage": {
+    "total_input_tokens": 0,
+    "total_output_tokens": 0,
+    "total_tokens": 0,
+    "total_cost_usd": 0,
+    "by_model": {}
+  },
+  "element_counts": {
+    "ol": 4,
+    "ul": 6,
+    "table": 5,
+    "image": 3,
+    "crosslink": 1,
+    "hyperlink": 1,
+    "concept": 13,
+    "task": 2,
+    "reference": 1,
+    "topic": 1
+  },
+  "enrichment_summary": [
+    {
+      "file": "demonstration_of_docx_support_in_calibre.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "images/images.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "lists/bulleted_list.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "lists/continued_lists.dita",
+      "original_type": "task",
+      "ai_assigned_type": "topic",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "lists/lists.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "lists/multi_level_lists.dita",
+      "original_type": "task",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "lists/numbered_list.dita",
+      "original_type": "task",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "structural_elements/dropcaps.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "structural_elements/footnotes_endnotes.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "structural_elements/links.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "structural_elements/structural_elements.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "structural_elements/table_of_contents.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "reference",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "tables/tables.dita",
+      "original_type": "reference",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "text_formatting/fun_with_fonts.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "text_formatting/inline_formatting.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "text_formatting/paragraph_level_formatting.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "text_formatting/text_formatting.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "medium",
+      "reclassified": false,
+      "skipped": true
+    }
+  ],
+  "alt_text_summary": {
+    "images_filled": 0,
+    "images_skipped": 0,
+    "total_images_scanned": 0
+  },
+  "alt_text_events": {
+    "filled": [],
+    "skipped": []
+  },
+  "structural_issues_remaining": [
+    {
+      "severity": "WARNING",
+      "category": "missing_steps",
+      "file": "demonstration_of_docx_support_in_calibre.dita",
+      "message": "<taskbody> has no <steps> or <steps-unordered> element"
+    },
+    {
+      "severity": "WARNING",
+      "category": "shortdesc_too_generic",
+      "file": "demonstration_of_docx_support_in_calibre.dita",
+      "message": "<shortdesc> starts with generic opener 'this document': 'This document demonstrates the ability of the calibre DOCX I...'",
+      "line": 5
+    },
+    {
+      "severity": "WARNING",
+      "category": "doctype_mismatch",
+      "file": "images/images.dita",
+      "message": "DOCTYPE declaration may not match root tag <concept> \u2014 expected 'DITA Concept' in DOCTYPE line"
+    },
+    {
+      "severity": "WARNING",
+      "category": "doctype_mismatch",
+      "file": "lists/bulleted_list.dita",
+      "message": "DOCTYPE declaration may not match root tag <concept> \u2014 expected 'DITA Concept' in DOCTYPE line"
+    },
+    {
+      "severity": "WARNING",
+      "category": "doctype_mismatch",
+      "file": "lists/lists.dita",
+      "message": "DOCTYPE declaration may not match root tag <concept> \u2014 expected 'DITA Concept' in DOCTYPE line"
+    },
+    {
+      "severity": "WARNING",
+      "category": "doctype_mismatch",
+      "file": "structural_elements/dropcaps.dita",
+      "message": "DOCTYPE declaration may not match root tag <concept> \u2014 expected 'DITA Concept' in DOCTYPE line"
+    },
+    {
+      "severity": "WARNING",
+      "category": "doctype_mismatch",
+      "file": "structural_elements/footnotes_endnotes.dita",
+      "message": "DOCTYPE declaration may not match root tag <concept> \u2014 expected 'DITA Concept' in DOCTYPE line"
+    },
+    {
+      "severity": "WARNING",
+      "category": "doctype_mismatch",
+      "file": "structural_elements/links.dita",
+      "message": "DOCTYPE declaration may not match root tag <concept> \u2014 expected 'DITA Concept' in DOCTYPE line"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_steps",
+      "file": "structural_elements/structural_elements.dita",
+      "message": "<taskbody> has no <steps> or <steps-unordered> element"
+    },
+    {
+      "severity": "WARNING",
+      "category": "section_missing_title",
+      "file": "structural_elements/table_of_contents.dita",
+      "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+      "line": 24
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_col_mismatch",
+      "file": "tables/tables.dita",
+      "message": "table 5 row has 1 entries but cols=14"
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_col_mismatch",
+      "file": "tables/tables.dita",
+      "message": "table 5 row has 13 entries but cols=14"
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_col_mismatch",
+      "file": "tables/tables.dita",
+      "message": "table 5 row has 13 entries but cols=14"
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_col_mismatch",
+      "file": "tables/tables.dita",
+      "message": "table 5 row has 13 entries but cols=14"
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_col_mismatch",
+      "file": "tables/tables.dita",
+      "message": "table 5 row has 13 entries but cols=14"
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_col_mismatch",
+      "file": "tables/tables.dita",
+      "message": "table 5 row has 13 entries but cols=14"
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_col_mismatch",
+      "file": "tables/tables.dita",
+      "message": "table 5 row has 13 entries but cols=14"
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_col_mismatch",
+      "file": "tables/tables.dita",
+      "message": "table 5 row has 13 entries but cols=14"
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_col_mismatch",
+      "file": "tables/tables.dita",
+      "message": "table 5 row has 13 entries but cols=14"
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_col_mismatch",
+      "file": "tables/tables.dita",
+      "message": "table 5 row has 13 entries but cols=14"
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_col_mismatch",
+      "file": "tables/tables.dita",
+      "message": "table 5 row has 13 entries but cols=14"
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_col_mismatch",
+      "file": "tables/tables.dita",
+      "message": "table 5 row has 13 entries but cols=14"
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_col_mismatch",
+      "file": "tables/tables.dita",
+      "message": "table 5 row has 13 entries but cols=14"
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "tables/tables.dita",
+      "message": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 24
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "tables/tables.dita",
+      "message": "<table> #2 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 58
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "tables/tables.dita",
+      "message": "<table> #3 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 119
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "tables/tables.dita",
+      "message": "<table> #4 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 179
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "tables/tables.dita",
+      "message": "<table> #5 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 192
+    },
+    {
+      "severity": "WARNING",
+      "category": "doctype_mismatch",
+      "file": "text_formatting/fun_with_fonts.dita",
+      "message": "DOCTYPE declaration may not match root tag <concept> \u2014 expected 'DITA Concept' in DOCTYPE line"
+    },
+    {
+      "severity": "WARNING",
+      "category": "shortdesc_too_generic",
+      "file": "text_formatting/fun_with_fonts.dita",
+      "message": "<shortdesc> starts with generic opener 'this document': 'This document has embedded the Ubuntu font family. The body ...'",
+      "line": 5
+    },
+    {
+      "severity": "WARNING",
+      "category": "doctype_mismatch",
+      "file": "text_formatting/inline_formatting.dita",
+      "message": "DOCTYPE declaration may not match root tag <concept> \u2014 expected 'DITA Concept' in DOCTYPE line"
+    },
+    {
+      "severity": "WARNING",
+      "category": "empty_title",
+      "file": "text_formatting/paragraph_level_formatting.dita",
+      "message": "<concept> has an empty <title> element"
+    },
+    {
+      "severity": "WARNING",
+      "category": "doctype_mismatch",
+      "file": "text_formatting/paragraph_level_formatting.dita",
+      "message": "DOCTYPE declaration may not match root tag <concept> \u2014 expected 'DITA Concept' in DOCTYPE line"
+    },
+    {
+      "severity": "WARNING",
+      "category": "doctype_mismatch",
+      "file": "text_formatting/text_formatting.dita",
+      "message": "DOCTYPE declaration may not match root tag <concept> \u2014 expected 'DITA Concept' in DOCTYPE line"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "text_formatting/text_formatting.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "empty_p",
+      "file": "text_formatting/text_formatting.dita",
+      "message": "<p> #1 is empty \u2014 remove or add content",
+      "line": 5
+    }
+  ],
+  "enrichment_quality": {
+    "summary": {
+      "dita_file_count": 17,
+      "severity_counts": {
+        "CRITICAL": 0,
+        "WARNING": 4,
+        "INFO": 0
+      },
+      "category_counts": {
+        "shortdesc_too_generic": 2,
+        "missing_shortdesc": 1,
+        "missing_prolog": 1
+      }
+    },
+    "issues": [
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "demonstration_of_docx_support_in_calibre.dita",
+        "message": "<shortdesc> starts with generic opener 'this document': 'This document demonstrates the ability of the calibre DOCX I...'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "text_formatting/fun_with_fonts.dita",
+        "message": "<shortdesc> starts with generic opener 'this document': 'This document has embedded the Ubuntu font family. The body ...'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "text_formatting/text_formatting.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_prolog",
+        "file": "text_formatting/text_formatting.dita",
+        "message": "<prolog> element is missing \u2014 AI (Layer 3) should have added prolog with keywords and indexterms"
+      }
+    ]
+  },
+  "fix_diff": {
+    "fixed_by_zone1": [
+      {
+        "file": "text_formatting/text_formatting.dita",
+        "fix": "expanded self-closing <conbody/> to explicit open/close tags"
+      }
+    ],
+    "fixed_by_ai": [
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "demonstration_of_docx_support_in_calibre.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "image_missing_alt",
+        "file": "images/images.dita",
+        "message": "<image> #1 (href='../media/image2.png') has no alt text \u2014 required for accessibility",
+        "line": 7
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "images/images.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "lists/bulleted_list.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "lists/continued_lists.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "lists/lists.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "lists/multi_level_lists.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "lists/numbered_list.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "structural_elements/dropcaps.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "structural_elements/footnotes_endnotes.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "structural_elements/links.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "structural_elements/structural_elements.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "structural_elements/table_of_contents.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "section_missing_title",
+        "file": "tables/tables.dita",
+        "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+        "line": 6
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "tables/tables.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "text_formatting/fun_with_fonts.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "text_formatting/inline_formatting.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "text_formatting/paragraph_level_formatting.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "empty_body",
+        "file": "text_formatting/text_formatting.dita",
+        "message": "<conbody> exists but has no child elements or text content",
+        "line": 5
+      }
+    ],
+    "ai_obligations_missed": [
+      {
+        "severity": "WARNING",
+        "category": "missing_prolog",
+        "file": "text_formatting/text_formatting.dita",
+        "message": "<prolog> element is missing \u2014 AI (Layer 3) should have added prolog with keywords and indexterms"
+      }
+    ],
+    "new_issues_introduced_by_ai": [
+      {
+        "severity": "WARNING",
+        "category": "missing_steps",
+        "file": "demonstration_of_docx_support_in_calibre.dita",
+        "message": "<taskbody> has no <steps> or <steps-unordered> element"
+      },
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "demonstration_of_docx_support_in_calibre.dita",
+        "message": "<shortdesc> starts with generic opener 'this document': 'This document demonstrates the ability of the calibre DOCX I...'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "doctype_mismatch",
+        "file": "images/images.dita",
+        "message": "DOCTYPE declaration may not match root tag <concept> \u2014 expected 'DITA Concept' in DOCTYPE line"
+      },
+      {
+        "severity": "WARNING",
+        "category": "doctype_mismatch",
+        "file": "lists/bulleted_list.dita",
+        "message": "DOCTYPE declaration may not match root tag <concept> \u2014 expected 'DITA Concept' in DOCTYPE line"
+      },
+      {
+        "severity": "WARNING",
+        "category": "doctype_mismatch",
+        "file": "lists/lists.dita",
+        "message": "DOCTYPE declaration may not match root tag <concept> \u2014 expected 'DITA Concept' in DOCTYPE line"
+      },
+      {
+        "severity": "WARNING",
+        "category": "doctype_mismatch",
+        "file": "structural_elements/dropcaps.dita",
+        "message": "DOCTYPE declaration may not match root tag <concept> \u2014 expected 'DITA Concept' in DOCTYPE line"
+      },
+      {
+        "severity": "WARNING",
+        "category": "doctype_mismatch",
+        "file": "structural_elements/footnotes_endnotes.dita",
+        "message": "DOCTYPE declaration may not match root tag <concept> \u2014 expected 'DITA Concept' in DOCTYPE line"
+      },
+      {
+        "severity": "WARNING",
+        "category": "doctype_mismatch",
+        "file": "structural_elements/links.dita",
+        "message": "DOCTYPE declaration may not match root tag <concept> \u2014 expected 'DITA Concept' in DOCTYPE line"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_steps",
+        "file": "structural_elements/structural_elements.dita",
+        "message": "<taskbody> has no <steps> or <steps-unordered> element"
+      },
+      {
+        "severity": "WARNING",
+        "category": "section_missing_title",
+        "file": "structural_elements/table_of_contents.dita",
+        "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+        "line": 24
+      },
+      {
+        "severity": "WARNING",
+        "category": "doctype_mismatch",
+        "file": "text_formatting/fun_with_fonts.dita",
+        "message": "DOCTYPE declaration may not match root tag <concept> \u2014 expected 'DITA Concept' in DOCTYPE line"
+      },
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "text_formatting/fun_with_fonts.dita",
+        "message": "<shortdesc> starts with generic opener 'this document': 'This document has embedded the Ubuntu font family. The body ...'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "doctype_mismatch",
+        "file": "text_formatting/inline_formatting.dita",
+        "message": "DOCTYPE declaration may not match root tag <concept> \u2014 expected 'DITA Concept' in DOCTYPE line"
+      },
+      {
+        "severity": "WARNING",
+        "category": "doctype_mismatch",
+        "file": "text_formatting/paragraph_level_formatting.dita",
+        "message": "DOCTYPE declaration may not match root tag <concept> \u2014 expected 'DITA Concept' in DOCTYPE line"
+      },
+      {
+        "severity": "WARNING",
+        "category": "doctype_mismatch",
+        "file": "text_formatting/text_formatting.dita",
+        "message": "DOCTYPE declaration may not match root tag <concept> \u2014 expected 'DITA Concept' in DOCTYPE line"
+      },
+      {
+        "severity": "WARNING",
+        "category": "empty_p",
+        "file": "text_formatting/text_formatting.dita",
+        "message": "<p> #1 is empty \u2014 remove or add content",
+        "line": 5
+      }
+    ],
+    "summary": {
+      "pre_enrichment_issue_count": 42,
+      "post_enrichment_issue_count": 40,
+      "backend_error_file_count": 0,
+      "fixed_by_zone1_count": 1,
+      "fixed_by_ai_count": 19,
+      "remaining_count": 20,
+      "ai_obligations_missed_count": 1,
+      "new_issues_count": 16
+    }
+  },
+  "ai_quality_review": {
+    "layer5": {
+      "overall_quality": "fair",
+      "topic_type_accuracy_pct": 0,
+      "recommendations": [],
+      "dita_best_practice_gaps": [],
+      "autofix": {
+        "fixed": [],
+        "flagged": [],
+        "failed": []
+      }
+    },
+    "layer6": {
+      "validation_passed": true,
+      "overall_accuracy_pct": 100,
+      "per_topic_issues": [
+        {
+          "severity": "WARNING",
+          "file": "demonstration_of_docx_support_in_calibre.dita",
+          "issue": "DOCTYPE does not match root element <task> (expected 'DITA Task')"
+        },
+        {
+          "severity": "WARNING",
+          "file": "demonstration_of_docx_support_in_calibre.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Demonstration of DOCX support in calibre' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "images/images.dita",
+          "issue": "DOCTYPE does not match root element <concept> (expected 'DITA Concept')"
+        },
+        {
+          "severity": "WARNING",
+          "file": "images/images.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Images' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "lists/bulleted_list.dita",
+          "issue": "DOCTYPE does not match root element <concept> (expected 'DITA Concept')"
+        },
+        {
+          "severity": "WARNING",
+          "file": "lists/bulleted_list.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Bulleted List' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 15
+        },
+        {
+          "severity": "WARNING",
+          "file": "lists/continued_lists.dita",
+          "issue": "DOCTYPE does not match root element <topic> (expected 'DITA Topic')"
+        },
+        {
+          "severity": "WARNING",
+          "file": "lists/continued_lists.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Continued Lists' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "lists/lists.dita",
+          "issue": "DOCTYPE does not match root element <concept> (expected 'DITA Concept')"
+        },
+        {
+          "severity": "WARNING",
+          "file": "lists/lists.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Lists' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "lists/multi_level_lists.dita",
+          "issue": "DOCTYPE does not match root element <concept> (expected 'DITA Concept')"
+        },
+        {
+          "severity": "WARNING",
+          "file": "lists/multi_level_lists.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Multi-level Lists' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 21
+        },
+        {
+          "severity": "WARNING",
+          "file": "lists/numbered_list.dita",
+          "issue": "DOCTYPE does not match root element <concept> (expected 'DITA Concept')"
+        },
+        {
+          "severity": "WARNING",
+          "file": "lists/numbered_list.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Numbered List' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "structural_elements/dropcaps.dita",
+          "issue": "DOCTYPE does not match root element <concept> (expected 'DITA Concept')"
+        },
+        {
+          "severity": "WARNING",
+          "file": "structural_elements/dropcaps.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Dropcaps' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "structural_elements/footnotes_endnotes.dita",
+          "issue": "DOCTYPE does not match root element <concept> (expected 'DITA Concept')"
+        },
+        {
+          "severity": "WARNING",
+          "file": "structural_elements/footnotes_endnotes.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Footnotes & Endnotes' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "structural_elements/links.dita",
+          "issue": "DOCTYPE does not match root element <concept> (expected 'DITA Concept')"
+        },
+        {
+          "severity": "WARNING",
+          "file": "structural_elements/links.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Links' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "structural_elements/structural_elements.dita",
+          "issue": "DOCTYPE does not match root element <task> (expected 'DITA Task')"
+        },
+        {
+          "severity": "WARNING",
+          "file": "structural_elements/structural_elements.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Structural Elements' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "structural_elements/table_of_contents.dita",
+          "issue": "DOCTYPE does not match root element <reference> (expected 'DITA Reference')"
+        },
+        {
+          "severity": "WARNING",
+          "file": "structural_elements/table_of_contents.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Table of Contents' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "tables/tables.dita",
+          "issue": "DOCTYPE does not match root element <concept> (expected 'DITA Concept')"
+        },
+        {
+          "severity": "WARNING",
+          "file": "tables/tables.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Tables' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "text_formatting/fun_with_fonts.dita",
+          "issue": "DOCTYPE does not match root element <concept> (expected 'DITA Concept')"
+        },
+        {
+          "severity": "WARNING",
+          "file": "text_formatting/fun_with_fonts.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Fun with fonts' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "text_formatting/inline_formatting.dita",
+          "issue": "DOCTYPE does not match root element <concept> (expected 'DITA Concept')"
+        },
+        {
+          "severity": "WARNING",
+          "file": "text_formatting/inline_formatting.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Inline formatting' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "text_formatting/paragraph_level_formatting.dita",
+          "issue": "DOCTYPE does not match root element <concept> (expected 'DITA Concept')"
+        },
+        {
+          "severity": "WARNING",
+          "file": "text_formatting/paragraph_level_formatting.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 22
+        },
+        {
+          "severity": "WARNING",
+          "file": "text_formatting/text_formatting.dita",
+          "issue": "DOCTYPE does not match root element <concept> (expected 'DITA Concept')"
+        },
+        {
+          "severity": "WARNING",
+          "file": "text_formatting/text_formatting.dita",
+          "issue": "Missing shortdesc element",
+          "reason": "Topic has body content but no shortdesc was generated \u2014 the enrichment layer may have skipped this topic",
+          "line": 3
+        }
+      ],
+      "shortdesc_issues": [
+        {
+          "file": "text_formatting/text_formatting.dita",
+          "issue": "Missing shortdesc element"
+        }
+      ],
+      "recommendations": [
+        "34 WARNING(s) \u2014 missing id, DOCTYPE, or shortdesc"
+      ],
+      "schema_validation": {
+        "schema_passed": true,
+        "total_files": 17,
+        "valid_files": 17,
+        "invalid_files": 0,
+        "results": [
+          {
+            "file": "demonstration_of_docx_support_in_calibre.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "images.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "bulleted_list.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "continued_lists.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "lists.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "multi_level_lists.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "numbered_list.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "dropcaps.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "footnotes_endnotes.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "links.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "structural_elements.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "table_of_contents.dita",
+            "valid": true,
+            "issues": [
+              {
+                "severity": "WARNING",
+                "element": "section",
+                "message": "<section> has no <title> or spectitle attribute"
+              }
+            ]
+          },
+          {
+            "file": "tables.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "fun_with_fonts.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "inline_formatting.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "paragraph_level_formatting.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "text_formatting.dita",
+            "valid": true,
+            "issues": []
+          }
+        ]
+      }
+    }
+  },
+  "element_counts_per_file": [
+    {
+      "file": "demonstration_of_docx_support_in_calibre.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "images/images.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 3,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "lists/bulleted_list.dita",
+      "ol": 0,
+      "ul": 1,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "lists/continued_lists.dita",
+      "ol": 1,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 0,
+      "reference": 0,
+      "topic": 1
+    },
+    {
+      "file": "lists/lists.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "lists/multi_level_lists.dita",
+      "ol": 2,
+      "ul": 5,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "lists/numbered_list.dita",
+      "ol": 1,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "structural_elements/dropcaps.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "structural_elements/footnotes_endnotes.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "structural_elements/links.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 1,
+      "hyperlink": 1,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "structural_elements/structural_elements.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "structural_elements/table_of_contents.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 0,
+      "reference": 1,
+      "topic": 0
+    },
+    {
+      "file": "tables/tables.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 5,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "text_formatting/fun_with_fonts.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "text_formatting/inline_formatting.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "text_formatting/paragraph_level_formatting.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "text_formatting/text_formatting.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    }
+  ],
+  "xslt_transform": {
+    "status": "completed",
+    "files_modified": 2,
+    "files_failed": 0,
+    "report": "xslt_transform_report.json"
+  },
+  "schematron_compliance": {
+    "status": "completed",
+    "files_with_violations": 12,
+    "total_violations": 42,
+    "violations_sent_to_suggestions": 42,
+    "report": "schematron_validation_report.json"
+  }
+}

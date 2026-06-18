@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="_Toc359077862" xml:lang="en-us">
+  <title>Images</title>
+  <conbody>
+    <p>Images can be of three main types. Inline images are images that are part of the normal text flow, like this image of a green dot <fig><title>placeholder</title>
+        <image href="../media/image2.png"><alt>placeholder</alt></image>
+      </fig>. Inline images do not cause breaks in the text and are usually small in size.<fig><title>placeholder</title>
+        <image href="../media/image3.png"><alt>placeholder</alt></image>
+      </fig> The next category of image is a floating image, one that “floats “ on the page and is surrounded by text. Word supports more types of floating images than are possible with current ebook technology, so the conversion maps floating images to simple left and right floats, as you can see with the left and right arrow images on the sides of this paragraph.</p>
+    <p>The final type of image is a “block” image, one that becomes a paragraph on its own and has no text on either side. Below is a centered green dot.</p>
+    <p>
+      <fig><title>placeholder</title>
+        <image href="../media/image2.png"><alt>placeholder</alt></image>
+      </fig>
+      <fig><title>placeholder</title>
+        <image href="../media/image4.png"><alt>placeholder</alt></image>
+      </fig>Centered images like this are useful for large pictures that should be a focus of attention.</p>
+    <p>Generally, it is not possible to translate the exact positioning of images from a Word document to an ebook. That is because in Word, image positioning is specified in absolute units from the page boundaries.  There is no analogous technology in ebooks, so the conversion will usually end up placing the image either centered or floating close to the point in the text where it was inserted, not necessarily where it appears on the page in Word.</p>
+  </conbody>
+</concept>

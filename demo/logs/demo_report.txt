@@ -1,0 +1,188 @@
+========================================================================
+  DITA OUTPUT VALIDATION REPORT
+========================================================================
+  Generated  : 2026-06-18 11:02:11
+  Output dir : D:\MetR Phase 2\metR-Converter-DOCX\Storage\13e6f427-8f22-4fb7-b191-9ac75b7c9b14\output\demo
+  Files found: 23  (.dita + .ditamap)
+========================================================================
+
+------------------------------------------------------------------------
+  FILE   : demonstration_of_docx_support_in_calibre.dita
+  STATUS : [PASS]
+  Root tag     : concept
+  DOCTYPE      : OK
+  Errors       : none
+
+------------------------------------------------------------------------
+  FILE   : images/images.dita
+  STATUS : [PASS]
+  Root tag     : concept
+  DOCTYPE      : OK
+  Errors       : none
+
+------------------------------------------------------------------------
+  FILE   : lists/bulleted_list.dita
+  STATUS : [PASS]
+  Root tag     : concept
+  DOCTYPE      : OK
+  Errors       : none
+
+------------------------------------------------------------------------
+  FILE   : lists/continued_lists.dita
+  STATUS : [PASS]
+  Root tag     : task
+  DOCTYPE      : OK
+  Errors       : none
+
+------------------------------------------------------------------------
+  FILE   : lists/lists.dita
+  STATUS : [PASS]
+  Root tag     : concept
+  DOCTYPE      : OK
+  Errors       : none
+
+------------------------------------------------------------------------
+  FILE   : lists/multi_level_lists.dita
+  STATUS : [PASS]
+  Root tag     : task
+  DOCTYPE      : OK
+  Errors       : none
+
+------------------------------------------------------------------------
+  FILE   : lists/numbered_list.dita
+  STATUS : [PASS]
+  Root tag     : task
+  DOCTYPE      : OK
+  Errors       : none
+
+------------------------------------------------------------------------
+  FILE   : structural_elements/dropcaps.dita
+  STATUS : [PASS]
+  Root tag     : concept
+  DOCTYPE      : OK
+  Errors       : none
+
+------------------------------------------------------------------------
+  FILE   : structural_elements/footnotes_endnotes.dita
+  STATUS : [PASS]
+  Root tag     : concept
+  DOCTYPE      : OK
+  Errors       : none
+
+------------------------------------------------------------------------
+  FILE   : structural_elements/links.dita
+  STATUS : [PASS]
+  Root tag     : concept
+  DOCTYPE      : OK
+  Errors       : none
+
+------------------------------------------------------------------------
+  FILE   : structural_elements/structural_elements.dita
+  STATUS : [PASS]
+  Root tag     : concept
+  DOCTYPE      : OK
+  Errors       : none
+
+------------------------------------------------------------------------
+  FILE   : structural_elements/table_of_contents.dita
+  STATUS : [PASS]
+  Root tag     : concept
+  DOCTYPE      : OK
+  Errors       : none
+
+------------------------------------------------------------------------
+  FILE   : tables/tables.dita
+  STATUS : [PASS]
+  Root tag     : reference
+  DOCTYPE      : OK
+  Errors       : none
+
+------------------------------------------------------------------------
+  FILE   : text_formatting/fun_with_fonts.dita
+  STATUS : [PASS]
+  Root tag     : concept
+  DOCTYPE      : OK
+  Errors       : none
+
+------------------------------------------------------------------------
+  FILE   : text_formatting/inline_formatting.dita
+  STATUS : [PASS]
+  Root tag     : concept
+  DOCTYPE      : OK
+  Errors       : none
+
+------------------------------------------------------------------------
+  FILE   : text_formatting/paragraph_level_formatting.dita
+  STATUS : [PASS]
+  Root tag     : concept
+  DOCTYPE      : OK
+  Errors       : none
+
+------------------------------------------------------------------------
+  FILE   : text_formatting/text_formatting.dita
+  STATUS : [PASS]
+  Root tag     : concept
+  DOCTYPE      : OK
+  Errors       : none
+
+------------------------------------------------------------------------
+  FILE   : demonstration_of_docx_support_in_calibre.ditamap
+  STATUS : [PASS]
+  Root tag     : bookmap
+  DOCTYPE      : OK
+  Errors       : none
+
+------------------------------------------------------------------------
+  FILE   : images_map.ditamap
+  STATUS : [PASS]
+  Root tag     : map
+  DOCTYPE      : OK
+  Errors       : none
+
+------------------------------------------------------------------------
+  FILE   : lists_map.ditamap
+  STATUS : [PASS]
+  Root tag     : map
+  DOCTYPE      : OK
+  Errors       : none
+
+------------------------------------------------------------------------
+  FILE   : structural_elements_map.ditamap
+  STATUS : [PASS]
+  Root tag     : map
+  DOCTYPE      : OK
+  Errors       : none
+
+------------------------------------------------------------------------
+  FILE   : tables_map.ditamap
+  STATUS : [PASS]
+  Root tag     : map
+  DOCTYPE      : OK
+  Errors       : none
+
+------------------------------------------------------------------------
+  FILE   : text_formatting_map.ditamap
+  STATUS : [PASS]
+  Root tag     : map
+  DOCTYPE      : OK
+  Errors       : none
+
+========================================================================
+  SUMMARY
+------------------------------------------------------------------------
+  Total files : 23
+  Passed      : 23
+  Failed      : 0
+----------------------------------------
+  Total Dita Files generated         : 17
+  Total Headings counted             : 5
+  Total subheadings under Heading (per heading name):
+    - Images                                            : 1 file(s)
+    - Lists                                             : 5 file(s)
+    - Structural Elements                               : 5 file(s)
+    - Tables                                            : 1 file(s)
+    - Text Formatting                                   : 4 file(s)
+  Total Ditamap Files generated      : 6
+  Root Ditamap                       : demonstration_of_docx_support_in_calibre.ditamap
+  Total images counted               : 3
+========================================================================

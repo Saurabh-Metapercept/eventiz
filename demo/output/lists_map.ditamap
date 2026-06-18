@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA 2.x Map//EN" "map.dtd">
+<map id="lists_map" xml:lang="en-us">
+  <title>Lists</title>
+  <topicref href="lists/lists.dita"><topicmeta><navtitle>Lists</navtitle></topicmeta></topicref>
+  <topicref href="lists/bulleted_list.dita"><topicmeta><navtitle>Bulleted List</navtitle></topicmeta></topicref>
+  <topicref href="lists/numbered_list.dita"><topicmeta><navtitle>Numbered List</navtitle></topicmeta></topicref>
+  <topicref href="lists/multi_level_lists.dita"><topicmeta><navtitle>Multi-level Lists</navtitle></topicmeta></topicref>
+  <topicref href="lists/continued_lists.dita"><topicmeta><navtitle>Continued Lists</navtitle></topicmeta></topicref>
+</map>

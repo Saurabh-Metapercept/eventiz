@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA 2.x Map//EN" "map.dtd">
+<map id="text_formatting_map" xml:lang="en-us">
+  <title>Text Formatting</title>
+  <topicref href="text_formatting/text_formatting.dita"><topicmeta><navtitle>Text Formatting</navtitle></topicmeta></topicref>
+  <topicref href="text_formatting/inline_formatting.dita"><topicmeta><navtitle>Inline formatting</navtitle></topicmeta></topicref>
+  <topicref href="text_formatting/fun_with_fonts.dita"><topicmeta><navtitle>Fun with fonts</navtitle></topicmeta></topicref>
+  <topicref href="text_formatting/paragraph_level_formatting.dita"><topicmeta><navtitle>Paragraph level formatting</navtitle></topicmeta></topicref>
+</map>

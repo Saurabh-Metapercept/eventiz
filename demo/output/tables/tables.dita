@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_Toc359077856" xml:lang="en-us">
+  <title>Tables</title>
+  <refbody>
+    <section id="sec_d71e7"><table frame="all" colsep="1" rowsep="1">
+        <tgroup cols="2">
+          <colspec colname="col1" colwidth="1*"/>
+          <colspec colname="col2" colwidth="1*"/>
+          <tbody>
+            <row>
+              <entry>ITEM</entry>
+              <entry>NEEDED</entry>
+            </row>
+            <row>
+              <entry>Books</entry>
+              <entry>1</entry>
+            </row>
+            <row>
+              <entry>Pens</entry>
+              <entry>3</entry>
+            </row>
+            <row>
+              <entry>Pencils</entry>
+              <entry>2</entry>
+            </row>
+            <row>
+              <entry>Highlighter</entry>
+              <entry>2 colors</entry>
+            </row>
+            <row>
+              <entry>Scissors</entry>
+              <entry>1 pair</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table><p>Tables in Word can vary from the extremely simple to the extremely complex. calibre tries to do its best when converting tables. While you may run into trouble with the occasional table, the vast majority of common cases should be converted very well, as demonstrated in this section. Note that for optimum results, when creating tables in Word, you should set their widths using percentages, rather than absolute units.  To the left of this paragraph is a floating two column table with a nice green border and header row.</p><p>Now let’s look at a fancier table—one with alternating row colors and partial borders. This table is stretched out to take 100% of the available width.</p><table frame="all" colsep="1" rowsep="1">
+        <tgroup cols="6">
+          <colspec colname="col1" colwidth="1*"/>
+          <colspec colname="col2" colwidth="1*"/>
+          <colspec colname="col3" colwidth="1*"/>
+          <colspec colname="col4" colwidth="1*"/>
+          <colspec colname="col5" colwidth="1*"/>
+          <colspec colname="col6" colwidth="1*"/>
+          <tbody>
+            <row>
+              <entry>City or Town</entry>
+              <entry>Point A</entry>
+              <entry>Point B</entry>
+              <entry>Point C</entry>
+              <entry>Point D</entry>
+              <entry>Point E</entry>
+            </row>
+            <row>
+              <entry>Point A</entry>
+              <entry>—</entry>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+            <row>
+              <entry>Point B</entry>
+              <entry>87</entry>
+              <entry>—</entry>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+            <row>
+              <entry>Point C</entry>
+              <entry>64</entry>
+              <entry>56</entry>
+              <entry>—</entry>
+              <entry/>
+              <entry/>
+            </row>
+            <row>
+              <entry>Point D</entry>
+              <entry>37</entry>
+              <entry>32</entry>
+              <entry>91</entry>
+              <entry>—</entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>Point E</entry>
+              <entry>93</entry>
+              <entry>35</entry>
+              <entry>54</entry>
+              <entry>43</entry>
+              <entry>—</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table><p>Next, we see a table with special formatting in various locations. Notice how the formatting for the header row and sub header rows is preserved.</p><table frame="all" colsep="1" rowsep="1">
+        <tgroup cols="4">
+          <colspec colname="col1" colwidth="1*"/>
+          <colspec colname="col2" colwidth="1*"/>
+          <colspec colname="col3" colwidth="1*"/>
+          <colspec colname="col4" colwidth="1*"/>
+          <tbody>
+            <row>
+              <entry>College</entry>
+              <entry>New students</entry>
+              <entry>Graduating students</entry>
+              <entry>Change</entry>
+            </row>
+            <row>
+              <entry/>
+              <entry>Undergraduate</entry>
+              <entry/>
+              <entry/>
+            </row>
+            <row>
+              <entry>Cedar University</entry>
+              <entry>110</entry>
+              <entry>103</entry>
+              <entry>+7</entry>
+            </row>
+            <row>
+              <entry>Oak Institute</entry>
+              <entry>202</entry>
+              <entry>210</entry>
+              <entry>-8</entry>
+            </row>
+            <row>
+              <entry/>
+              <entry>Graduate</entry>
+              <entry/>
+              <entry/>
+            </row>
+            <row>
+              <entry>Cedar University</entry>
+              <entry>24</entry>
+              <entry>20</entry>
+              <entry>+4</entry>
+            </row>
+            <row>
+              <entry>Elm College</entry>
+              <entry>43</entry>
+              <entry>53</entry>
+              <entry>-10</entry>
+            </row>
+            <row>
+              <entry>Total</entry>
+              <entry>998</entry>
+              <entry>908</entry>
+              <entry>90</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table><ul><li><p>Source: Fictitious data, for illustration purposes only</p><p>Next, we have something a little more complex, a nested table, i.e. a table inside another table. Additionally, the inner table has some of its cells merged. The table is displayed horizontally centered.</p></li></ul><table frame="all" colsep="1" rowsep="1">
+        <tgroup cols="2">
+          <colspec colname="col1" colwidth="1*"/>
+          <colspec colname="col2" colwidth="1*"/>
+          <tbody>
+            <row>
+              <entry/>
+              <entry>To the left is a table inside a table, with some cells merged.</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table><p>We end with a fancy calendar, note how much of the original formatting is preserved. Note that this table will only display correctly on relatively wide screens. In general, very wide tables or tables whose cells have fixed width requirements don’t fare well in ebooks.</p><table frame="all" colsep="1" rowsep="1">
+        <tgroup cols="14">
+          <colspec colname="col1" colwidth="1*"/>
+          <colspec colname="col2" colwidth="1*"/>
+          <colspec colname="col3" colwidth="1*"/>
+          <colspec colname="col4" colwidth="1*"/>
+          <colspec colname="col5" colwidth="1*"/>
+          <colspec colname="col6" colwidth="1*"/>
+          <colspec colname="col7" colwidth="1*"/>
+          <colspec colname="col8" colwidth="1*"/>
+          <colspec colname="col9" colwidth="1*"/>
+          <colspec colname="col10" colwidth="1*"/>
+          <colspec colname="col11" colwidth="1*"/>
+          <colspec colname="col12" colwidth="1*"/>
+          <colspec colname="col13" colwidth="1*"/>
+          <colspec colname="col14" colwidth="1*"/>
+          <tbody>
+            <row>
+              <entry>December 2007</entry>
+            </row>
+            <row>
+              <entry>Sun</entry>
+              <entry/>
+              <entry>Mon</entry>
+              <entry/>
+              <entry>Tue</entry>
+              <entry/>
+              <entry>Wed</entry>
+              <entry/>
+              <entry>Thu</entry>
+              <entry/>
+              <entry>Fri</entry>
+              <entry/>
+              <entry>Sat</entry>
+            </row>
+            <row>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry>1</entry>
+            </row>
+            <row>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+            <row>
+              <entry>2</entry>
+              <entry/>
+              <entry>3</entry>
+              <entry/>
+              <entry>4</entry>
+              <entry/>
+              <entry>5</entry>
+              <entry/>
+              <entry>6</entry>
+              <entry/>
+              <entry>7</entry>
+              <entry/>
+              <entry>8</entry>
+            </row>
+            <row>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+            <row>
+              <entry>9</entry>
+              <entry/>
+              <entry>10</entry>
+              <entry/>
+              <entry>11</entry>
+              <entry/>
+              <entry>12</entry>
+              <entry/>
+              <entry>13</entry>
+              <entry/>
+              <entry>14</entry>
+              <entry/>
+              <entry>15</entry>
+            </row>
+            <row>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+            <row>
+              <entry>16</entry>
+              <entry/>
+              <entry>17</entry>
+              <entry/>
+              <entry>18</entry>
+              <entry/>
+              <entry>19</entry>
+              <entry/>
+              <entry>20</entry>
+              <entry/>
+              <entry>21</entry>
+              <entry/>
+              <entry>22</entry>
+            </row>
+            <row>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+            <row>
+              <entry>23</entry>
+              <entry/>
+              <entry>24</entry>
+              <entry/>
+              <entry>25</entry>
+              <entry/>
+              <entry>26</entry>
+              <entry/>
+              <entry>27</entry>
+              <entry/>
+              <entry>28</entry>
+              <entry/>
+              <entry>29</entry>
+            </row>
+            <row>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+            <row>
+              <entry>30</entry>
+              <entry/>
+              <entry>31</entry>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+          </tbody>
+        </tgroup>
+      </table></section>
+  </refbody>
+</reference>

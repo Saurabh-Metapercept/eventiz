@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="_Toc359077863" xml:lang="en-us">
+  <title>Lists</title>
+  <conbody>
+    <p>All types of lists are supported by the conversion, with the exception of lists that use fancy bullets, these get converted to regular bullets.</p>
+  </conbody>
+</concept>

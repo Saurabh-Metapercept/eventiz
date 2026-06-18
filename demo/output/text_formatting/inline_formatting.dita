@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="_Toc359077853" xml:lang="en-us">
+  <title>Inline formatting</title>
+  <conbody>
+    <p>Here, we demonstrate various types of inline text formatting and the use of embedded fonts.</p>
+    <p>Here is some <b>bold,</b>italic, <b>bold-italic,</b>underlined and struck out  text. Then, we have a superscript and a subscript. Now we see some red, green and blue text. Some text with a yellow highlight. Some text in a box. Some text in inverse video.</p>
+    <p>A paragraph with styled text: subtle emphasis  followed by strong text and intense emphasis. This paragraph uses document wide styles for styling rather than inline text properties as demonstrated in the previous paragraph — calibre can handle both with equal ease.</p>
+  </conbody>
+</concept>
