@@ -1,8 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
 <concept id="headings" xml:lang="en-us">
-  <title>Headings</title>
-  <shortdesc>There are eight section headings in this document. At the beginning, "Sample Document" is a</shortdesc>
+   <title>Headings</title>
+   <shortdesc>There are eight section headings in this document. At the beginning, "Sample Document" is a</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -21,7 +22,7 @@
       </prodinfo>
     </metadata>
   </prolog>
-  <conbody>
-    <p>There are eight section headings in this document. At the beginning, "Sample Document" is a level 1 heading. The main section headings, such as "Headings" and "Lists" are level 2 headings. The Tables section contains two sub-headings, "Simple Table" and "Complex Table," which are both level 3 headings.</p>
-  </conbody>
+   <conbody>
+      <p>There are eight section headings in this document. At the beginning, "Sample Document" is a level 1 heading. The main section headings, such as "Headings" and "Lists" are level 2 headings. The Tables section contains two sub-headings, "Simple Table" and "Complex Table," which are both level 3 headings.</p>
+   </conbody>
 </concept>

@@ -1,0 +1,5 @@
+﻿"DITA File Path","Document Type","Schematron Name","Severity","Gate","Rule Code","Error / Warning Description"
+"transformed output\sample_document\images.dita","CONCEPT","concept_structural_rules.sch","ERROR","Gate 2","","ERROR: <image> element with href=""../media/image1.gif"" is missing the required @width attribute."
+"transformed output\sample_document\images.dita","CONCEPT","concept_structural_rules.sch","ERROR","Gate 2","","ERROR: <image> element with href=""../media/image1.gif"" is missing the required @height attribute."
+"transformed output\sample_document\images.dita","CONCEPT","concept_structural_rules.sch","ERROR","Gate 2","","ERROR: <image> element with href=""../media/image2.png"" is missing the required @width attribute."
+"transformed output\sample_document\images.dita","CONCEPT","concept_structural_rules.sch","ERROR","Gate 2","","ERROR: <image> element with href=""../media/image2.png"" is missing the required @height attribute."

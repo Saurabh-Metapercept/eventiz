@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 2.x Topic//EN" "topic.dtd">
 <topic id="_top" xml:lang="en-us">
-  <title>Sample Document</title>
-  <shortdesc>This document was created using accessibility techniques for headings, lists, image alternate text, tables, and</shortdesc>
+   <title>Sample Document</title>
+   <shortdesc>This document was created using accessibility techniques for headings, lists, image alternate text, tables, and</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -21,7 +21,7 @@
       </prodinfo>
     </metadata>
   </prolog>
-  <body>
-    <p>This document was created using accessibility techniques for headings, lists, image alternate text, tables, and columns. It should be completely accessible using assistive technologies such as screen readers.</p>
-  </body>
+   <body>
+      <p>This document was created using accessibility techniques for headings, lists, image alternate text, tables, and columns. It should be completely accessible using assistive technologies such as screen readers.</p>
+   </body>
 </topic>

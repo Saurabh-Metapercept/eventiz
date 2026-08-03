@@ -1,0 +1,167 @@
+{
+  "job_id": "736c113e-93da-4b8d-a09a-755a227efdc1",
+  "output_dir": "D:\\MetR Phase 2\\metR-Converter-DOCX\\Storage\\736c113e-93da-4b8d-a09a-755a227efdc1\\transformed output",
+  "generated_at": "2026-08-03T06:44:34.229772+00:00",
+  "suggestions": [
+    {
+      "id": "3eb898ea-6968-4922-bff9-f3a84d4aee31",
+      "file": "sample_document/complex_tables.dita",
+      "line": null,
+      "severity": "WARNING",
+      "issue": "table 1 row has 3 entries but cols=5",
+      "category": "table_col_mismatch",
+      "source": "enrichment_fix_report.remaining_issues",
+      "context_lines": [],
+      "affected_lines": [],
+      "suggestion": "table 1 row has 3 entries but cols=5.\nUpdate the `cols` attribute on `<tgroup>` to match the actual number of column entries in each row: `<tgroup cols=\"3\">`.\nAlso check that every row has the same number of `<entry>` elements.",
+      "status": "pending",
+      "created_at": "2026-08-03T06:44:32.512937+00:00"
+    },
+    {
+      "id": "cd954092-169b-4451-bdf6-845608e1ea8e",
+      "file": "sample_document/complex_tables.dita",
+      "line": 25,
+      "severity": "WARNING",
+      "issue": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "category": "table_missing_title",
+      "source": "enrichment_fix_report.remaining_issues",
+      "context_lines": [
+        "      <prodinfo>",
+        "        <prodname></prodname>",
+        "      </prodinfo>",
+        "    </metadata>",
+        "  </prolog>",
+        "   <conbody><p>The following is a complex table, using merged cells as headers for sections within the table. This can't be made accessible in all types of documents:</p>",
+        "<table frame=\"all\" colsep=\"1\" rowsep=\"1\">",
+        "            <tgroup cols=\"5\">",
+        "               <colspec colname=\"c1\"/>",
+        "               <colspec colname=\"c2\"/>",
+        "               <colspec colname=\"c3\"/>",
+        "               <colspec colname=\"c4\"/>",
+        "               <colspec colname=\"c5\"/>"
+      ],
+      "affected_lines": [
+        25
+      ],
+      "suggestion": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance.\nAdd a `<title>` element as the first child of the `<table>` element.\nExample: `<table><title>Descriptive table title</title><tgroup ...>`",
+      "status": "pending",
+      "created_at": "2026-08-03T06:44:32.565462+00:00"
+    },
+    {
+      "id": "5543da58-f367-4694-a9e4-5bbcff08e66a",
+      "file": "sample_document/simple_tables.dita",
+      "line": 25,
+      "severity": "WARNING",
+      "issue": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "category": "table_missing_title",
+      "source": "enrichment_fix_report.remaining_issues",
+      "context_lines": [
+        "      <prodinfo>",
+        "        <prodname></prodname>",
+        "      </prodinfo>",
+        "    </metadata>",
+        "  </prolog>",
+        "   <body><p>Simple tables have a uniform number of columns and rows, without any merged cells:</p>",
+        "<table frame=\"all\" colsep=\"1\" rowsep=\"1\">",
+        "            <tgroup cols=\"3\">",
+        "               <colspec colname=\"c1\"/>",
+        "               <colspec colname=\"c2\"/>",
+        "               <colspec colname=\"c3\"/>",
+        "               <tbody>",
+        "                  <row>"
+      ],
+      "affected_lines": [
+        25
+      ],
+      "suggestion": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance.\nAdd a `<title>` element as the first child of the `<table>` element.\nExample: `<table><title>Descriptive table title</title><tgroup ...>`",
+      "status": "pending",
+      "created_at": "2026-08-03T06:44:32.621056+00:00"
+    },
+    {
+      "id": "7a75b0d3-e5be-4b06-baf9-607f2b160681",
+      "file": "sample_document/tables.dita",
+      "line": null,
+      "severity": "WARNING",
+      "issue": "<shortdesc> element is missing \u2014 required for search previews and navigation",
+      "category": "missing_shortdesc",
+      "source": "enrichment_fix_report.remaining_issues",
+      "context_lines": [],
+      "affected_lines": [],
+      "suggestion": "<shortdesc> element is missing \u2014 required for search previews and navigation.\nAdd a `<shortdesc>` element immediately after the `<title>` element. Write 1\u20132 sentences (max 30 words) summarising the topic purpose. Avoid generic openers like 'This topic describes...'.",
+      "status": "pending",
+      "created_at": "2026-08-03T06:44:32.685765+00:00"
+    },
+    {
+      "id": "64b76ee6-0a4f-4668-bcfb-5ed726328ed8",
+      "file": "sample_document/tables.dita",
+      "line": 6,
+      "severity": "WARNING",
+      "issue": "<p> #1 is empty \u2014 remove or add content",
+      "category": "empty_p",
+      "source": "enrichment_fix_report.remaining_issues",
+      "context_lines": [
+        "<?xml version=\"1.0\" encoding=\"UTF-8\"?>",
+        "<!DOCTYPE concept",
+        "  PUBLIC \"-//OASIS//DTD DITA 2.x Concept//EN\" \"concept.dtd\">",
+        "<concept id=\"tables\" xml:lang=\"en-us\">",
+        "   <title>Tables</title>",
+        "   <conbody>",
+        "      <p/>",
+        "   </conbody>",
+        "</concept>"
+      ],
+      "affected_lines": [
+        6
+      ],
+      "suggestion": "Could not generate an AI suggestion \u2014 please review the issue manually.",
+      "status": "pending",
+      "created_at": "2026-08-03T06:44:34.161430+00:00"
+    },
+    {
+      "id": "937512a4-22b6-4ff4-a07d-f744baeeae68",
+      "file": "sample_document/tables.dita",
+      "line": null,
+      "severity": "WARNING",
+      "issue": "<prolog> element is missing \u2014 AI (Layer 3) should have added prolog with keywords and indexterms",
+      "category": "missing_prolog",
+      "source": "enrichment_fix_report.ai_obligations_missed",
+      "context_lines": [],
+      "affected_lines": [],
+      "suggestion": "<prolog> element is missing \u2014 AI (Layer 3) should have added prolog with keywords and indexterms.\nAdd a `<prolog>` element after `<shortdesc>` (or after `<title>` if shortdesc is absent) containing metadata and keywords:\n`<prolog><metadata><keywords><keyword>term</keyword></keywords></metadata></prolog>`",
+      "status": "pending",
+      "created_at": "2026-08-03T06:44:32.726859+00:00"
+    },
+    {
+      "id": "879cd7a0-92bc-4d12-bc9e-53c00a760b52",
+      "file": "sample_document/sample_document.dita",
+      "line": 5,
+      "severity": "WARNING",
+      "issue": "<shortdesc> starts with generic opener 'this document': 'This document was created using accessibility techniques for...'",
+      "category": "shortdesc_too_generic",
+      "source": "enrichment_fix_report.new_issues_introduced_by_ai",
+      "context_lines": [
+        "<?xml version='1.0' encoding='UTF-8'?>",
+        "<!DOCTYPE topic PUBLIC \"-//OASIS//DTD DITA 2.x Topic//EN\" \"topic.dtd\">",
+        "<topic id=\"_top\" xml:lang=\"en-us\">",
+        "   <title>Sample Document</title>",
+        "   <shortdesc>This document was created using accessibility techniques for headings, lists, image alternate text, tables, and</shortdesc>",
+        "  <prolog>",
+        "    <metadata>",
+        "      <keywords>",
+        "        <keyword>Sample</keyword>",
+        "        <keyword>Document</keyword>",
+        "        <keyword>using</keyword>"
+      ],
+      "affected_lines": [
+        5
+      ],
+      "suggestion": "Could not generate an AI suggestion \u2014 please review the issue manually.",
+      "status": "pending",
+      "created_at": "2026-08-03T06:44:33.122667+00:00"
+    }
+  ],
+  "pending_count": 7,
+  "accepted_count": 0,
+  "edited_count": 0,
+  "dismissed_count": 0
+}

@@ -1,35 +1,40 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
 <concept id="images" xml:lang="en-us">
-  <title>Images</title>
-  <shortdesc>Documents may contain images. For example, there is an image of the web accessibility symbol</shortdesc>
+   <title>Images</title>
+   <shortdesc>placeholder placeholder Documents may contain images. For example, there is an image of the web</shortdesc>
   <prolog>
     <metadata>
       <keywords>
         <keyword>image</keyword>
+        <keyword>placeholder</keyword>
         <keyword>Images</keyword>
         <keyword>images</keyword>
         <keyword>descriptions</keyword>
         <keyword>below</keyword>
-        <keyword>Documents</keyword>
         <indexterm>image</indexterm>
+        <indexterm>placeholder</indexterm>
         <indexterm>Images</indexterm>
-        <indexterm>images</indexterm>
       </keywords>
       <prodinfo>
-        <prodname></prodname>
+        <prodname/>
       </prodinfo>
     </metadata>
   </prolog>
-  <conbody>
-    <p>
+   <conbody>
+      <p>Documents may contain images. For example, there is an image of the web accessibility symbol to the left of this paragraph. Its alternate text is "Web Access Symbol".</p>
       <fig>
-        <image href="../media/image1.gif"/>
-      </fig>Documents may contain images. For example, there is an image of the web accessibility symbol to the left of this paragraph. Its alternate text is "Web Access Symbol".</p>
-    <p>Alt text should communicate what an image means, not how it looks.</p>
-    <p>
-      <fig>
-        <image href="../media/image2.png"/>
-      </fig>Some images, such as charts or graphs, require long descriptions, but not all document types allow that. In web pages, long descriptions may be provided in several ways: on the page below the image, via a link below the image, or via a link on the image.</p>
-  </conbody>
+            <title>Image1</title>
+            <image href="../media/image1.gif" width="600" height="400" placement="break">
+               <alt>placeholder</alt>
+            </image>
+         </fig><p>Alt text should communicate what an image means, not how it looks.</p>
+      <p>Some images, such as charts or graphs, require long descriptions, but not all document types allow that. In web pages, long descriptions may be provided in several ways: on the page below the image, via a link below the image, or via a link on the image.</p>
+   <fig>
+            <title>Image2</title>
+            <image href="../media/image2.png" width="600" height="400" placement="break">
+               <alt>placeholder</alt>
+            </image>
+         </fig></conbody>
 </concept>

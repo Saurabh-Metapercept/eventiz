@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 2.x Topic//EN" "topic.dtd">
 <topic id="links" xml:lang="en-us">
-  <title>Links</title>
-  <shortdesc>In web documents, links can point different locations on the page, different pages, or even</shortdesc>
+   <title>Links</title>
+   <shortdesc>In web documents, links can point different locations on the page, different pages, or even</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -21,12 +21,12 @@
       </prodinfo>
     </metadata>
   </prolog>
-  <body>
-    <p>In web documents, links can point different locations on the page, different pages, or even downloadable documents, such as Word documents or PDFs:</p>
-    <p>
-      <xref href="../sample_document/sample_document.dita" format="dita">Top of this Page</xref>
-      <xref href="http://www.dhs.state.il.us/page.aspx?item=67072" scope="external" format="html">Sample Document</xref>
-      <xref href="http://www.dhs.state.il.us/OneNetLibrary/27897/documents/Initiatives/IITAA/Sample-Document.docx" scope="external" format="html">Sample Document (docx)</xref>
-    </p>
-  </body>
+   <body>
+      <p>In web documents, links can point different locations on the page, different pages, or even downloadable documents, such as Word documents or PDFs:</p>
+      <p>
+         <xref href="../sample_document/sample_document.dita" format="dita">Top of this Page</xref>
+         <xref href="http://www.dhs.state.il.us/page.aspx?item=67072" scope="external" format="html">Sample Document</xref>
+         <xref href="http://www.dhs.state.il.us/OneNetLibrary/27897/documents/Initiatives/IITAA/Sample-Document.docx" scope="external" format="html">Sample Document (docx)</xref>
+      </p>
+   </body>
 </topic>

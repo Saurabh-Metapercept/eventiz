@@ -1,0 +1,336 @@
+================================================================================
+ metR DOCX DocMigrate — TRANSFORMATION REPORT
+================================================================================
+ Source File           : sample3.docx
+ Files Converted       : 1
+ Topics Generated      : 9
+ DITA Maps Generated   : 2
+ Started               : 2026-08-03 06:43:48 UTC
+ Completed             : 2026-08-03 06:44:21 UTC
+ Duration              : 33s
+ Overall Status        : SUCCESS
+--------------------------------------------------------------------------------
+
+[2026-08-03T06:43:48.422497+00:00] conversion_started Conversion started.
+[2026-08-03T06:43:48.445782+00:00] ConversionService class is running.
+[2026-08-03T06:43:48.448750+00:00] detect_docx_toc No TOC styles or field codes detected.
+[2026-08-03T06:43:48.448917+00:00] detect_docx_toc No TOC styles, field codes, or SDT detected.
+[2026-08-03T06:43:48.449395+00:00] PipelineOrchestrator TOC DETECTED = False
+[2026-08-03T06:43:48.449465+00:00] toc_detection Document analysis: No Table of Contents found.
+[2026-08-03T06:43:48.482063+00:00] PipelineOrchestrator Starting conversion pipeline for 'sample3.docx'.
+[2026-08-03T06:43:48.482164+00:00] DocxToHtmlProcessor Converting 'sample3.docx' from DOCX to HTML.
+[2026-08-03T06:43:48.482201+00:00] step_docx_to_html_started Step 1/7: Converting 'sample3.docx' from DOCX to HTML.
+[2026-08-03T06:43:48.517221+00:00] DocxToHtmlProcessor Opening DOCX archive: 'sample3.docx'.
+[2026-08-03T06:43:48.517704+00:00] DocxToHtmlProcessor Reading relationships.
+[2026-08-03T06:43:48.517803+00:00] DocxToHtmlProcessor Parsing relationships from 'word/_rels/document.xml.rels'.
+[2026-08-03T06:43:48.518250+00:00] DocxToHtmlProcessor Extracted 11 relationship(s).
+[2026-08-03T06:43:48.518349+00:00] DocxToHtmlProcessor Extracting media files.
+[2026-08-03T06:43:48.518916+00:00] DocxToHtmlProcessor Copying 2 media file(s).
+[2026-08-03T06:43:48.519798+00:00] DocxToHtmlProcessor Media copied: 'image1.gif'.
+[2026-08-03T06:43:48.520748+00:00] DocxToHtmlProcessor Media copied: 'image2.png'.
+[2026-08-03T06:43:48.520848+00:00] DocxToHtmlProcessor Media copy complete -- 2 file(s) exported.
+[2026-08-03T06:43:48.520906+00:00] DocxToHtmlProcessor Reading list numbering definitions.
+[2026-08-03T06:43:48.520952+00:00] DocxToHtmlProcessor Parsing 'word/numbering.xml' for list type map.
+[2026-08-03T06:43:48.521659+00:00] DocxToHtmlProcessor Numbering map built with 2 numId(s).
+[2026-08-03T06:43:48.522007+00:00] DocxToHtmlProcessor Reading 'word/document.xml'.
+[2026-08-03T06:43:48.522381+00:00] DocxToHtmlProcessor Parsing 'word/document.xml' XML structure.
+[2026-08-03T06:43:48.525346+00:00] DocxToHtmlProcessor Processing document body paragraphs for 'sample3.docx'.
+[2026-08-03T06:43:48.529271+00:00] DocxToHtmlProcessor Document body processed — 25 HTML block(s) generated for 'sample3.docx'.
+[2026-08-03T06:43:48.529564+00:00] DocxToHtmlProcessor DOCX to HTML conversion complete.
+[2026-08-03T06:43:48.530035+00:00] step_docx_to_html_complete DOCX-to-HTML conversion complete: 2 image(s) extracted.
+[2026-08-03T06:43:48.588525+00:00] HtmlToDitaNormalizer Normalizing generated HTML for DITA conversion.
+[2026-08-03T06:43:48.588678+00:00] step_normalize_html_started Step 2/7: Normalizing HTML for DITA conversion.
+[2026-08-03T06:43:48.672854+00:00] helper_port.py class is running.
+[2026-08-03T06:43:48.684833+00:00] HtmlToDitaNormalizer HTML normalization complete.
+[2026-08-03T06:43:48.685010+00:00] step_normalize_html_complete HTML normalization complete.
+[2026-08-03T06:43:48.731059+00:00] TopicSplitter Splitting HTML content into topics.
+[2026-08-03T06:43:48.731183+00:00] step_split_topics_started Step 3/7: Splitting document into topics.
+[2026-08-03T06:43:48.785176+00:00] TopicSplitter Found 9 topics.
+[2026-08-03T06:43:48.785313+00:00] topics_split Document split into 9 topic(s).
+[2026-08-03T06:43:48.813113+00:00] TopicWriter Writing topics to .dita files.
+[2026-08-03T06:43:48.813221+00:00] step_write_topics_started Step 4/7: Writing 9 topic(s) to DITA files.
+[2026-08-03T06:43:48.838583+00:00] TopicWriter Starting to write 9 topics.
+[2026-08-03T06:43:48.844226+00:00] TopicWriter Building topic tree hierarchy.
+[2026-08-03T06:43:48.846317+00:00] TopicWriter Building topic tree from 9 flat topic(s).
+[2026-08-03T06:43:48.846701+00:00] TopicWriter Topic tree built — 1 root node(s).
+[2026-08-03T06:43:48.846943+00:00] TopicWriter Assigning output paths to all topics.
+[2026-08-03T06:43:48.848078+00:00] TopicWriter Assigning output paths for 1 node(s).
+[2026-08-03T06:43:48.851019+00:00] TopicWriter Assigning output paths for 6 node(s).
+[2026-08-03T06:43:48.851520+00:00] TopicWriter Assigned path for topic 'Headings': 'headings.dita'.
+[2026-08-03T06:43:48.854894+00:00] TopicWriter Assigned path for topic 'Lists': 'lists.dita'.
+[2026-08-03T06:43:48.858590+00:00] TopicWriter Assigned path for topic 'Links': 'links.dita'.
+[2026-08-03T06:43:48.859887+00:00] TopicWriter Assigned path for topic 'Images': 'images.dita'.
+[2026-08-03T06:43:48.860399+00:00] TopicWriter Assigning output paths for 2 node(s).
+[2026-08-03T06:43:48.860816+00:00] TopicWriter Assigned path for topic 'Simple Tables': 'simple_tables.dita'.
+[2026-08-03T06:43:48.861067+00:00] TopicWriter Assigned path for topic 'Complex Tables': 'complex_tables.dita'.
+[2026-08-03T06:43:48.861258+00:00] TopicWriter Path assignment complete for 2 node(s).
+[2026-08-03T06:43:48.861469+00:00] TopicWriter Assigned path for topic 'Tables': 'tables.dita'.
+[2026-08-03T06:43:48.861720+00:00] TopicWriter Assigned path for topic 'Columns': 'columns.dita'.
+[2026-08-03T06:43:48.862188+00:00] TopicWriter Path assignment complete for 6 node(s).
+[2026-08-03T06:43:48.862380+00:00] TopicWriter Assigned path for topic 'Sample Document': 'sample_document.dita'.
+[2026-08-03T06:43:48.865197+00:00] TopicWriter Path assignment complete for 1 node(s).
+[2026-08-03T06:43:48.865517+00:00] TopicWriter Walking topic tree and writing DITA files.
+[2026-08-03T06:43:48.867768+00:00] TopicWriter Writing topic 'Sample Document' to .dita file.
+[2026-08-03T06:43:48.874432+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-03T06:43:48.880816+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-03T06:43:48.885519+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-03T06:43:48.891270+00:00] TopicWriter Topic 'sample_document.dita' written successfully.
+[2026-08-03T06:43:48.891541+00:00] TopicWriter Writing topic 'Headings' to .dita file.
+[2026-08-03T06:43:48.891753+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-03T06:43:48.892212+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-03T06:43:48.892374+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-03T06:43:48.893345+00:00] TopicWriter Topic 'headings.dita' written successfully.
+[2026-08-03T06:43:48.893483+00:00] TopicWriter Writing topic 'Lists' to .dita file.
+[2026-08-03T06:43:48.893560+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-03T06:43:48.894256+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-03T06:43:48.894565+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-03T06:43:48.894674+00:00] topic_structure Running convert_ol_to_steps on DITA body.
+[2026-08-03T06:43:48.895467+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-03T06:43:48.895647+00:00] topic_structure <steps> block built with 5 step(s).
+[2026-08-03T06:43:48.895820+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-03T06:43:48.895959+00:00] topic_structure <steps> block built with 1 step(s).
+[2026-08-03T06:43:48.896033+00:00] topic_structure convert_ol_to_steps completed.
+[2026-08-03T06:43:48.896092+00:00] topic_structure Partitioning task body into context/steps/result.
+[2026-08-03T06:43:48.898323+00:00] topic_structure Taskbody partitioning complete.
+[2026-08-03T06:43:48.899327+00:00] TopicWriter Topic 'lists.dita' written successfully.
+[2026-08-03T06:43:48.899460+00:00] TopicWriter Writing topic 'Links' to .dita file.
+[2026-08-03T06:43:48.899542+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-03T06:43:48.900035+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-03T06:43:48.900241+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-03T06:43:48.904080+00:00] TopicWriter Topic 'links.dita' written successfully.
+[2026-08-03T06:43:48.906913+00:00] TopicWriter Writing topic 'Images' to .dita file.
+[2026-08-03T06:43:48.907905+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-03T06:43:48.908674+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-03T06:43:48.908963+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-03T06:43:48.910137+00:00] TopicWriter Topic 'images.dita' written successfully.
+[2026-08-03T06:43:48.910347+00:00] TopicWriter Writing topic 'Tables' to .dita file.
+[2026-08-03T06:43:48.910411+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-03T06:43:48.910734+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-03T06:43:48.910809+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-03T06:43:48.911590+00:00] TopicWriter Topic 'tables.dita' written successfully.
+[2026-08-03T06:43:48.911733+00:00] TopicWriter Writing topic 'Simple Tables' to .dita file.
+[2026-08-03T06:43:48.911794+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-03T06:43:48.915330+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-03T06:43:48.916522+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-03T06:43:48.916677+00:00] topic_structure Ensuring <refbody> content is correctly wrapped in a <section> element.
+[2026-08-03T06:43:48.918695+00:00] topic_structure Wrapped <refbody> content in a single <section>.
+[2026-08-03T06:43:48.922011+00:00] TopicWriter Topic 'simple_tables.dita' written successfully.
+[2026-08-03T06:43:48.922178+00:00] TopicWriter Writing topic 'Complex Tables' to .dita file.
+[2026-08-03T06:43:48.922252+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-03T06:43:48.923879+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-03T06:43:48.924482+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-03T06:43:48.924594+00:00] topic_structure Ensuring <refbody> content is correctly wrapped in a <section> element.
+[2026-08-03T06:43:48.926132+00:00] topic_structure Wrapped <refbody> content in a single <section>.
+[2026-08-03T06:43:48.927017+00:00] TopicWriter Topic 'complex_tables.dita' written successfully.
+[2026-08-03T06:43:48.927215+00:00] TopicWriter Writing topic 'Columns' to .dita file.
+[2026-08-03T06:43:48.927400+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-03T06:43:48.927743+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-03T06:43:48.927876+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-03T06:43:48.928690+00:00] TopicWriter Topic 'columns.dita' written successfully.
+[2026-08-03T06:43:48.928799+00:00] TopicWriter All 9 topic file(s) written successfully.
+[2026-08-03T06:43:48.928867+00:00] topics_written DTD classification and topic writing complete: 9 DITA file(s) generated.
+[2026-08-03T06:43:48.969576+00:00] TopicWriter Finished writing .dita files.
+[2026-08-03T06:43:48.969683+00:00] step_write_topics_complete DITA topic files written: 9 file(s) generated.
+[2026-08-03T06:43:49.005569+00:00] DitaMapBuilder Generating DITAMAP file.
+[2026-08-03T06:43:49.005718+00:00] step_ditamap_started Step 5/7: Generating DITAMAP structure.
+[2026-08-03T06:43:49.047815+00:00] DitaMapBuilder DITAMAP generation complete.
+[2026-08-03T06:43:49.047935+00:00] step_ditamap_complete DITAMAP generation complete: 2 map file(s) created.
+[2026-08-03T06:43:49.090980+00:00] postflight_started Postflight processing started.
+[2026-08-03T06:43:49.112365+00:00] DitaPostProcessor Post-processing all generated DITA files.
+[2026-08-03T06:43:49.112475+00:00] step_post_process_started Step 6/7: Post-processing DITA files (image paths, cross-references, DTD headers).
+[2026-08-03T06:43:49.164602+00:00] post_process_files_started Post-processing 9 DITA file(s) and 2 DITAMAP file(s).
+[2026-08-03T06:43:49.216435+00:00] DitaPostProcessor Starting EMF->image conversion.
+[2026-08-03T06:43:49.216838+00:00] DitaPostProcessor No EMF files converted (none found or all failed).
+[2026-08-03T06:43:49.261295+00:00] post_process_files_complete Post-processing complete: image paths, cross-references, and DTD headers applied to 9 file(s).
+[2026-08-03T06:43:49.309854+00:00] DitaPostProcessor Post-processing complete.
+[2026-08-03T06:43:49.309956+00:00] step_post_process_complete Post-processing complete.
+[2026-08-03T06:43:49.373756+00:00] PipelineOrchestrator Running concept reclassification pass on topic files.
+[2026-08-03T06:43:49.373984+00:00] PipelineOrchestrator Concept reclassification complete — no files required updating.
+[2026-08-03T06:43:49.374227+00:00] HyperlinkResolver Resolving internal hyperlinks.
+[2026-08-03T06:43:49.374347+00:00] step_hyperlinks_started Step 6.5/7: Resolving internal hyperlinks.
+[2026-08-03T06:43:49.399763+00:00] HyperlinkResolver Resolving internal hyperlinks in 9 DITA file(s).
+[2026-08-03T06:43:49.437258+00:00] HyperlinkResolver Hyperlink resolution complete -- no anchor xrefs required updating.
+[2026-08-03T06:43:49.437367+00:00] HyperlinkResolver Hyperlink resolution complete.
+[2026-08-03T06:43:49.437462+00:00] step_hyperlinks_complete Hyperlink resolution complete.
+[2026-08-03T06:43:49.490573+00:00] PipelineOrchestrator Running DTD compliance validation on all output files.
+[2026-08-03T06:43:49.490686+00:00] step_validation_started Step 7/7: Running DTD compliance validation on all output files.
+[2026-08-03T06:43:49.524539+00:00] DitaDtdValidator Starting DTD structural compliance check for all output files.
+[2026-08-03T06:43:49.530640+00:00] DitaDtdValidator [PASS] 'columns.dita' - This file is following DTD-compliant structure.
+[2026-08-03T06:43:49.530808+00:00] DitaDtdValidator [PASS] 'complex_tables.dita' - This file is following DTD-compliant structure.
+[2026-08-03T06:43:49.530885+00:00] DitaDtdValidator [PASS] 'headings.dita' - This file is following DTD-compliant structure.
+[2026-08-03T06:43:49.530936+00:00] DitaDtdValidator [PASS] 'images.dita' - This file is following DTD-compliant structure.
+[2026-08-03T06:43:49.530969+00:00] DitaDtdValidator [PASS] 'links.dita' - This file is following DTD-compliant structure.
+[2026-08-03T06:43:49.531006+00:00] DitaDtdValidator [PASS] 'lists.dita' - This file is following DTD-compliant structure.
+[2026-08-03T06:43:49.531044+00:00] DitaDtdValidator [PASS] 'sample_document.dita' - This file is following DTD-compliant structure.
+[2026-08-03T06:43:49.531182+00:00] DitaDtdValidator [PASS] 'simple_tables.dita' - This file is following DTD-compliant structure.
+[2026-08-03T06:43:49.531275+00:00] DitaDtdValidator [PASS] 'tables.dita' - This file is following DTD-compliant structure.
+[2026-08-03T06:43:49.531331+00:00] DitaDtdValidator [PASS] 'sample3.ditamap' - This file is following DTD-compliant structure.
+[2026-08-03T06:43:49.531387+00:00] DitaDtdValidator [PASS] 'sample_document_map.ditamap' - This file is following DTD-compliant structure.
+[2026-08-03T06:43:49.531441+00:00] DitaDtdValidator All 11 output file(s) are following DTD-compliant structure.
+[2026-08-03T06:43:49.532176+00:00] DitaDtdValidator DTD validation summary generated.
+[2026-08-03T06:43:49.532243+00:00] step_validation_complete DTD validation complete: 11 file(s) checked.
+[2026-08-03T06:43:49.614742+00:00] PipelineOrchestrator Successfully converted 'sample3.docx'.
+[2026-08-03T06:43:49.614908+00:00] pipeline_complete Conversion pipeline complete: 9 topic(s), 9 DITA file(s), 2 DITAMAP file(s), 2 image(s).
+[2026-08-03T06:43:49.664881+00:00] ConversionService class completed successfully.
+[2026-08-03T06:43:49.665040+00:00] SchematronService Starting Schematron validation.
+[2026-08-03T06:43:49.666667+00:00] schematron_file_processing Validating 'sample3.ditamap'.
+[2026-08-03T06:43:49.715055+00:00] DITA2Validator Validating sample3.ditamap [map] through 4 gate(s).
+[2026-08-03T06:43:49.715833+00:00] SchematronCompiler Compiling map_validation.sch via ISO Schematron 3-step pipeline.
+[2026-08-03T06:43:49.734219+00:00] SchematronCompiler Compiled map_validation.sch -> tmpl_j8kxbp_step3_validator.xsl
+[2026-08-03T06:43:49.745938+00:00] SchematronCompiler Compiling map_structural_rules.sch via ISO Schematron 3-step pipeline.
+[2026-08-03T06:43:49.787902+00:00] SchematronCompiler Compiled map_structural_rules.sch -> tmpjn26rr6o_step3_validator.xsl
+[2026-08-03T06:43:49.811243+00:00] SchematronCompiler Compiling DITA2_content_model.sch via ISO Schematron 3-step pipeline.
+[2026-08-03T06:43:49.900581+00:00] SchematronCompiler Compiled DITA2_content_model.sch -> tmpvok4hmzm_step3_validator.xsl
+[2026-08-03T06:43:50.054364+00:00] SchematronCompiler Compiling DITA2_element_attributes.sch via ISO Schematron 3-step pipeline.
+[2026-08-03T06:43:50.388545+00:00] SchematronCompiler Compiled DITA2_element_attributes.sch -> tmpa4clqwdr_step3_validator.xsl
+[2026-08-03T06:43:51.484344+00:00] DITA2Validator Validated sample3.ditamap: 2 error(s), 0 warning(s).
+[2026-08-03T06:43:51.484665+00:00] schematron_file_processing Validating 'columns.dita'.
+[2026-08-03T06:43:51.515309+00:00] DITA2Validator Validating columns.dita [concept] through 4 gate(s).
+[2026-08-03T06:43:51.515897+00:00] SchematronCompiler Compiling concept_validation.sch via ISO Schematron 3-step pipeline.
+[2026-08-03T06:43:51.529090+00:00] SchematronCompiler Compiled concept_validation.sch -> tmp35pfx2ga_step3_validator.xsl
+[2026-08-03T06:43:51.538921+00:00] SchematronCompiler Compiling concept_structural_rules.sch via ISO Schematron 3-step pipeline.
+[2026-08-03T06:43:51.575163+00:00] SchematronCompiler Compiled concept_structural_rules.sch -> tmpt2g1u4pm_step3_validator.xsl
+[2026-08-03T06:43:52.832778+00:00] DITA2Validator Validated columns.dita: 0 error(s), 0 warning(s).
+[2026-08-03T06:43:52.833068+00:00] schematron_file_processing Validating 'complex_tables.dita'.
+[2026-08-03T06:43:52.871832+00:00] DITA2Validator Validating complex_tables.dita [reference] through 4 gate(s).
+[2026-08-03T06:43:52.872412+00:00] SchematronCompiler Compiling reference_validation.sch via ISO Schematron 3-step pipeline.
+[2026-08-03T06:43:52.887438+00:00] SchematronCompiler Compiled reference_validation.sch -> tmpi5wbyl55_step3_validator.xsl
+[2026-08-03T06:43:52.897590+00:00] SchematronCompiler Compiling reference_structural_rules.sch via ISO Schematron 3-step pipeline.
+[2026-08-03T06:43:52.936711+00:00] SchematronCompiler Compiled reference_structural_rules.sch -> tmpn6leyada_step3_validator.xsl
+[2026-08-03T06:43:54.309099+00:00] DITA2Validator Validated complex_tables.dita: 5 error(s), 1 warning(s).
+[2026-08-03T06:43:54.309291+00:00] schematron_file_processing Validating 'headings.dita'.
+[2026-08-03T06:43:54.338130+00:00] DITA2Validator Validating headings.dita [concept] through 4 gate(s).
+[2026-08-03T06:43:55.661057+00:00] DITA2Validator Validated headings.dita: 0 error(s), 0 warning(s).
+[2026-08-03T06:43:55.661301+00:00] schematron_file_processing Validating 'images.dita'.
+[2026-08-03T06:43:55.723861+00:00] DITA2Validator Validating images.dita [concept] through 4 gate(s).
+[2026-08-03T06:43:56.938241+00:00] DITA2Validator Validated images.dita: 4 error(s), 4 warning(s).
+[2026-08-03T06:43:56.938581+00:00] schematron_file_processing Validating 'links.dita'.
+[2026-08-03T06:43:56.984715+00:00] DITA2Validator Validating links.dita [concept] through 4 gate(s).
+[2026-08-03T06:43:58.410713+00:00] DITA2Validator Validated links.dita: 0 error(s), 0 warning(s).
+[2026-08-03T06:43:58.411313+00:00] schematron_file_processing Validating 'lists.dita'.
+[2026-08-03T06:43:58.450092+00:00] DITA2Validator Validating lists.dita [task] through 4 gate(s).
+[2026-08-03T06:43:58.450612+00:00] SchematronCompiler Compiling task_validation.sch via ISO Schematron 3-step pipeline.
+[2026-08-03T06:43:58.474807+00:00] SchematronCompiler Compiled task_validation.sch -> tmp5yn6yfgl_step3_validator.xsl
+[2026-08-03T06:43:58.489067+00:00] SchematronCompiler Compiling task_structural_rules.sch via ISO Schematron 3-step pipeline.
+[2026-08-03T06:43:58.526604+00:00] SchematronCompiler Compiled task_structural_rules.sch -> tmp0suzxuh1_step3_validator.xsl
+[2026-08-03T06:43:59.817260+00:00] DITA2Validator Validated lists.dita: 0 error(s), 0 warning(s).
+[2026-08-03T06:43:59.817499+00:00] schematron_file_processing Validating 'sample_document.dita'.
+[2026-08-03T06:43:59.865842+00:00] DITA2Validator Validating sample_document.dita [concept] through 4 gate(s).
+[2026-08-03T06:44:01.267763+00:00] DITA2Validator Validated sample_document.dita: 0 error(s), 0 warning(s).
+[2026-08-03T06:44:01.267915+00:00] schematron_file_processing Validating 'simple_tables.dita'.
+[2026-08-03T06:44:01.298000+00:00] DITA2Validator Validating simple_tables.dita [reference] through 4 gate(s).
+[2026-08-03T06:44:02.497879+00:00] DITA2Validator Validated simple_tables.dita: 3 error(s), 1 warning(s).
+[2026-08-03T06:44:02.498158+00:00] schematron_file_processing Validating 'tables.dita'.
+[2026-08-03T06:44:02.536606+00:00] DITA2Validator Validating tables.dita [concept] through 4 gate(s).
+[2026-08-03T06:44:03.851171+00:00] DITA2Validator Validated tables.dita: 0 error(s), 1 warning(s).
+[2026-08-03T06:44:03.851339+00:00] schematron_file_processing Validating 'sample_document_map.ditamap'.
+[2026-08-03T06:44:03.910669+00:00] DITA2Validator Validating sample_document_map.ditamap [map] through 4 gate(s).
+[2026-08-03T06:44:05.156447+00:00] DITA2Validator Validated sample_document_map.ditamap: 9 error(s), 0 warning(s).
+[2026-08-03T06:44:05.156607+00:00] schematron_completed Schematron validation complete.
+[2026-08-03T06:44:05.202274+00:00] SchematronReportWriter Building Schematron TXT report.
+[2026-08-03T06:44:05.202752+00:00] SchematronReportWriter Schematron TXT report generated (23 errors, 7 warnings across 11 files).
+[2026-08-03T06:44:05.209980+00:00] SchematronReportWriter CSV report saved: schematron.csv  (30 rows: 23 errors, 7 warnings)
+[2026-08-03T06:44:05.210499+00:00] SchematronService Schematron validation complete: 23 error(s), 7 warning(s).
+[2026-08-03T06:44:05.210647+00:00] XsltService Starting XSLT transformation.
+[2026-08-03T06:44:05.210692+00:00] transformation_started XSLT transformation started.
+[2026-08-03T06:44:05.294392+00:00] xslt_file_fixing Transforming 'sample3.ditamap'.
+[2026-08-03T06:44:05.384640+00:00] DitaTransformer Transforming sample3.ditamap [map] through 5 fixed step(s) + 1 doc-type step.
+[2026-08-03T06:44:05.416896+00:00] DitaTransformer Written: sample3.ditamap  (0 error(s) captured during pipeline).
+[2026-08-03T06:44:05.417036+00:00] xslt_file_fixing Transforming 'columns.dita'.
+[2026-08-03T06:44:05.457886+00:00] DitaTransformer Transforming columns.dita [concept] through 5 fixed step(s) + 1 doc-type step.
+[2026-08-03T06:44:05.480604+00:00] DitaTransformer Written: columns.dita  (0 error(s) captured during pipeline).
+[2026-08-03T06:44:05.480758+00:00] xslt_file_fixing Transforming 'complex_tables.dita'.
+[2026-08-03T06:44:05.515927+00:00] DitaTransformer Transforming complex_tables.dita [reference] through 5 fixed step(s) + 1 doc-type step.
+[2026-08-03T06:44:05.540650+00:00] DitaTransformer Written: complex_tables.dita  (0 error(s) captured during pipeline).
+[2026-08-03T06:44:05.540791+00:00] xslt_file_fixing Transforming 'headings.dita'.
+[2026-08-03T06:44:05.581488+00:00] DitaTransformer Transforming headings.dita [concept] through 5 fixed step(s) + 1 doc-type step.
+[2026-08-03T06:44:05.675817+00:00] DitaTransformer Written: headings.dita  (0 error(s) captured during pipeline).
+[2026-08-03T06:44:05.675947+00:00] xslt_file_fixing Transforming 'images.dita'.
+[2026-08-03T06:44:05.737054+00:00] DitaTransformer Transforming images.dita [concept] through 5 fixed step(s) + 1 doc-type step.
+[2026-08-03T06:44:05.759205+00:00] DitaTransformer Written: images.dita  (0 error(s) captured during pipeline).
+[2026-08-03T06:44:05.759331+00:00] xslt_file_fixing Transforming 'links.dita'.
+[2026-08-03T06:44:05.805471+00:00] DitaTransformer Transforming links.dita [concept] through 5 fixed step(s) + 1 doc-type step.
+[2026-08-03T06:44:05.827860+00:00] DitaTransformer Written: links.dita  (0 error(s) captured during pipeline).
+[2026-08-03T06:44:05.827966+00:00] xslt_file_fixing Transforming 'lists.dita'.
+[2026-08-03T06:44:05.874940+00:00] DitaTransformer Transforming lists.dita [task] through 5 fixed step(s) + 1 doc-type step.
+[2026-08-03T06:44:05.923068+00:00] DitaTransformer Written: lists.dita  (0 error(s) captured during pipeline).
+[2026-08-03T06:44:05.923218+00:00] xslt_file_fixing Transforming 'sample_document.dita'.
+[2026-08-03T06:44:05.957134+00:00] DitaTransformer Transforming sample_document.dita [concept] through 5 fixed step(s) + 1 doc-type step.
+[2026-08-03T06:44:05.985205+00:00] DitaTransformer Written: sample_document.dita  (0 error(s) captured during pipeline).
+[2026-08-03T06:44:05.985359+00:00] xslt_file_fixing Transforming 'simple_tables.dita'.
+[2026-08-03T06:44:06.019911+00:00] DitaTransformer Transforming simple_tables.dita [reference] through 5 fixed step(s) + 1 doc-type step.
+[2026-08-03T06:44:06.090903+00:00] DitaTransformer Written: simple_tables.dita  (0 error(s) captured during pipeline).
+[2026-08-03T06:44:06.091667+00:00] xslt_file_fixing Transforming 'tables.dita'.
+[2026-08-03T06:44:06.119433+00:00] DitaTransformer Transforming tables.dita [concept] through 5 fixed step(s) + 1 doc-type step.
+[2026-08-03T06:44:06.148931+00:00] DitaTransformer Written: tables.dita  (0 error(s) captured during pipeline).
+[2026-08-03T06:44:06.149042+00:00] xslt_file_fixing Transforming 'sample_document_map.ditamap'.
+[2026-08-03T06:44:06.177728+00:00] DitaTransformer Transforming sample_document_map.ditamap [map] through 5 fixed step(s) + 1 doc-type step.
+[2026-08-03T06:44:06.199637+00:00] DitaTransformer Written: sample_document_map.ditamap  (0 error(s) captured during pipeline).
+[2026-08-03T06:44:06.203114+00:00] XsltReportWriter Building XSLT TXT report.
+[2026-08-03T06:44:06.203344+00:00] XsltReportWriter XSLT TXT report generated (11 succeeded, 0 failed, 0 errors across 11 files).
+[2026-08-03T06:44:06.206833+00:00] XsltReportWriter CSV report saved: xslt.csv  (11 succeeded, 0 failed across 11 files)
+[2026-08-03T06:44:06.207330+00:00] XsltService XSLT transformation complete: 11 succeeded, 0 failed.
+[2026-08-03T06:44:06.207460+00:00] transformation_completed XSLT transformation completed (status=completed).
+[2026-08-03T06:44:06.232135+00:00] SchematronService Starting Schematron validation on transformed output.
+[2026-08-03T06:44:06.233608+00:00] schematron_file_processing Validating 'sample3.ditamap'.
+[2026-08-03T06:44:06.303712+00:00] DITA2Validator Validating sample3.ditamap [map] through 4 gate(s).
+[2026-08-03T06:44:06.304185+00:00] SchematronCompiler Compiling map_validation.sch via ISO Schematron 3-step pipeline.
+[2026-08-03T06:44:06.318648+00:00] SchematronCompiler Compiled map_validation.sch -> tmpryqrx_sa_step3_validator.xsl
+[2026-08-03T06:44:06.328162+00:00] SchematronCompiler Compiling map_structural_rules.sch via ISO Schematron 3-step pipeline.
+[2026-08-03T06:44:06.365403+00:00] SchematronCompiler Compiled map_structural_rules.sch -> tmpip5fgfy1_step3_validator.xsl
+[2026-08-03T06:44:06.385957+00:00] SchematronCompiler Compiling DITA2_content_model.sch via ISO Schematron 3-step pipeline.
+[2026-08-03T06:44:06.465268+00:00] SchematronCompiler Compiled DITA2_content_model.sch -> tmplrqbyg42_step3_validator.xsl
+[2026-08-03T06:44:06.595581+00:00] SchematronCompiler Compiling DITA2_element_attributes.sch via ISO Schematron 3-step pipeline.
+[2026-08-03T06:44:06.885766+00:00] SchematronCompiler Compiled DITA2_element_attributes.sch -> tmptns92rvw_step3_validator.xsl
+[2026-08-03T06:44:08.079671+00:00] DITA2Validator Validated sample3.ditamap: 0 error(s), 0 warning(s).
+[2026-08-03T06:44:08.079826+00:00] schematron_file_processing Validating 'columns.dita'.
+[2026-08-03T06:44:08.170419+00:00] DITA2Validator Validating columns.dita [concept] through 4 gate(s).
+[2026-08-03T06:44:08.170857+00:00] SchematronCompiler Compiling concept_validation.sch via ISO Schematron 3-step pipeline.
+[2026-08-03T06:44:08.182788+00:00] SchematronCompiler Compiled concept_validation.sch -> tmpveq5r915_step3_validator.xsl
+[2026-08-03T06:44:08.190585+00:00] SchematronCompiler Compiling concept_structural_rules.sch via ISO Schematron 3-step pipeline.
+[2026-08-03T06:44:08.289398+00:00] SchematronCompiler Compiled concept_structural_rules.sch -> tmp0fhvjsb7_step3_validator.xsl
+[2026-08-03T06:44:09.644283+00:00] DITA2Validator Validated columns.dita: 0 error(s), 0 warning(s).
+[2026-08-03T06:44:09.644452+00:00] schematron_file_processing Validating 'complex_tables.dita'.
+[2026-08-03T06:44:09.689695+00:00] DITA2Validator Validating complex_tables.dita [reference] through 4 gate(s).
+[2026-08-03T06:44:09.690105+00:00] SchematronCompiler Compiling reference_validation.sch via ISO Schematron 3-step pipeline.
+[2026-08-03T06:44:09.702292+00:00] SchematronCompiler Compiled reference_validation.sch -> tmp53aqkvqv_step3_validator.xsl
+[2026-08-03T06:44:09.712695+00:00] SchematronCompiler Compiling reference_structural_rules.sch via ISO Schematron 3-step pipeline.
+[2026-08-03T06:44:09.747579+00:00] SchematronCompiler Compiled reference_structural_rules.sch -> tmpeqoonwcc_step3_validator.xsl
+[2026-08-03T06:44:10.974631+00:00] DITA2Validator Validated complex_tables.dita: 0 error(s), 0 warning(s).
+[2026-08-03T06:44:10.974860+00:00] schematron_file_processing Validating 'headings.dita'.
+[2026-08-03T06:44:11.033426+00:00] DITA2Validator Validating headings.dita [concept] through 4 gate(s).
+[2026-08-03T06:44:12.320158+00:00] DITA2Validator Validated headings.dita: 0 error(s), 0 warning(s).
+[2026-08-03T06:44:12.320753+00:00] schematron_file_processing Validating 'images.dita'.
+[2026-08-03T06:44:12.355204+00:00] DITA2Validator Validating images.dita [concept] through 4 gate(s).
+[2026-08-03T06:44:13.612811+00:00] DITA2Validator Validated images.dita: 4 error(s), 0 warning(s).
+[2026-08-03T06:44:13.612998+00:00] schematron_file_processing Validating 'links.dita'.
+[2026-08-03T06:44:13.670318+00:00] DITA2Validator Validating links.dita [concept] through 4 gate(s).
+[2026-08-03T06:44:15.107777+00:00] DITA2Validator Validated links.dita: 0 error(s), 0 warning(s).
+[2026-08-03T06:44:15.108006+00:00] schematron_file_processing Validating 'lists.dita'.
+[2026-08-03T06:44:15.176465+00:00] DITA2Validator Validating lists.dita [task] through 4 gate(s).
+[2026-08-03T06:44:15.176938+00:00] SchematronCompiler Compiling task_validation.sch via ISO Schematron 3-step pipeline.
+[2026-08-03T06:44:15.188581+00:00] SchematronCompiler Compiled task_validation.sch -> tmp5iw4mw4f_step3_validator.xsl
+[2026-08-03T06:44:15.203044+00:00] SchematronCompiler Compiling task_structural_rules.sch via ISO Schematron 3-step pipeline.
+[2026-08-03T06:44:15.239303+00:00] SchematronCompiler Compiled task_structural_rules.sch -> tmpdl40k7rl_step3_validator.xsl
+[2026-08-03T06:44:16.480952+00:00] DITA2Validator Validated lists.dita: 0 error(s), 0 warning(s).
+[2026-08-03T06:44:16.481216+00:00] schematron_file_processing Validating 'sample_document.dita'.
+[2026-08-03T06:44:16.521989+00:00] DITA2Validator Validating sample_document.dita [concept] through 4 gate(s).
+[2026-08-03T06:44:17.758552+00:00] DITA2Validator Validated sample_document.dita: 0 error(s), 0 warning(s).
+[2026-08-03T06:44:17.758786+00:00] schematron_file_processing Validating 'simple_tables.dita'.
+[2026-08-03T06:44:17.795902+00:00] DITA2Validator Validating simple_tables.dita [reference] through 4 gate(s).
+[2026-08-03T06:44:19.032815+00:00] DITA2Validator Validated simple_tables.dita: 0 error(s), 0 warning(s).
+[2026-08-03T06:44:19.033120+00:00] schematron_file_processing Validating 'tables.dita'.
+[2026-08-03T06:44:19.072938+00:00] DITA2Validator Validating tables.dita [concept] through 4 gate(s).
+[2026-08-03T06:44:20.474239+00:00] DITA2Validator Validated tables.dita: 0 error(s), 0 warning(s).
+[2026-08-03T06:44:20.474582+00:00] schematron_file_processing Validating 'sample_document_map.ditamap'.
+[2026-08-03T06:44:20.561163+00:00] DITA2Validator Validating sample_document_map.ditamap [map] through 4 gate(s).
+[2026-08-03T06:44:21.790296+00:00] DITA2Validator Validated sample_document_map.ditamap: 0 error(s), 0 warning(s).
+[2026-08-03T06:44:21.790496+00:00] schematron_completed Schematron validation complete.
+[2026-08-03T06:44:21.828705+00:00] SchematronReportWriter Building Schematron TXT report.
+[2026-08-03T06:44:21.829070+00:00] SchematronReportWriter Schematron TXT report generated (4 errors, 0 warnings across 11 files).
+[2026-08-03T06:44:21.832179+00:00] SchematronReportWriter CSV report saved: post_xslt_schematron.csv  (4 rows: 4 errors, 0 warnings)
+[2026-08-03T06:44:21.832633+00:00] SchematronService Post-XSLT Schematron validation complete: 4 error(s), 0 warning(s).
+[2026-08-03T06:44:21.832718+00:00] postflight_completed Postflight processing completed.
+
+ Success: Content transformation completed successfully.
+================================================================================

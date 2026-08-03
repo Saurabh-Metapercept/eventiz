@@ -1,0 +1,676 @@
+{
+  "job_id": "736c113e-93da-4b8d-a09a-755a227efdc1",
+  "mode": "enrich-only",
+  "output_dir": "D:\\MetR Phase 2\\metR-Converter-DOCX\\Storage\\736c113e-93da-4b8d-a09a-755a227efdc1\\transformed output",
+  "processed_at": "2026-08-03T06:44:32.314457+00:00",
+  "counts": {
+    "dita_files_total": 9,
+    "ditamap_files_total": 2,
+    "topics_reclassified": 5,
+    "issues_fixed_by_zone1": 0,
+    "issues_fixed_by_ai": 10,
+    "issues_remaining": 5,
+    "ai_obligations_missed": 1,
+    "new_issues_by_ai": 1,
+    "pending_suggestions": 7,
+    "alt_text_images_filled": 0,
+    "alt_text_images_skipped": 0,
+    "alt_text_images_scanned": 0
+  },
+  "quality_metrics": {
+    "element_validation_success_pct": 66,
+    "attribute_mapping_success_pct": 100,
+    "href_resolution_success_pct": 100,
+    "table_resolution": {
+      "validated": 1,
+      "total": 2,
+      "success_pct": 50
+    }
+  },
+  "token_usage": {
+    "total_input_tokens": 0,
+    "total_output_tokens": 0,
+    "total_tokens": 0,
+    "total_cost_usd": 0,
+    "by_model": {}
+  },
+  "element_counts": {
+    "ol": 1,
+    "ul": 1,
+    "table": 2,
+    "image": 2,
+    "crosslink": 1,
+    "hyperlink": 2,
+    "concept": 6,
+    "task": 0,
+    "reference": 0,
+    "topic": 3
+  },
+  "enrichment_summary": [
+    {
+      "file": "sample_document/columns.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "sample_document/complex_tables.dita",
+      "original_type": "reference",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "sample_document/headings.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "sample_document/images.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "sample_document/links.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "topic",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "sample_document/lists.dita",
+      "original_type": "task",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "sample_document/sample_document.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "topic",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "sample_document/simple_tables.dita",
+      "original_type": "reference",
+      "ai_assigned_type": "topic",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "sample_document/tables.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": true
+    }
+  ],
+  "alt_text_summary": {
+    "images_filled": 0,
+    "images_skipped": 0,
+    "total_images_scanned": 0
+  },
+  "alt_text_events": {
+    "filled": [],
+    "skipped": []
+  },
+  "structural_issues_remaining": [
+    {
+      "severity": "WARNING",
+      "category": "table_col_mismatch",
+      "file": "sample_document/complex_tables.dita",
+      "message": "table 1 row has 3 entries but cols=5"
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "sample_document/complex_tables.dita",
+      "message": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 25
+    },
+    {
+      "severity": "WARNING",
+      "category": "shortdesc_too_generic",
+      "file": "sample_document/sample_document.dita",
+      "message": "<shortdesc> starts with generic opener 'this document': 'This document was created using accessibility techniques for...'",
+      "line": 5
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "sample_document/simple_tables.dita",
+      "message": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 25
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "sample_document/tables.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "empty_p",
+      "file": "sample_document/tables.dita",
+      "message": "<p> #1 is empty \u2014 remove or add content",
+      "line": 6
+    }
+  ],
+  "enrichment_quality": {
+    "summary": {
+      "dita_file_count": 9,
+      "severity_counts": {
+        "CRITICAL": 0,
+        "WARNING": 3,
+        "INFO": 0
+      },
+      "category_counts": {
+        "shortdesc_too_generic": 1,
+        "missing_shortdesc": 1,
+        "missing_prolog": 1
+      }
+    },
+    "issues": [
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "sample_document/sample_document.dita",
+        "message": "<shortdesc> starts with generic opener 'this document': 'This document was created using accessibility techniques for...'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "sample_document/tables.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_prolog",
+        "file": "sample_document/tables.dita",
+        "message": "<prolog> element is missing \u2014 AI (Layer 3) should have added prolog with keywords and indexterms"
+      }
+    ]
+  },
+  "fix_diff": {
+    "fixed_by_zone1": [],
+    "fixed_by_ai": [
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "sample_document/columns.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "section_missing_title",
+        "file": "sample_document/complex_tables.dita",
+        "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+        "line": 6
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "sample_document/complex_tables.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "sample_document/headings.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "sample_document/images.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "sample_document/links.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "sample_document/lists.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "sample_document/sample_document.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "section_missing_title",
+        "file": "sample_document/simple_tables.dita",
+        "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+        "line": 6
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "sample_document/simple_tables.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      }
+    ],
+    "ai_obligations_missed": [
+      {
+        "severity": "WARNING",
+        "category": "missing_prolog",
+        "file": "sample_document/tables.dita",
+        "message": "<prolog> element is missing \u2014 AI (Layer 3) should have added prolog with keywords and indexterms"
+      }
+    ],
+    "new_issues_introduced_by_ai": [
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "sample_document/sample_document.dita",
+        "message": "<shortdesc> starts with generic opener 'this document': 'This document was created using accessibility techniques for...'",
+        "line": 5
+      }
+    ],
+    "summary": {
+      "pre_enrichment_issue_count": 15,
+      "post_enrichment_issue_count": 9,
+      "backend_error_file_count": 0,
+      "fixed_by_zone1_count": 0,
+      "fixed_by_ai_count": 10,
+      "remaining_count": 5,
+      "ai_obligations_missed_count": 1,
+      "new_issues_count": 1
+    }
+  },
+  "ai_quality_review": {
+    "layer5": {
+      "overall_quality": "fair",
+      "topic_type_accuracy_pct": 0,
+      "recommendations": [],
+      "dita_best_practice_gaps": [],
+      "autofix": {
+        "fixed": [],
+        "flagged": [],
+        "failed": []
+      }
+    },
+    "layer6": {
+      "validation_passed": true,
+      "overall_accuracy_pct": 100,
+      "per_topic_issues": [
+        {
+          "severity": "WARNING",
+          "file": "sample_document/columns.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Columns' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "sample_document/complex_tables.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Complex Tables' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "sample_document/headings.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Headings' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "sample_document/images.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Images' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "sample_document/links.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Links' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "sample_document/lists.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Lists' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "sample_document/sample_document.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Sample Document' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "sample_document/simple_tables.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Simple Tables' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "sample_document/tables.dita",
+          "issue": "Missing shortdesc element",
+          "reason": "Topic has body content but no shortdesc was generated \u2014 the enrichment layer may have skipped this topic",
+          "line": 3
+        }
+      ],
+      "shortdesc_issues": [
+        {
+          "file": "sample_document/tables.dita",
+          "issue": "Missing shortdesc element"
+        }
+      ],
+      "recommendations": [
+        "9 WARNING(s) \u2014 missing id, DOCTYPE, or shortdesc"
+      ],
+      "schema_validation": {
+        "schema_passed": true,
+        "total_files": 9,
+        "valid_files": 9,
+        "invalid_files": 0,
+        "results": [
+          {
+            "file": "columns.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "complex_tables.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "headings.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "images.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "links.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "lists.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "sample_document.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "simple_tables.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "tables.dita",
+            "valid": true,
+            "issues": []
+          }
+        ]
+      }
+    }
+  },
+  "element_counts_per_file": [
+    {
+      "file": "sample_document/columns.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "sample_document/complex_tables.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 1,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "sample_document/headings.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "sample_document/images.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 2,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "sample_document/links.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 1,
+      "hyperlink": 2,
+      "concept": 0,
+      "task": 0,
+      "reference": 0,
+      "topic": 1
+    },
+    {
+      "file": "sample_document/lists.dita",
+      "ol": 1,
+      "ul": 1,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "sample_document/sample_document.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 0,
+      "reference": 0,
+      "topic": 1
+    },
+    {
+      "file": "sample_document/simple_tables.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 1,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 0,
+      "reference": 0,
+      "topic": 1
+    },
+    {
+      "file": "sample_document/tables.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    }
+  ],
+  "pre_clean": {
+    "status": "completed",
+    "summary": {
+      "files_processed": 9,
+      "files_modified": 0,
+      "files_unchanged": 9,
+      "files_failed": 0,
+      "total_fixes_by_type": {}
+    },
+    "per_file": [
+      {
+        "file": "sample_document/columns.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "sample_document/complex_tables.dita",
+        "doc_type": "reference",
+        "xsl_applied": "reference.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "sample_document/headings.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "sample_document/images.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "sample_document/links.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "sample_document/lists.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "sample_document/sample_document.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "sample_document/simple_tables.dita",
+        "doc_type": "reference",
+        "xsl_applied": "reference.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "sample_document/tables.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      }
+    ]
+  },
+  "validation": {
+    "fix_passes": [
+      {
+        "pass": 1,
+        "files_fixed": 1,
+        "total_fixed": 8,
+        "file_results": [
+          {
+            "file": "sample_document/images.dita",
+            "violations_in": 4,
+            "fixes_applied": 8,
+            "fix_types": [
+              "image_dims(2)",
+              "image_placement(6)"
+            ],
+            "warnings": [],
+            "inline_warnings": []
+          }
+        ]
+      }
+    ],
+    "final_violations": 0,
+    "final_files_with_violations": 0,
+    "final_details": []
+  }
+}

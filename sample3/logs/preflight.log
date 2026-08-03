@@ -1,0 +1,27 @@
+================================================================================
+ metR DOCX DocMigrate — PRE-FLIGHT REPORT
+================================================================================
+ Total DOCX Files      : 1
+ Started               : 2026-08-03 06:43:48 UTC
+ Completed             : 2026-08-03 06:43:48 UTC
+ Duration              : 0s
+ Overall Status        : SUCCESS
+--------------------------------------------------------------------------------
+
+[2026-08-03T06:43:48.227248+00:00] preflight_started Preflight validation started.
+[2026-08-03T06:43:48.272464+00:00] PreflightService Reading uploaded file 'sample3.docx' in 1 MB chunks (max allowed: 2000 MB).
+[2026-08-03T06:43:48.273183+00:00] PreflightService File read complete - 0.03 MB. Saved.
+[2026-08-03T06:43:48.273273+00:00] PreflightService File saved successfully.
+[2026-08-03T06:43:48.273343+00:00] file_saved 'sample3.docx' uploaded and saved (0.03 MB).
+[2026-08-03T06:43:48.312957+00:00] PreflightService Validating document structure for 'sample3.docx'.
+[2026-08-03T06:43:48.313064+00:00] validating_structure Validating document heading structure for 'sample3.docx'.
+[2026-08-03T06:43:48.363771+00:00] check_docx_starts_with_heading Validating document structure.
+[2026-08-03T06:43:48.364200+00:00] check_docx_starts_with_heading Reading 'word/document.xml' for heading validation.
+[2026-08-03T06:43:48.364570+00:00] check_docx_starts_with_heading Parsing 'word/document.xml' XML.
+[2026-08-03T06:43:48.366449+00:00] check_docx_starts_with_heading Scanning 84 paragraph(s) for a valid first heading style.
+[2026-08-03T06:43:48.366587+00:00] check_docx_starts_with_heading First styled paragraph uses 'heading1' — document structure is valid.
+[2026-08-03T06:43:48.376160+00:00] PreflightService class completed successfully.
+[2026-08-03T06:43:48.376250+00:00] preflight_completed File 'sample3.docx' validated successfully and is ready for conversion.
+
+ [GUI] Success: Pre-flight analysis completed successfully.
+================================================================================
